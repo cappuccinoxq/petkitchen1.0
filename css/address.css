@@ -10,7 +10,7 @@ a{text-decoration: none;}
 	width: 100%;
 	height: 2.3rem;
 	float: left;
-	background-image: url(/static/images/tit_bg.png);
+	background-image: url(../images/tit_bg.png);
 	position: relative;
 }
 .red{
@@ -121,7 +121,7 @@ a{text-decoration: none;}
 	line-height:1.65rem;
 	float: left;
 	font-size: 0.6rem;
-	background:url(/static/images/register_04.png) no-repeat 0.55rem 0.5rem;
+	background:url(../images/register_04.png) no-repeat 0.55rem 0.5rem;
 	background-size: 0.825rem 0.825rem;
 }
 .zdy-icon-radio_moren{
@@ -131,7 +131,7 @@ a{text-decoration: none;}
 	line-height:1.65rem;
 	float: left;
 	font-size: 0.6rem;
-	background:url(/static/images/register_04.png) no-repeat 0.55rem 0.5rem;
+	background:url(../images/register_04.png) no-repeat 0.55rem 0.5rem;
 	background-size: 0.825rem 0.825rem;
 }
 .bjsc-rt{
@@ -152,7 +152,7 @@ a{text-decoration: none;}
 }
 
 .zdy-icon-radio_moren.active{
-	background: url(/static/images/address_01.png) no-repeat 0.55rem 0.5rem;
+	background: url(../images/address_01.png) no-repeat 0.55rem 0.5rem;
 	background-size: 0.825rem 0.825rem;
 	color: #333333;
 	font-size: 0.6rem;

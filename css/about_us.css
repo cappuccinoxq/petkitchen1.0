@@ -11,7 +11,7 @@ a{
 	height: 2.3rem;
 	background: #ffffff;
 	border-bottom: 0.025rem solid #EEEEEE;
-	background-image: url(/static/images/tit_bg.png);
+	background-image: url(../images/tit_bg.png);
 	background-size: 100% 100%;
 }
 

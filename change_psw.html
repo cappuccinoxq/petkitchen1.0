@@ -4,34 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>修改密码</title>
-    <link rel="stylesheet" href="__CSS__/change_psw.css?v={$rand}" />
-    <link rel="stylesheet" href="__CSS__/reset.css?v={$rand}" />
-    <script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" src="__JS__/fastclick.js"></script>
-    <script type="text/javascript" src="__JS__/common.js"></script>
+    <link rel="stylesheet" href="css/change_psw.css?v={$rand}" />     
+    <link rel="stylesheet" href="css/reset.css?v={$rand}" />
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
 </head>
 <body>
 <div class="promptbox"></div>
 <!--加载页-->
 <div class="container_border">
     <div class="load">
-        <img src="__IMAGE__/load.png" class="img"/>
+        <img src="images/load.png" class="img"/>
         <span>加载中...</span>
     </div>
 </div>
 <!--上门信息头部-->
 <div class="header">
-    <a href="/view/my_person"><span><img src="__IMAGE__/register_01.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;"></span></a>
+    <a href="my_person"><span><img src="images/register_01.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;"></span></a>
     <p style="color: white;font-size: 0.8rem;padding-left: 0.8rem">修改密码</p>
     <span id="finish" style="font-size: 0.74rem;color: white;">完成</span>
 </div>
-<div class="clr"></div>
+<div class="clr"></div>  
 <!--上门信息内容-->
 <div class="content_shuru">
     <p><span>旧密码</span><input type="text" maxlength="20" onkeyup="this.value=this.value.replace(/[^\w\.\/]/ig,'')" id="old_psw" type="text" placeholder="请输入旧密码" value="" /></p>
     <p><span>新密码</span><input type="text" maxlength="20" onkeyup="this.value=this.value.replace(/[^\w\.\/]/ig,'')" id="new_psw" type="text" placeholder="请输入新密码（6-20位数字或字母）" value=""/></p>
     <p><span>确认密码</span><input type="text" maxlength="20" onkeyup="this.value=this.value.replace(/[^\w\.\/]/ig,'')" id="confirm_psw" type="text" placeholder="请再次输入新密码" value=""/></p>
 </div>
-<script type="text/javascript" src="__JS__/change_psw.js?v={$rand}"></script>
+<script type="text/javascript" src="js/change_psw.js?v={$rand}"></script>
 </body>
 </html>

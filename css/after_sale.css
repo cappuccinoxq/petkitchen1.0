@@ -4,7 +4,7 @@ body,html{
 .header{
     width: 100%;
     height: 2.3rem;  
-    background: url("/static/images/tit_bg.png");
+    background: url("../images/tit_bg.png");
     background-size: 100% 100%;
 }
 .header p{

@@ -24,7 +24,7 @@ input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
 	float:left;
 	padding-bottom: 0.7rem;
 	border-bottom: 0.025rem solid #EEEEEE;
-	background-image: url(/static/images/tit_bg.png);
+	background-image: url(../images/tit_bg.png);
 	background-size: 100% 100%;
 }
 
@@ -304,7 +304,7 @@ button {
 .submit_save{
 	width: 10rem;
 	height: 1.8rem;
-	background-image: url(/static/images/tit_bg.png);
+	background-image: url(../images/tit_bg.png);
 	background-size: 100% 100%;
 	color: #fff;
 	-webkit-border-radius: 1rem;
@@ -441,7 +441,7 @@ button {
 	-webkit-appearance:none;
 	outline: none;
 	resize:none;
-	background: url(/static/images/address_01.png) !important;
+	background: url(../images/address_01.png) !important;
 	background-size: 100% 100%  !important;
 	background-repeat: no-repeat;
 	width: 0.74rem;

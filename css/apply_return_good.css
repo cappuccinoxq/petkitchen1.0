@@ -10,7 +10,7 @@ a{text-decoration: none;}
     width: 100%;
     height: 2.3rem;
     background: #ffffff;
-    background-image: url(/static/images/tit_bg.png);
+    background-image: url(../images/tit_bg.png);
     background-size: 100% 100%;
     border-bottom: 0.025rem solid #EEEEEE;
 }
@@ -41,11 +41,11 @@ a{text-decoration: none;}
     font-size: 0.6rem;
     color: #333333;
     margin-top: 0.70rem;
-}
+}    
 .line{
     width: 100%;
     height: 0.2rem;
-    background-image: url(/static/images/line.png);
+    background-image: url(../images/line.png);
     background-size: 100% 100%;
 }
 .clr{

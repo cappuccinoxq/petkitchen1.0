@@ -10,12 +10,12 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" href="__CSS__/reset.css" />
-    <link rel="stylesheet" href="__CSS__/apply_return_good.css?v={$rand}" />
-    <script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" src="__JS__/fastclick.js"></script>
-    <script  type="text/javascript"  src="__JS__/iscroll_probe.js"></script>
-    <script type="text/javascript" src="__JS__/common.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/apply_return_good.css?v={$rand}" />
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script  type="text/javascript"  src="js/iscroll_probe.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
 </head>
 <body>
 <!--提示框-->
@@ -24,13 +24,13 @@
 </div>
 <!--申请退货的头部-->
 <div class="header">
-    <span class="back"><a href="/view/after_sale.html"><img src="__IMAGE__/register_01.png" style="width: 0.8rem;height: 0.8rem;"></a></span>
+    <span class="back"><a href="after_sale.html"><img src="images/register_01.png" style="width: 0.8rem;height: 0.8rem;"></a></span>
     <p style="font-size: 0.8rem;color: white;">申请退货</p>
 </div>
 <!--退货原因-->  
 <div class="return_reason">
     <p class="tit">退货原因</p>
-    <img class="lolo" src="__IMAGE__/go.png">
+    <img class="lolo" src="images/go.png">
     <select class="choose">
         <option value="" disabled selected hidden>请选择退货的原因</option>
         <option value="质量问题">质量问题</option>
@@ -52,7 +52,7 @@
         <form action="/upload" enctype="multipart/form-data" method="post" target="target">
             <div class="modifyimgss">
                 <img src="" alt="" class="showimgalls">
-                <img class="img_j" src="__IMAGE__/camara.png">
+                <img class="img_j" src="images/camara.png">
                 <input type="file" id="uploadimgs" name="image" class="uploadimgs"/>
                 <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submits">
             </div>
@@ -63,7 +63,7 @@
         <form action="/upload" enctype="multipart/form-data" method="post" target="targettwo">
             <div class="modifyimgss">
                 <img src="" alt="" class="showimgalls">
-                <img class="img_j" src="__IMAGE__/camara.png">
+                <img class="img_j" src="images/camara.png">
                 <input type="file" id="uploadimgstwo" name="image" class="uploadimgs"/>
                 <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submitstwo">
             </div>
@@ -74,7 +74,7 @@
         <form action="/upload" enctype="multipart/form-data" method="post" target="targetthree">
             <div class="modifyimgss">
                 <img src="" alt="" class="showimgalls">
-                <img class="img_j" src="__IMAGE__/camara.png">
+                <img class="img_j" src="images/camara.png">
                 <input type="file" id="uploadimgsthree" name="image" class="uploadimgs"/>
                 <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submitsthree">
             </div>
@@ -91,7 +91,7 @@
     <p class="con">
         <label>联系电话：</label><input class="tel" type="tel" maxlength="11" placeholder="联系电话" onkeyup="value=value.replace(/[^\d]/g,'')" onfocus="this.placeholder=''" onblur="this.placeholder='联系电话'"/>
     </p>
-</div>
+</div>  
 <div class="btn">
     <button id="btn_tijiao">提交</button>
 </div>
@@ -99,7 +99,7 @@
 <div class="warpperts">
     <div class="promptbox"></div>
 </div>
-<script type="text/javascript" src="__JS__/apply_return_good.js?v={$rand}"></script>
+<script type="text/javascript" src="js/apply_return_good.js?v={$rand}"></script>
 
 
 </body>
