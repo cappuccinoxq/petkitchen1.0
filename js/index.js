@@ -13,9 +13,9 @@ $('#siren_but').click(function() {
         success: function (res) {
             console.log(res);
             if(res.code=='200'){
-                window.location.href = "/view/descri_vip.html";
+                window.location.href = "/descri_vip.html";
             }else if(res.code=='401'){
-                window.location.href="/view/login";
+                window.location.href="/login";
             }
 
         },
@@ -33,9 +33,9 @@ $('#foods_x').click(function() {
         success: function (res) {
             console.log(res);
             if(res.code=='200'){
-                window.location.href = "/view/descri.html";  
+                window.location.href = "descri.html";
             }else if(res.code=='401'){
-                window.location.href="/view/login";
+                window.location.href="/login";
             }
 
         },
@@ -47,9 +47,9 @@ $('#foods_x').click(function() {
 $('#member').click(function() {
     var $user_id = $("#member").val();
     if($user_id == "" || $user_id == null) {
-        window.location.href = "/view/login";
+        window.location.href = "login";
     } else {
-        window.location.href = "/view/member";
+        window.location.href = "member";
     }
 });
 var mySwiper  = new Swiper('.swiper-container', {
@@ -78,7 +78,7 @@ function Replacepicture (res) {
     $(".modele_warpper").fadeIn();
     var wappers = '';
     wappers+= '<div class="close1">'+
-        '<a href="javascript:void(0)" id="closebt" class="closebt"><img src="/static/images/off_x.png"></a>'+
+        '<a href="javascript:void(0)" id="closebt" class="closebt"><img src="../images/off_x.png"></a>'+
         '</div>'+
         '<div class="code-img" style="-webkit-overflow-scrolling : touch;">'+
         '<img id="ewmsrc" src='+res+'>'+
@@ -86,12 +86,12 @@ function Replacepicture (res) {
     $('.codes').html(wappers);
 }
 $(".nav_tu").on('click',function () {
-    Replacepicture('/static/images/cat_n.jpg');
+    Replacepicture('../images/cat_n.jpg');
         $(".modele_warpper").find("#code").addClass("dongtai");
   
 });
 $(".nav_tunths").on('click',function () {
-    Replacepicture('/static/images/cat_j.jpg');
+    Replacepicture('/images/cat_j.jpg');
     $(".modele_warpper").find("#code").addClass("dongtai");
 });
 $('#code').on('click','.closebt',function() {
@@ -121,7 +121,7 @@ $.ajax({
         bombboxhints('服务器出错');
     }
 });
-//优惠券详情
+优惠券详情
 function coupon_detail(){
     $.ajax({
         url: "/coupon/detail/1",
