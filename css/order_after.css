@@ -1,0 +1,528 @@
+body {
+	background: #f9f9f9;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*订单详情(上门后)  头部开始*/
+.header {
+	width: 100%;
+	height: 2.3rem;
+	border-bottom: 0.025rem solid #EEEEEE;
+	background: url("/static/images/tit_bg.png");
+	background-size: 100% 100%;
+}
+.header span {
+	display: inline-block;
+	margin-top: 0.70rem;
+	margin-left: 0.5rem;
+	float: left;
+}
+
+.header span img {
+	width: 0.8rem;
+	height: 0.8rem;
+}
+
+.header p {
+	width: 12.5rem;
+	height: 2.3rem;
+	text-align: center;
+	display: inline-block;
+	font-size: 0.75rem;
+	color: #FFFFFF;
+	float: left;
+	line-height: 2.3rem;
+}
+
+.header b {
+	display: inline-block;
+}
+
+.header b img {
+	width: 1rem;
+	height: 1rem;
+}
+/*订单详情(上门后)  头部结束*/
+
+/*订单详情(上门后)  内容开始*/
+.order_choose{
+	width:100%;
+	float:left;
+	background: #f9f9f9;
+}
+.order_choose_left{
+	width:100%;
+	float:left;
+	margin-top:0.5rem;
+	padding-top:0.3rem;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+}
+.order_choose_left_xin{
+	margin-left:0.5rem;
+}
+.order_choose_left_xin p{
+	font-size:0.55rem;
+	line-height: 1.6rem;
+	color:#666666;
+}
+.order_choose_left_xin p span{
+	font-size: 0.55rem;
+	color:#333333;
+	display: inline-block;
+	width: 7rem;
+}
+#pet_type{
+	font-size: 0.55rem;
+	color:#333333;
+	padding-left:0.2rem;
+}
+.order_choose_left_xin p:nth-child(1){
+	font-size: 0.7rem;
+	color:#333333;
+}
+.order_choose_left_xin p:nth-child(2){
+	font-size: 0.55rem;
+	color:#999999;
+}
+.order_choose_left_tx{
+	margin-right:0.5rem;
+}
+.order_choose_left_tx p img{
+	width:3.55rem;
+	height:3.57rem;
+}
+.order_choose_left_tx p{
+    line-height: 0rem;
+    margin-bottom: 0.8rem;
+	font-size: 0.65rem;
+	text-align: center;
+	color:#333333;
+}
+
+.order_choose_right{
+	width:100%;
+	float:left;
+	background: #ffffff;
+}
+.order_choose_right p{
+	margin-top:0.3rem;
+	margin-bottom: 0.3rem;
+	margin-left:0.5rem;
+	font-size:0.55rem;
+	line-height: 1.4rem;
+	color:#666666;
+}
+.order_choose_right p span{
+	display: inline-block;
+	width: 7rem;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+.order_choose_div3{
+	width:100%;
+	float:left;
+	padding-bottom: 0.5rem;
+	background: #ffffff;
+	border-bottom: 0.07rem solid #eeeeee;
+}
+.order_choose_div3 ul li{
+	width: 15rem;
+    float: left;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+    line-height: 1.2rem;
+}
+.order_choose_div3 ul li input{
+	width:0.5rem;
+	height:0.5rem;
+	float:left;
+	display: block;
+	margin-top:0.33rem;
+}
+.order_choose_div3 ul li span:nth-child(2){
+	float:left;
+	padding-left:0.3rem;
+	display: block;
+	font-size: 0.6rem;
+	color:#333333;
+}
+.order_choose_div3 ul li span:nth-child(3){
+	float:right;
+	display: block;
+	font-size:0.5rem;
+	color:#999999;
+}
+
+.order_after_Btn{
+	width: 100%;
+	margin-bottom: 0.5rem;
+	background: #ffffff;
+	float: left;
+}
+
+.order_after_Btn span{
+	float:left;
+	color:#333333;
+	margin-left:0.5rem;
+	font-size: 0.65rem;
+	line-height: 1.6rem;
+}
+
+
+.chooseBtn {
+	display: none;
+}
+
+.choose-label {
+	right: 0.4rem;
+	top: 0.3rem;
+	box-shadow: #ccc 0px 0px 0px 1px;
+	width: 45px;
+	height: 25px;
+	float:right;
+	display: inline-block;
+	border-radius: 20px;
+	position: relative;
+	background-color: #bdbdbd;
+	overflow: hidden;
+}
+
+.choose-label:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	border-radius: 20px;
+	background-color: #fff;
+	z-index: 20;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.chooseBtn:checked+label.choose-label:before {
+	left: 20px;
+}
+
+.chooseBtn:checked+label.choose-label {
+	background-color: #088c59;
+}
+
+.show{
+	border-bottom: 1px solid #999999;
+}
+
+.container_border{
+	display: none;
+}
+.order_peifang{
+	width: 100%;
+	height: 3.86rem;
+	background: white;
+	float: left;
+	margin-top: 0.5rem;
+}
+.order_peifang p{
+	width: 100%;
+	float: left;
+	height: 1.93rem;
+	border-bottom: 1px solid #f9f9f9;
+	line-height: 1.93rem;
+}
+.order_peifang p .txt{
+	color: #666666;
+	font-size: 0.69rem;
+	float: left;
+	margin-left: 0.5rem;
+}
+.order_peifang p .time{
+	color: #999999;
+	font-size: 0.58rem;
+	float: right;
+	margin-right: 0.5rem;
+}
+
+.order_peifang p img{
+	float: right;
+	margin-right: 0.5rem;
+	margin-top: 0.2rem;
+}
+.order_coupon{
+	width: 100%;
+	height: 1.93rem;
+	background: white;
+	float: left;
+	margin-top: 0.5rem;
+}
+.order_coupon .txt{
+	color: #666666;
+	font-size: 0.69rem;
+	float: left;
+	margin-left: 0.5rem;
+	line-height: 1.93rem;
+}
+.order_coupon .num{
+	color: #666666;
+	font-size: 0.69rem;
+	float: left;
+	margin-left: 8.5rem;
+	line-height: 1.93rem;
+}
+.order_coupon img{
+	width: 0.7rem;
+	height: 0.7rem;
+	float: right;
+	margin-right: 0.5rem;
+	margin-top: 0.6rem;
+}
+.order_after_payment{
+	width:100%;
+	height: 10.5rem;
+	float:left;
+	background: white;
+}
+.order_after_payment p{
+	width: 100%;
+	height: 2rem;
+	border-bottom: 1px solid #f9f9f9;
+	line-height: 2rem;
+}
+.order_after_payment p .txt{
+	float: left;
+	font-size: 0.69rem;
+	color: #666666;
+	margin-left: 0.5rem;
+}
+.order_after_payment p .money{
+	float: right;
+	font-size: 0.69rem;
+	color: #666666;
+	margin-right: 0.5rem;
+}
+.order_after_payment p .mianfei{
+	display: block;
+	width: 3.48rem;
+	height: 0.8rem;
+	background: url("/static/images/txt_bg.png");
+	background-size:100% 100% ;
+	color: #ff9d03;
+	font-size: 0.42rem;
+	text-align: center;
+	line-height: 0.8rem;
+	float: left;
+	margin-left: 6rem;
+	margin-top: 0.6rem;
+}
+.order_after_payment p .coupon{
+	display: block;
+	width: 2.72rem;
+	height: 0.8rem;
+	background: url("/static/images/txt_bg.png");
+	background-size:100% 100% ;
+	color: #ff9d03;
+	font-size: 0.42rem;
+	text-align: center;
+	line-height: 0.8rem;
+	float: left;
+	margin-left: 7rem;
+	margin-top: 0.6rem;
+}
+.order_after_payment p .total{
+	float: left;
+	font-size: 0.8rem;
+	color: #f00;
+}
+.order_after_payment p #btn{
+	width: 5.33rem;
+	height: 2.34rem;
+	float: right;
+	font-size: 0.8rem;
+	color: #FFFFFF;
+	background: #9DAD6C;
+	text-align: center;
+}
+/*订单详情(上门后)  内容结束*/
+.xp-content02 {
+	width: 16rem;
+	height: 3.4rem;
+	float: left;
+	z-index: 128;
+	background: #FFFFFF;
+	margin-top: 0.5rem;
+}
+
+.bianji-dizhi {
+	width: 16rem;
+	float: left;
+	background: #ffffff;
+}
+.dizhi_null{
+	width: 100%;
+	background: white;
+}
+.null_add{
+	background: white;
+	float: left;
+}
+.null_add .null_img{
+	width: 1.8rem;
+	height: 1.8rem;
+	margin: 0.8rem 0rem .5rem 2.5rem;
+}
+.tishi_text{
+	float: left;
+	font-size: 0.625rem;
+	color: #4D4D4D;
+	padding: 1.5rem 0rem 1.1rem 2.5rem;
+	background: white;
+}
+.jiantou{
+	float: right;
+	padding: 1rem 0.5rem 0.8rem 0rem;
+	background: white;
+	color: #4D4D4D;
+}
+.tt09 {
+	margin-left: 0.55rem;
+	margin-right: 0.55rem;
+}
+
+.tt09 span {
+	display: inline-block;
+	font-size: 0.55rem;
+	color: #333333;
+	margin: 0.3rem 0rem 0.5rem 0rem;
+}
+
+.tt09 span:nth-child(2) {
+	float: right;
+	margin: 0.3rem 0rem 0.5rem 0rem;
+	font-size: 0.55rem;
+	color: #333333;
+}
+
+.your-adress02 {
+	margin-left: 0.55rem;
+	margin-right: 0.55rem;
+	font-size: 0.60rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	line-height: 0.8rem;
+	color: #333333;
+}
+
+.xp-content02 img {
+	float: left;
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-top: 0.5rem;
+}
+
+
+/*优惠券列表*/
+.cup_list_n li{
+	width: 15.6rem;
+	height: 5.3rem;
+	background: url("/static/images/yh_bg.png");
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin: auto;
+	margin-top: 0.5rem;
+	position: relative;
+}
+.cup_list_no li{
+	width: 15.6rem;
+	height: 5.3rem;
+	background: url("/static/images/yh_bg.png");
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin: auto;
+	margin-top: 0.5rem;
+	position: relative;
+}
+.commom .new_left{
+	width: 6.5rem;
+	height: 5.3rem;
+	float: left;
+}
+.commom .new_left span{
+	display: block;
+	width: 100%;
+}
+.commom .new_left .new_left_top{
+	color: #9DAD6C;
+	font-size: 1.5rem;
+	text-align:center ;
+	padding-top: 1rem;
+}
+.commom .new_left .new_left_bot{
+	color: #9DAD6C;
+	font-size: 0.58rem;
+	text-align:center ;
+	line-height: 2rem;
+}
+.commom .new_right{
+	width: 9.1rem;
+	height: 5.3rem;
+	float: right;
+}
+.commom .new_right .new_right_top{
+	display: block;
+	color: #fff;
+	font-size: 0.64rem;
+	padding: 1rem 0rem 0rem 0.6rem;
+}
+.commom .new_right .new_right_mid{
+	display: block;
+	color: #fff;
+	font-size: 0.53rem;
+	padding: 0.8rem 0rem 0rem 0.6rem;
+}
+.commom .new_right .new_right_bot{
+	display: block;
+	color: #fff;
+	font-size: 0.53rem;
+	padding: 0.8rem 0rem 0rem 0.6rem;
+}
+.cup_list_n li img{
+	width: 1rem;
+	position: absolute;
+	right: 1rem;
+	bottom: 2rem;
+}
+.coupon_id{
+	display: none;
+}
+.couponconts{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	background: white;
+	display: none;
+}
+.donotuses{
+	width: 100%;
+	height: 2rem;
+	background: #9dac6f;
+	z-index: 99;
+	font-size: 0.64rem;
+	line-height: 2rem;
+}
+.donotuses span{
+	float: left;
+	margin-left: 1rem;
+	color: white;
+}
+.donotuses img{
+	width: 1rem;
+	height: 1rem;
+	float: right;
+	margin: 0.5rem;
+}

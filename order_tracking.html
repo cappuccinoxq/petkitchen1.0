@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>订单跟踪</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="壹爱厨房">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="__CSS__/reset.css" />
+    <link rel="stylesheet" href="__CSS__/order_tracking.css?v={$rand}" />
+    <script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="__JS__/fastclick.js"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<!--弹框提示信息-->
+<div class="promptbox"></div>
+<!--订单跟踪的头部-->
+<div class="header">
+    <a href="javascript:history.back(-1);"><span class="back"><img src="__IMAGE__/register_01.png" style="width: 0.8rem;height: 0.8rem;"></span></a>
+    <p style="font-size: 0.8rem;color: white;">订单跟踪</p>
+    <a href="/index"><span class="off_btn"><img src="__IMAGE__/select_order_02.png" style="width: 0.8rem;height: 0.8rem;"></span></a>
+</div>
+<div class="contentsall" id="contentsall">
+    <div class="confirmationreceipt" style="float: right;margin-right:0.5rem;border: 0.025rem solid #9dac6f;padding: 0.3rem 0.6rem;font-size: 0.64rem;border-radius: 1rem;">确认收货</div>
+</div>
+<!--加载页-->
+<div class="container_border">
+    <div class="load">
+        <img src="__IMAGE__/load.png" class="img"/>
+        <span>加载中...</span>
+    </div>
+</div>
+<!--空物流信息提示-->
+<div class="null_bg" style="position: fixed;">
+    <img src="__IMAGE__/null_logo.png">
+    <p class="null_text">喵~暂无物流信息哦~</p>
+</div>
+<script type="text/javascript" src="__JS__/order_tracking.js?v={$rand}"></script>
+</body>
+</html>

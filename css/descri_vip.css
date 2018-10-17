@@ -1,0 +1,348 @@
+body {
+	background: #ffffff;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*VIP订制  头部开始*/
+.header {
+	width: 100%;
+	height: 2.3rem;
+	background: #ffffff;
+	border-bottom: 0.025rem solid #EEEEEE;
+	background-image: url(/static/images/tit_bg.png);
+	background-size: 100% 100%;
+}
+
+.header  span {
+	display: inline-block;
+	margin-top: 0.70rem;
+	margin-left: 0.5rem;
+}
+
+.header span img {
+	width:1rem;
+	height:1rem;
+}
+
+.header  p {
+	width: 12.5rem;
+	height:1.5rem;
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+}
+.header  b {
+	display: inline-block;
+	margin-top: 0.60rem !important;  
+}
+.header  b img {
+	width: 1rem;
+	height: 1rem;
+}
+
+/*VIP订制  头部结束*/
+
+
+/*swiper框架CSS样式开始*/
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+ /*seiper框架css样式结束*/
+
+/*VIP订制  内容 图文介绍开始*/
+
+.nav{
+	width:16rem;
+	background: #f9f9f9;
+}
+.nav .nav_tw{
+	width:16rem;
+	height:1.8rem;
+	background: #fff;
+	float:left;
+	margin-top:0.5rem;
+	font-size:0.75rem;
+	color:#000;
+}
+.nav .nav_twt{
+	width:8rem;
+	height:1.8rem;
+	margin-left:0.5rem;
+	line-height:1.8rem;
+	float:left;
+}
+.swiper-pagination{
+	position:relative !important;
+	width:7rem !important;
+	height:1.4rem !important;
+	float:right !important;
+	text-align:right !important;
+	padding-top:1.2rem;
+	margin-right:0.5rem;
+}
+.swiper-pagination-fraction {
+    bottom: 18px;
+    left: 0;
+    width: 100%;
+}
+
+/*.nav .nav_tw p{
+	float: left;
+	font-size: 0.75rem;
+	color: #000000;
+}*/
+.nav .nav_tw #nav_right{
+	float: right;
+	position: none;
+}
+.nav .nav_tw .nav_right span{
+	font-size: 0.9rem;
+}
+.nav ul{
+	background: #fff;
+	float:left;
+}
+.nav ul li{
+	float:left;
+    line-height: 1.8rem;
+}
+.nav ul li img{
+	width:14.45rem;
+	height:7.3rem;
+}
+
+
+/*頁面調轉的圖片css*/
+.outBox,
+.innerBox {
+    width: 100%;
+    height: 100%;
+}
+ 
+.outBox {
+    overflow: hidden;
+}
+ 
+.innerBox img{
+    width: 100%;
+    animation: changeBiger 2s linear forwards;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    transform: scale(1.08);
+}
+ 
+@keyframes changeBiger {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+} 
+.innerBox {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*頁面調轉css結束*/
+
+/*VIP订制  内容 图文介绍结束*/
+
+/*VIP订制  内容 价格说明开始*/
+.descri_vip_price{
+	width:100%;
+    float: left;
+	background: #ffffff;
+	margin-top:0.5rem;
+}
+.descri_vip_price img{
+	width:15.45rem;
+    float: left;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+.descri_vip_btn_s{
+	width: 100%;
+	margin-top:0.7rem;
+	margin-bottom: 0.7rem;
+	display: flex;
+	justify-content: space-around;
+}
+.descri_vip_btn_s .submit1{
+	width:6rem;
+	height:1.5rem;
+	background: rgba(0,0,0,0);
+	background-image: url(/static/images/tit_bg.png);
+	background-size: 100% 100%;
+	text-align: center;
+    color:#fff;
+    outline:none;
+    border: 0;
+    font-size:0.6rem;
+    border-radius:0.25rem;
+    cursor: pointer;
+	margin: 0.5rem 4% 0rem 10%;
+}
+.descri_vip_btn_s .submit2{
+	width:6rem;
+	height:1.5rem;
+	background: rgba(0,0,0,0);
+	background-image: url(/static/images/tit_bg.png);
+	background-size: 100% 100%;
+	text-align: center;
+	color:#fff;
+	outline:none;
+	border: 0;
+	font-size:0.6rem;
+	border-radius:0.25rem;
+	cursor: pointer;
+}
+.descri_vip_btn_f{
+	width: 100%;
+	margin-top:0.7rem;
+	margin-bottom: 0.7rem;
+	display: flex;
+	justify-content: space-around;
+}
+.descri_vip_btn_f .submit{
+	width:6rem;
+	height:2.13rem;
+	background: rgba(0,0,0,0);
+	background-image: url(/static/images/tit_bg.png);
+	background-size: 100% 100%;
+	text-align: center;
+	color:#fff;
+	outline:none;
+	border: 0;
+	font-size:0.64rem;
+	border-radius:1rem;
+	cursor: pointer;
+	margin-top: 0.5rem;
+}
+#code{
+	width: 14rem;
+	height: 20rem;
+	overflow-y: hidden;
+	top: 50%;
+	margin: -10rem 0 0 -7rem;
+	left: 50%;
+	/*border-radius: 0.5rem;*/
+	/*box-shadow: 3px 4px 20px #FFFFFF;*/
+	position: fixed;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling : touch;
+}
+.close1{
+	position: absolute;
+	right: 0.5rem;
+	top: 0.5rem;
+}
+#closebt img{
+	width: 0.9rem !important;
+	height: 0.9rem;
+}
+.modele_warpper{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0);
+	display: none;
+	z-index: 999;
+}
+.code-img img{
+	border-radius: 0.5rem;
+}
+#ewmsrc{
+	width: 100%;
+}
+.dongtai{
+	width: 0%;
+	height: 0%;
+	animation: myfirst 0.5s;
+	-moz-animation: myfirst 0.5s;	/* Firefox */
+	-webkit-animation: myfirst 0.5s;	/* Safari 和 Chrome */
+	-o-animation: myfirst 0.5s;	/* Opera */
+	animation-fill-mode:forwards;
+	-moz-animation-fill-mode: forwards;	/* Firefox */
+	-webkit-animation-fill-mode: forwards;	/* Safari 和 Chrome */
+	-o-animation-fill-mode: forwards;	/* Opera */
+}
+@keyframes myfirst
+{
+	0%{
+		width: 7rem;
+		height: 10rem;
+		top: 80%;
+		left: 80%;
+	}
+	100%{
+		width: 100%;
+		height: 100%;
+		top: 39%;
+		left: 43.5%;
+	}
+}
+@-moz-keyframes myfirst /* Firefox */
+{
+	0%{
+		width: 7rem;
+		height: 10rem;
+		top: 80%;
+		left: 80%;
+	}
+	100%{
+		width: 100%;
+		height: 100%;
+		top: 39%;
+		left: 43.5%;
+	}
+}
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+	0%{
+		width: 7rem;
+		height: 10rem;
+		top: 80%;
+		left: 80%;
+	}
+	100%{
+		width: 100%;
+		height: 100%;
+		top: 39%;
+		left: 43.5%;
+	}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+	0%{
+		width: 7rem;
+		height: 10rem;
+		top: 80%;
+		left: 80%;
+	}
+	100%{
+		width: 100%;
+		height: 100%;
+		top: 39%;
+		left: 43.5%;
+	}
+}
+/*VIP订制  内容 价格说明结束*/

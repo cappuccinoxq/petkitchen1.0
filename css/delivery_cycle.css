@@ -1,0 +1,283 @@
+delivery_cycle_nvbody {
+	background: #f9f9f9;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*配送周期  头部开始*/
+.header {
+	width: 100%;
+	height: 2.3rem;
+	background: url("/static/images/tit_bg.png");
+	background-size: 100% 100%;
+}
+
+.header  span {
+	display: inline-block;
+	margin-top: 0.70rem;
+	margin-left: 0.5rem;
+}
+
+.header span img {
+	width:0.32rem;
+	height:0.57rem;
+}
+
+.header  p {
+	width: 14.5rem;
+	height:1.5rem;
+	text-align: center;
+	display: inline-block;
+	font-size: 0.75rem;
+	color: #FFFFFF;
+	margin-top: 0.60rem;
+}
+
+.header  b {
+	display: inline-block;
+	margin-top: 0.70rem;
+	margin-right: 0.5rem;
+}
+
+.header  b img {
+	width: 0.5rem;
+	height: 0.5rem;
+}
+
+/*配送周期  头部结束*/
+
+/*配送周期  内容开始*/
+
+.delivery_cycle_nv{
+	width:100%;
+	background: #ffffff;
+}
+.delivery_cycle_nv p img{
+	width:15rem;
+	margin-top: 0.5rem;
+	margin-left:0.5rem;
+}
+.delivery_cycle_nv p:nth-child(2){
+	margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+    margin-top: 0.7rem;
+    line-height: 0.9rem;
+    padding-bottom: 0.7rem;
+    Letter-spacing: 0.05rem;
+    color: #333333;
+    font-size: 0.5rem;
+}
+.delivery_cycle_nv p:nth-child(2) a{
+    color: #333333;
+    font-size: 0.5rem;
+}
+.delivery_cycle_zt{
+	width:100%;
+	float: left;
+	background: #ffffff;
+}
+.delivery_cycle_zp{
+	width: 12.92rem;
+	/*height:6.17rem;*/
+	margin-left:1.65rem;
+	margin-right:1.45rem;
+	margin-top: 0.8rem;
+	float:left;
+    padding-bottom: 0.6rem;
+}
+.delivery_cycle_zp ul li{
+	float:left;
+}
+.delivery_cycle_zp ul li{
+	width: 4.2rem;
+}
+.delivery_cycle_zp p{
+	color:#666666;
+	line-height: 1.5rem;
+	font-size: 0.55rem;
+	text-align: center;
+}
+.delivery_cycle_zp p:nth-child(1){
+	background: #fbfbfb;
+	border-bottom: 0.05rem solid #a6998d;
+	border-top: 0.05rem solid #a6998d;
+	border-left: 0.05rem solid #a6998d;
+	border-right: 0.05rem solid #a6998d;
+}
+.delivery_cycle_zp p:nth-child(2){
+	background: #fbfbfb;
+	border-bottom: 0.05rem solid #a6998d;
+	border-top: 0.05rem solid #a6998d;
+}
+.delivery_cycle_zp p:nth-child(3){
+	background: #fbfbfb;
+	border-bottom: 0.05rem solid #a6998d;
+	border-top: 0.05rem solid #a6998d;
+	border-left: 0.05rem solid #a6998d;
+	border-right: 0.05rem solid #a6998d;
+}
+
+.delivery_cycle_zp ul li img{
+	width:0.75rem;
+	height:0.75rem;
+}
+
+/*配送周期  内容结束*/
+
+/*配送周期  地址内容开始*/
+
+.look_order_address{
+	overflow: hidden;
+	background: #f9f9f9;
+	width: 16rem;
+	height: auto;
+}
+.look_order_address_new{
+	margin-left: 1.48rem;
+	width: 100%;
+	height:auto;
+	background: #f9f9f9;
+	clear: both;
+	margin-top: 0.975rem;
+}
+.look_order_address_new img{
+	display: block;
+	float: left;
+	margin-top: 0.05rem;
+	width: 0.5rem;
+	height: 0.65rem;
+}
+.look_order_address_new p{
+	height: auto;
+	font-size: 0.6rem;
+	color: #333333;
+}
+.look_order_address_pai{
+	width: 100%;
+	clear: both;
+	position: relative;
+	background: #f9f9f9;
+	height: auto;
+	top: 0.95rem;
+}
+.look_order_address .look_order_address_pai ul{
+	z-index: 999;
+	margin-left: 1.7rem;
+	margin-right: 1.7rem;
+	height: auto;
+}
+.look_order_address .look_order_address_pai ul li{
+	height: 3.6rem;
+	border-left: 0.025rem solid #cccccc;
+}
+.look_order_address .look_order_address_pai ul li p{
+	font-size: 0.6rem;
+	color: #fec13d;
+	margin-left: 0.5rem;
+}
+.look_order_address .look_order_address_pai ul li b{
+	position: absolute;
+	width: 0.5rem;
+	height: 0.5rem;
+	left: 1.475rem;
+	display: block;
+	float: left;
+	border-radius: 50%;
+	background: #fec13d;
+}
+.look_order_address .look_order_address_pai ul li span{
+	font-size:0.5rem;
+	display: block;
+	color: #666;
+	margin-top: 0.475rem;
+	text-indent: 0.725rem;
+}
+
+.look_order_address .look_order_address_pai ul li:nth-child(2) p{
+	color: #333333;
+}
+.look_order_address .look_order_address_pai ul li:nth-child(2) b{
+	background: #999999;
+}
+.look_order_address .look_order_address_pai ul li:nth-child(2) span{
+	color: #999999;
+}
+.look_order_address .look_order_address_pai ul li:nth-child(2) .p_send{
+	padding-top: 0.4rem;
+	margin-left:0.8rem;
+	font-size: 0.5rem;
+	color: #333333;
+}
+.look_order_address .look_order_address_pai ul li:nth-child(2) .p_send a{
+	padding-left:0.1rem;
+	color: #3db6f5;
+}
+
+.look_order_address .look_order_address_pai ul .look_order_pais p{
+	color: #999999;
+}
+.look_order_address .look_order_address_pai ul .look_order_pais b{
+	background: #999999;
+}
+.look_order_address .look_order_address_pai ul .look_order_pais span{
+	color: #999999;
+}
+
+.header p{
+	width: 100%;
+	text-align: center;
+	line-height: 1.1rem;
+}
+.header a{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.header b img{
+	width: 1rem;
+	height: 1rem;
+}
+.look_order_address .look_order_address_pai ul{
+	float: left;
+	margin-bottom: .5rem;
+}
+.look_order_address .look_order_address_pai ul li{
+	float: left;
+}
+.delivery_cycle_zp ul li{
+	width: 100%;
+}
+.delivery_cycle_zp p{
+	width: 4rem;
+	float: left;
+	height: 1.5rem;
+}
+
+.header p{
+	width: 100%!important;
+	text-align: center!important;
+	line-height: 1.1rem!important;
+}
+.header a:first-child{
+	position: absolute!important;
+	top: 0!important;
+	left: 0.5rem!important;
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0.6rem;
+}
+.header a:last-child{
+	position: absolute!important;
+	top: 0!important;
+	right: 0.5rem!important;
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0.6rem;
+}
+.header  b{
+	margin: 0!important;
+}
+.header b img{
+	width: 0.8rem!important;
+	height: 0.8rem!important;  
+}
+/*配送周期  地址内容结束*/

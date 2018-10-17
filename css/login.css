@@ -1,0 +1,272 @@
+body{
+	 font-family:"微软雅黑";
+	 text-decoration:none;
+	 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a{
+	 font-family:"微软雅黑";
+	 text-decoration:none;
+
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-size: 0.3rem;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   font-size: 0.3rem;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  font-size: 0.3rem;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   font-size: 0.3rem;
+}
+    input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    }
+/*logo头部开始*/
+.logo{
+	width:100%;
+	background-image: url(/static/images/login_bg_d.png);
+	position:absolute;
+	z-index: -10;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+}
+.login-title .logo_index{
+	width:6.25rem;
+	clear: both;
+	display: block;
+	margin:auto;
+	padding-top:0.8rem;
+}
+.login-bar ul li .user_img{
+	width:0.62rem;
+	height:0.62rem;
+	float: left;
+	margin-top: 0.5rem;
+}
+/*logo头部结束*/
+
+/*logo内容开始*/
+
+.login-bar {
+	margin-left:2.37rem;
+	margin-right:2.37rem;
+	margin-top:1.5rem;
+}
+.login-bar ul li{
+	line-height:1.5rem;
+	font-size:0.6rem;
+	color: #666666;
+    border-bottom:1px solid #ccc9c9;
+}
+.login-bar ul li p{
+	float:left;
+}
+.login-bar ul li .login-bar_t{
+	width:0.62rem;
+	height:0.62rem;
+	float: right;
+    margin-top: 0.5rem;
+    margin-right: 0.4rem;
+}
+.login-bar ul li .login-bar_tu{
+	width:0.62rem;
+	height:0.62rem;
+	float: right;
+	margin-top: 0.5rem;
+	margin-right: 0.4rem;
+}
+
+.login-bar ul li:nth-child(2){
+	padding-top:1rem;
+}
+.login-bar .text{
+	width:8.5rem;
+	margin-left:0.1rem;
+	font-size:0.6rem;
+    border:none;
+    background:none;
+    color:#333333;
+}
+.login-bar .psd{
+	width:8.5rem;
+	margin-left:0.1rem;
+	font-size:0.6rem;
+    border:none;
+    background:none;
+    color:#333333;
+}
+input:focus {
+    outline:none;
+}
+.shuru{
+	height:1rem;
+}
+.shuru_z{
+	width: 100%;
+    font-size: 0.45rem;
+    margin-top: 0.6rem;
+    line-height: 0.6rem;
+    float: left;
+    color: #999999;
+    display: none;
+}
+.shuru_z img{
+	width: 0.57rem;
+    float: left;
+    margin-left: 2.3rem;
+    height: 0.6rem;
+}
+.login-zc{
+	margin-left:2.37rem;
+	margin-right:2.37rem;
+	margin-top:0.75rem;
+}
+.login-zc .login-w{
+	float:left;
+	font-size: 0.5rem;
+	color:#999999;
+}
+
+.login-zc .login-z{
+	float:right;
+	font-size: 0.5rem;
+	color:#666666;
+}
+.login-btn{
+	margin-left:2.37rem;
+	margin-right:2.37rem;
+	margin-top:2.3rem;
+}
+/*.login-btn .submit{
+	width:11.25rem;
+	height:1.5rem;
+	background: #fec13d;
+	text-align: center;
+    color:#fff;
+    outline:none;
+    border: 0;
+    font-size:0.6rem;
+    border-radius:0.25rem;
+    cursor: pointer;
+}*/
+.login-btn a{
+	text-decoration: none;
+    color:#fff;
+    font-size:0.6rem;
+}
+.login-qw{
+	margin-left:3rem;
+	margin-right:3.2rem;
+	margin-top:1.2rem;
+	margin-bottom: 5rem;
+}
+.login-qw img:nth-child(1){
+	width:9.82rem;
+	height: 0.5rem;
+}
+.login-qw img:nth-child(2){
+	width:1.35rem;
+	height:1.1rem;
+	float: left;
+    margin-top: 1.45rem;
+    margin-left: 4.25rem;
+}
+.login-qw img:nth-child(3){
+	width:1.35rem;
+	height:1.1rem;
+	float: left;
+    margin-left: 4rem;
+    margin-top: 1.4rem;
+}
+.login-qw img:nth-child(4){
+	width:1.67rem;
+	height: 1.67rem;
+	float: left;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+/*logo内容结束*/
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+	font-size:0.6rem;
+}
+input:-moz-placeholder,textarea:-moz-placeholder {
+	font-size:0.6rem;
+}
+input::-moz-placeholder,textarea::-moz-placeholder {
+	font-size:0.6rem;
+}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder {
+	font-size:0.6rem;
+}
+
+.warpperts{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.promptbox{
+	width: 10rem;
+	height: 3rem;
+	background: rgba(125,125,125,0.8);
+	border-radius: .5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -1.5rem 0 0 -5rem;
+	color: white;
+	text-align: center;
+	line-height: 3rem;
+	font-size: .8rem;
+}
+#submit_btn{
+	width: 11.25rem;
+	height: 1.5rem;
+	float: left;
+	background: rgba(0,0,0,0);
+	background-image: url(/static/images/tit_bg.png);
+	background-size: 100% 100%;
+	text-align: center;
+	color: #000;  
+	outline: none;
+	border: 0;
+	font-size: 0.6rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	line-height: 1.5rem;
+	margin-top: .5rem;
+}
+#submit_re{
+	width: 11.25rem;
+	height: 1.5rem;
+	float: left;
+	background-size: 100% 100%;
+	text-align: center;
+	color: #000;
+	outline: none;
+	border: 0;
+	font-size: 0.6rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	line-height: 1.5rem;
+	margin-top: .5rem;
+	border: 1px solid #9DAD6C;
+}
+button.active {
+	background: #FEC13D;
+}
+
+.cross img {
+	width: 0.8rem;
+	height: 0.8rem;
+	float: right;
+	margin-right: 0.3rem;
+	margin-top: 0.3rem;
+}
+
+

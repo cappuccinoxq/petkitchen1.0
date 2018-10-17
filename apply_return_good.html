@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>申请退货</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="壹爱厨房">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="__CSS__/reset.css" />
+    <link rel="stylesheet" href="__CSS__/apply_return_good.css?v={$rand}" />
+    <script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="__JS__/fastclick.js"></script>
+    <script  type="text/javascript"  src="__JS__/iscroll_probe.js"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<!--提示框-->
+<div class="warpperts">
+    <div class="promptbox"></div>
+</div>
+<!--申请退货的头部-->
+<div class="header">
+    <span class="back"><a href="/view/after_sale.html"><img src="__IMAGE__/register_01.png" style="width: 0.8rem;height: 0.8rem;"></a></span>
+    <p style="font-size: 0.8rem;color: white;">申请退货</p>
+</div>
+<!--退货原因-->  
+<div class="return_reason">
+    <p class="tit">退货原因</p>
+    <img class="lolo" src="__IMAGE__/go.png">
+    <select class="choose">
+        <option value="" disabled selected hidden>请选择退货的原因</option>
+        <option value="质量问题">质量问题</option>
+        <option value="与商品描述不符">与商品描述不符</option>
+        <option value="包装商品残破">包装/商品残破</option>   
+        <option value="更换口味">更换口味</option>
+        <option value="其他">其他</option>
+    </select>
+</div>
+<!--问题描述-->
+<div class="question_des">   
+    <p class="tit">问题描述</p>
+    <textarea class="que_con" placeholder="请输入退货问题描述"  onkeyup="value=value.replace(/[@#\$%\^&\*]+/g,'')" maxlength="300"></textarea>
+</div>
+<!--上传凭证-->
+<div class="upload">
+    <p class="tit">上传图片(最多3张)</p>
+    <div class="upimgsconts">
+        <form action="/upload" enctype="multipart/form-data" method="post" target="target">
+            <div class="modifyimgss">
+                <img src="" alt="" class="showimgalls">
+                <img class="img_j" src="__IMAGE__/camara.png">
+                <input type="file" id="uploadimgs" name="image" class="uploadimgs"/>
+                <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submits">
+            </div>
+        </form>
+        <iframe name="target" id="target" style="display: none;"></iframe>
+    </div>
+    <div class="upimgsconts">
+        <form action="/upload" enctype="multipart/form-data" method="post" target="targettwo">
+            <div class="modifyimgss">
+                <img src="" alt="" class="showimgalls">
+                <img class="img_j" src="__IMAGE__/camara.png">
+                <input type="file" id="uploadimgstwo" name="image" class="uploadimgs"/>
+                <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submitstwo">
+            </div>
+        </form>
+        <iframe name="targettwo" id="targettwo" style="display: none;"></iframe>
+    </div>
+    <div class="upimgsconts">
+        <form action="/upload" enctype="multipart/form-data" method="post" target="targetthree">
+            <div class="modifyimgss">
+                <img src="" alt="" class="showimgalls">
+                <img class="img_j" src="__IMAGE__/camara.png">
+                <input type="file" id="uploadimgsthree" name="image" class="uploadimgs"/>
+                <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submitsthree">
+            </div>
+        </form>
+        <iframe name="targetthree" id="targetthree" style="display: none;"></iframe>
+    </div>
+</div>
+<!--联系方式-->
+<div class="contect">
+    <p class="tit">联系方式</p>
+    <p class="con">
+        <label>联系人：</label><input class="name" type="text" type="text" maxlength="6" placeholder="联系人" onkeyup="this.value=this.value.replace(/^ +| +$/g,'')" onfocus="this.placeholder=''" onblur="this.placeholder='联系人'" />
+    </p>
+    <p class="con">
+        <label>联系电话：</label><input class="tel" type="tel" maxlength="11" placeholder="联系电话" onkeyup="value=value.replace(/[^\d]/g,'')" onfocus="this.placeholder=''" onblur="this.placeholder='联系电话'"/>
+    </p>
+</div>
+<div class="btn">
+    <button id="btn_tijiao">提交</button>
+</div>
+<!--提示框-->
+<div class="warpperts">
+    <div class="promptbox"></div>
+</div>
+<script type="text/javascript" src="__JS__/apply_return_good.js?v={$rand}"></script>
+
+
+</body>
+</html>

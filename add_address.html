@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>添加新地址</title>
+	<link rel="stylesheet" href="__CSS__/add_address.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/reset.css" />
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+	<script  type="text/javascript"  src="__JS__/iscroll_probe.js"></script>
+	<script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<!--提示框-->
+<div class="promptbox"></div>
+<div class="bgPop"></div>
+<!--加载页-->
+<div class="container_border">
+	<div class="load">
+		<img src="__IMAGE__/load.png" class="img"/>
+		<span>加载中...</span>
+	</div>
+</div>
+<!--添加新地址的头部-->   
+<div class="header" style="padding: 0;height: 2.3rem;">
+	<a class="back_btn"><b><img src="__IMAGE__/register_01.png?v={$rand}"></b></a>
+	<p style="margin: 0;line-height: 2rem;font-size: 0.8rem">添加新地址</p>
+</div>
+<!--添加新地址的信息-->
+<div class="member_gl">
+	<p><span style="width: 3rem;display: inline-block">收货人</span><input name="addressee" type="text" placeholder="收货人姓名" id="ipt" onchange="value=value.replace(/[^\a-\z\A-\Z\u4E00-\u9FA5]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\a-\z\A-\Z\u4E00-\u9FA5]/g,''))" maxlength="6"></p>
+	<p><span style="width: 3rem;display: inline-block">手机号</span><input name="telephone" type="tel" placeholder="11位手机号"  id="ipu"  maxlength="11" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"></p>
+	<p class="area_x"><span style="width: 3rem;display: inline-block">所在地区</span>
+		<span id="demo2">请选择所在地区</span>
+		<img src="__IMAGE__/infor_before_01.png" class="img">
+		<input readonly id="value2" type="hidden" />  
+	</p>
+	<p><span style="width: 3rem;display: inline-block">详细地址</span>
+		<input name="address" type="text" id="demo_di" placeholder="详细地址" maxlength="50">
+	</p>
+</div>
+<!--设为默认地址-->
+<div class="add_address_Btn">  
+	<input type="checkbox" class="choose_moren" name="choose_moren" value="设为默认收货地址" style="margin-left: 0.5rem;"/>
+	<span>设为默认收货地址</span>
+</div>
+<!--baocun-->
+<div class="btn_save">
+	<button class="submit_save">保存</button>
+</div>
+<!--所在区域-->
+<div class="added_map">
+</div>
+<div class="added_white">
+	<p style="position: relative;">所在地区<img src="__IMAGE__/select_order_02.png" alt="" class="suozaidiqu"></p>
+	<div class="added_choosefistrt  city">
+	</div>
+	<div class="added_choosenth city" style="display: none;"></div>
+	<div class="added_choosethree  city" style="display: none;"></div>
+	<div class="added_choose">
+		<span class="added_teshu">请选择</span>
+	</div>
+	<div class="province_warper">
+		<div class="province_scroll">
+			<ul class="province_class" id="province_class">
+			</ul>
+		</div>
+	</div>
+	<div class="municipal_warper">
+		<div class="municipal_scroll">
+			<ul class="municipal_class" id="municipal_class">
+			</ul>
+		</div>
+	</div>
+	<div class="county_warper">
+		<div class="county_scroll">
+			<ul class="county_class" id="county_class">
+			</ul>
+		</div>
+	</div>
+</div>  
+<input name="" id="fuzhi" value="2" style="display: none;" />
+<script type="text/javascript" src="__JS__/add_address.js?v={$rand}"></script>
+</body>
+</html>

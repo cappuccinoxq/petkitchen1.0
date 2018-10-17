@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>订单详情</title>
+	<link rel="stylesheet" href="__CSS__/order_choose.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/reset.css" />
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+	<script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<!--加载页-->
+<div class="container_border">
+	<div class="load">
+		<img src="__IMAGE__/load.png" class="img"/>
+		<span>加载中...</span>
+	</div>
+</div>
+<div class="promptbox"></div>
+<div class="header">
+	<a href="javascript:history.back(-1);"><span><img src="__IMAGE__/register_01.png?v={$rand}"></span></a>
+	<p>订单详情</p>
+	<a href="/index"><b><img src="__IMAGE__/select_order_02.png?v={$rand}"></b></a>
+</div>
+<div class="order_choose">
+</div>
+<div class="clear_xq">
+	<!--价格-->
+	<p class="prompt_txt">鲜食配方口味如下，请为小主选择~</p>
+	<li class="order_delivery_yi" value="" id="order_delivery_yi">
+
+	</li>
+</div>
+<div class="order_delivery-btn">
+	<button class="submit">确定下单</button>
+</div>
+<script type="text/javascript" src="__JS__/order_choose.js?v={$rand}"></script>
+</body>
+</html>

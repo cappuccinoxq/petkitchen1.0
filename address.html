@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>收货地址</title>
+	<link rel="stylesheet" href="__CSS__/address.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/reset.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/common.css?v={$rand}">
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+	<script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<!--<div class="header">-->
+	<!--<span class="back"><img src="__IMAGE__/register_01.png" style="width: 0.8rem;height: 0.8rem;"></span>-->
+	<!--<p style="font-size: 0.8rem;color: white;">地址管理</p>-->
+	<!--<span ><img src="__IMAGE__/select_order_02.png" style="width: 0.8rem;height: 0.8rem;"></span>-->
+<!--</div>-->
+<div class="member_header">
+	<span class="back"><b><img class="info" src="__IMAGE__/register_01.png?v={$rand}" style="float: left;margin-left: 0.5rem;width: 0.8rem;height: 0.8rem;"></b></span>
+	<p class="tit" style="color: white;font-size: 0.8rem;line-height: 1.25rem;">地址管理</p>
+	<span class="off_btn"><b><img src="__IMAGE__/select_order_02.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;"></b></span>
+</div>
+<div class="clr"></div>
+<div class="line"></div>
+<div class="null_bg">
+	<img src="__IMAGE__/null_logo.png?v={$rand}">
+	<p class="null_text">喵呜~~地址箱空空如也，赶快添加哦</p>
+	<a class="btn_addss"><button>添加收货地址</button></a>
+</div>
+
+<div class="dizhi">
+	<!--默认地址-->
+	<div class="bianji-dizhi">
+
+	</div>
+	<!--非默认地址-->
+	<div class="bianji-dizhi_fei">
+
+	</div>
+</div>
+	<div class="login-btn">
+		<a class="btn_addss"><button class="submit" id="btn_add" type="submit">添加收货地址</button></a>
+	</div>
+	<!--是否确认删除-->
+	<div class="greybg02">
+		<div class="dele_btn">
+			<div class="dele_btn_top">确认删除吗?</div>
+			<div class="dele_btn_bot">
+				<input class="queren" type="button" value="确认" >
+				<input class="quxiao" type="button" value="取消" >
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="__JS__/address.js?v={$rand}"></script>
+</body>
+</html>

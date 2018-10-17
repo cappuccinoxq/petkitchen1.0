@@ -1,0 +1,59 @@
+body{
+    background: white;
+}
+/*头部开始*/
+.header {
+    width: 100%;
+    height: 2.3rem;
+    border-bottom: 0.025rem solid #EEEEEE;
+    background-image: url(/static/images/tit_bg.png);
+    background-size: 100% 100%;
+
+}
+
+.header span {
+    display: inline-block;
+    margin-top: 0.70rem;
+    margin-left: 0.5rem;
+}
+
+.header span img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.header p {
+    width: 12.5rem;
+    height: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    color: #333333;
+}
+
+.header b {
+    display: inline-block;
+    margin-top: 0.60rem !important;
+}
+
+.header b img {
+    width: 1rem;
+    height: 1rem;
+}
+.clr{
+    clear: both;
+}
+/*优惠券说明*/
+
+.tit_big{
+    color: #999999;
+    margin-top: 1rem !important;
+    margin-left: 1rem !important;
+    font-size: 0.75rem;
+}
+.txt{
+    color: #999999;
+    font-size: 0.6rem;  
+    line-height: 1.5rem !important;
+    margin-top: 0.6rem !important;
+    padding: 0rem 1rem 0rem 1rem !important;
+}

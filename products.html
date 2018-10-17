@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>填写订单</title>
+	<link rel="stylesheet" href="__CSS__/products.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/coupon_list.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/pop_zhi.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/reset.css?v={$rand}" />
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+	<script type="text/javascript" src="__JS__/common.js"></script>  
+</head>
+<body>
+<!--加载页-->
+<div class="container_border">
+	<div class="load">
+		<img src="__IMAGE__/load.png" class="img"/>
+		<span>加载中...</span>
+	</div>
+</div>
+<!--提示框-->
+<div class="promptbox"></div>
+<div class="bgPop"></div>
+<div class="header">
+	<!--返回按钮-->
+	<a href="/view/descri"><span class="back_btn"><img src="__IMAGE__/register_01.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;"></span></a>
+	<p style="font-size: 0.8rem;color: white;">填写订单</p>
+	<a href="/index"><b><img src="__IMAGE__/select_order_02.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;"></b></a>
+</div>
+<!--基本信息展示-->
+<div class="order_choose">
+</div>
+<!--食物选择-->
+<div class="clear_xq">
+	<!--价格-->
+	<p class="prompt_txt">鲜食配方口味如下，请为小主选择~</p>
+	<li class="order_delivery_yi"  id="order_delivery_yi">  
+
+	</li>
+</div>
+<!--地址选择-->
+<div class="xp-content02" id="select_address">
+	<div class="bianji-dizhi" id="bianji-dizhiss">
+	</div>
+	<div class="dizhi_null">
+		<div class="null_add"><img class="null_img" src="__IMAGE__/express.png"/></div>
+		<div class="tishi_text">请选择配送地址</div>
+		<div class="jiantou"><img src="__IMAGE__/infor_before_01.png"/></div>
+	</div>
+</div>
+<!--优惠券-->
+<div class="order_coupon">
+	<span class="txt">优惠券</span><span class="num"></span><img src="__IMAGE__/infor_before_01.png?v={$rand}">
+</div>
+<!--食物配方，价格详情-->
+<p class="pay_detail">付款详情</p>
+<div class="order_after_payment">
+	<p>食用周期：
+		<select id="sele_week" class="sele_weekall">
+			<option value="1">一周</option>
+			<option value="2">二周</option>
+			<option value="4">四周</option>
+			<option value="8">两个月</option>
+			<option value="12">三个月</option>
+		</select>
+	    <span class="instr">新客专享，一周起定</span>
+	</p>
+	<!--<p>VIP配方：0.00RMB</p>-->
+	<p><span class="txt">鲜食产品：</span><span class="total1">0.00RMB</span></p>
+	<p><span class="txt">优惠券：</span><span class="money"></span></p>
+	<p class="heji"><span class="txt" style="color: #666666;font-size: 0.69rem"> 合计：</span><span class="total">0.00</span>RMB
+		<span id="pay" class="order_after_zhi">提交订单</span>
+	</p>
+</div>
+
+<!--服务消息的头部-->
+<div class="coupon_box">
+	<div class="header">
+		<!--返回按钮-->  
+		<span class="back_off"><img src="__IMAGE__/select_order_02.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;"></span></a>
+		<p style="font-size: 0.8rem;color: white;">我的优惠券</p>
+	</div>
+	<div class="cup_list">
+		<!--选中-->
+		<div class="donotuses">
+			<span>不使用优惠券</span>
+			<img src="/static/images/choose_no.png" alt="">
+		</div>
+		<ul class="cup_list_n">
+		</ul>
+	</div>
+	<!--无优惠券-->
+	<div class="null_bg" style="top: 2.2rem;">
+		<img src="__IMAGE__/null_logo.png" style="top: 10%;">
+		<p class="null_text">您当前还没有优惠券哦~快去领取吧~</p>
+	</div>
+</div>
+<script type="text/javascript" src="__JS__/products.js?v={$rand}"></script>
+
+</body>
+</html>

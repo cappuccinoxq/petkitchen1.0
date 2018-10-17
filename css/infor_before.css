@@ -1,0 +1,405 @@
+body {
+	background: #ffffff;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*上门信息    头部开始*/
+.header {
+	width: 100%;
+	height: 2.3rem;
+	float:left;
+	border-bottom: 0.025rem solid #EEEEEE;
+	background-image: url(/static/images/tit_bg.png);  
+	background-size: 100% 100%;
+}
+
+.header span {
+	display: inline-block;
+	margin-top: 0.70rem;
+	margin-left: 0.5rem;
+}
+
+.header span img {
+	width: 1rem;
+	height: 1rem;
+}
+
+.header p {
+	width: 12.5rem;  
+	height: 1.6rem;
+	text-align: center;
+	display: inline-block;
+	color: #333333;
+}
+
+.header  b {
+	display: inline-block;
+	margin-top: 0.70rem !important;
+	margin-right: 0.5rem;
+}
+
+.header  b img {
+	width: 1rem;
+	height: 1rem;
+}
+/*上门信息    头部结束*/
+
+/*上门信息    内容开始*/
+
+.infor_before{
+	width: 100%;
+	float:left;
+	background: #f9f9f9;
+	border-top: 0.025rem solid #EEEEEE;
+}
+.infor_before_l{
+	background: #FFFFFF;
+	margin-top:0.5rem;
+	margin-bottom: 0.5rem;
+}
+.infor_before_l p {
+	border-bottom: 0.025rem solid #EEEEEE;
+	padding-left: 0.5rem;
+	font-size: 0.65rem;
+	color: #333333;
+	line-height: 1.9rem;
+}
+.infor_before_l p input{
+	width:10rem;
+	border:none;
+	outline: none;
+	margin-left:0.8rem;
+	font-size: 0.60rem;  
+	line-height: 0.5rem;
+}
+.infor_before_l p img{
+    width:0.35rem;
+	height:0.57rem;
+	float: right;
+	margin-top: 0.7rem;
+	margin-right: 0.5rem;
+}
+
+#register_y {
+	width:100%;
+    font-size: 0.45rem;
+    margin-top: 0.3rem;
+    line-height: 0.6rem;
+    float: left;
+    color: #999999;
+    display: none;
+}
+#register_y img{
+	width: 0.57rem;
+    float: left;
+    margin-left:3.8rem;
+    height: 0.6rem;
+}
+#register_y1 {
+	width:100%;
+    font-size: 0.45rem;
+    margin-top: 0.3rem;
+    line-height: 0.6rem;
+    float: left;
+    color: #999999;
+    display: none;
+}
+#register_y1 img{
+	width: 0.57rem;
+    float: left;
+    margin-left: 3.8rem;
+    height: 0.6rem;
+}
+
+
+/*上门信息    内容结束*/
+.clr{
+	clear: both;
+}
+/*上门信息    宠物类型开始*/
+.infor_before_pet{
+	width: 100%;
+}
+.infor_before_type{
+	width: 100%;
+}
+.infor_before_type .pet_type{
+	width: 100%;
+	text-align: center;
+	font-size: 0.8rem;
+}
+/*宠物类型*/
+.pet_mg{
+	width: 60%;
+    margin:auto;
+	display: flex;
+	justify-content: space-around;
+}
+.pet_mg li{
+	width: 30%;
+}
+.pet_mg li>p img{
+	width: 2.6rem;
+	height: auto;
+}
+.pet_mg li p{
+	width: 3.2rem;
+	font-size: 0.65rem;
+	text-align: center;
+	color: #ccc9c9;
+}
+.choose_dog,.choose_cat{
+	display: none;
+}
+.login-btn{
+	float:left;
+	margin-left:5rem;
+	margin-right:5.4rem;
+	margin-top:3rem;
+	margin-bottom: 1rem;
+}
+.order_pays_payment p{
+	width: 100%;
+}
+/*体型*/
+#infor_before_gou li img{
+	width: 2.8rem;
+	height: 2.6rem;
+}
+#infor_before_pt ul li.selected {
+	color:#fec13d;
+}
+#infor_before_pt ul li p{
+	line-height: 1rem;
+	font-size:0.65rem ;
+	color:#666666;
+	text-align: center;
+}
+#infor_before_pt{
+	margin-top: 0.5rem;
+}
+#infor_before_pt ul{
+	float:left;
+}
+#infor_before_pt ul li{
+	float:left;
+	font-size: 0.65rem;
+	color: #666666;
+	text-align: center;
+	margin-left:2.3rem;
+}
+#infor_before_pt ul li p img{
+	width:2.67rem;
+	height:4rem;
+}
+#infor_before_pt ul li:nth-child(1){
+	margin-left:1.1rem;
+}
+#infor_before_mao{
+	top: 20.3rem;
+	display: none;
+}
+#infor_before_mao ul{
+	float:left;
+}
+#infor_before_mao ul li{
+	float:left;
+	margin-left:2.3rem;
+}
+#infor_before_mao ul li p img{
+	width:2.67rem;
+	height:2.65rem;
+}
+#infor_before_mao ul li:nth-child(1){
+	margin-left:1.8rem;
+}
+.txt_choose{
+	width: 3rem;
+	height: 1.5rem;
+	border: 1px solid #9DAD6C;
+	text-align: center;
+	line-height: 1.5rem !important;
+	border-radius: 1rem;
+}
+#infor_before_mao .txt_choose{
+	width: 3rem;
+	height: 1.5rem;
+	border: 1px solid #9DAD6C;
+	text-align: center;
+	line-height: 1.5rem !important;
+	border-radius: 1rem;
+	margin-left: -0.5rem;
+}
+#but_que{
+	float: left;
+	width: 6.48rem;
+	height: 1.8rem;
+	background: #9DAD6C;
+	text-align: center;
+	color: #FFFFFF;
+	outline: none;
+	border: 0;
+	font-size: 0.7rem;
+	border-radius: 1.5rem;
+	cursor: pointer;
+}
+.promptbox{
+	display: none;
+	position: fixed;
+	width: 12rem;
+	height: 2.5rem;
+	top: 50%;
+	left: 25%;
+	margin-left: -50px;
+	margin-top: -25px;
+	text-align: center;
+	line-height: 50px;
+	color: #ffffff;
+	border-radius: 15px;
+	font-size: 14px;
+	background: #7d7d7d;
+	z-index: 999;
+}
+.container_border{
+	display: none;
+}
+.infor_before_l p input{
+	color: #666666;
+	padding: 0.5rem 0rem 0.5rem 0rem;
+}
+.choose{
+	display: none;
+}
+.infor_before_l p #demo2{
+	width: 10rem;
+	outline: none;
+	border:none;
+	font-size:0.60rem;
+	color:#666666;
+	margin-left:0.8rem;  
+	line-height: 0.9rem;
+}
+/*上门信息    宠物类型结束*/
+
+/*所在地区*/
+.added_map {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5); }
+
+.added_white {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20rem;
+	background: #fff;
+	display: none;
+	z-index: 99999;
+	padding: 0 0.66rem;
+}
+.added_white p {
+	width: 100%;
+	text-align: center;
+	height: 1.86rem;
+	color:#5D5D5D;
+	line-height: 1.86rem;
+	font-size: 0.7rem; }
+.added_white .added_choose {
+	height: 1.15rem;
+	float: left;
+	border-bottom: 0.05rem solid #9dac6f;
+}
+.added_choosefistrt,.added_choosenth,.added_choosethree{
+	height: 1.15rem;
+	padding-right: 0.66rem;
+	float: left;
+	font-size: 0.66rem;
+}
+.municipal_class,.county_class{
+	display:none;
+}
+.added_white .added_choose span {
+	font-size: 0.66rem;
+}
+.added_teshu {
+	color: #9dac6f;
+	/*border-bottom: 0.05rem solid #9dac6f;*/
+	float: left;
+}
+.added_white ul {
+	width: 100%;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling : touch;
+}
+.province_class{
+	width: 100%;
+	padding-left: 0.66rem;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling : touch;
+}
+.added_white ul li {
+	padding-top: 0.66rem;
+	font-size: 0.66rem; }
+.added_white ul li span {
+	padding-left: 0.53rem;
+	font-size: 0.66rem; }
+.added_white ul .added_cheng {
+	color: #9dac6f; }
+.province_warper,.municipal_warper,.county_warper{
+	width: 100%;
+	height: 16.53rem;
+	position: relative;
+	overflow: hidden;
+}
+.biaoqianp span{
+	margin: 0;
+}
+.suozaidiqu{
+	width: 0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0.6rem;
+	right: 0.5rem;
+}
+
+.warpperts{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.promptbox{
+	width: 10rem;
+	height: 3rem;
+	background: rgba(125,125,125,0.8);
+	border-radius: .5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -1.5rem 0 0 -5rem;
+	color: white;
+	text-align: center;
+	line-height: 3rem;
+	font-size: .8rem;
+}
+.not_choose_cat{
+	width: 3.2rem;
+	height: 3.2rem;
+	border: 0.025rem solid #9DAD6C;
+	border-radius: 3.2rem;
+	margin-bottom: 0.5rem;
+}
+.not_choose_dog{
+	width: 3.2rem;
+	height: 3.0rem;
+	border: 0.025rem solid #9DAD6C;
+	border-radius: 3.2rem;
+	padding-top: 0.2rem;
+	margin-bottom: 0.5rem;
+}

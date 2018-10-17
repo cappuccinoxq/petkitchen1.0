@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>意见反馈</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="壹爱厨房">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="__CSS__/reset.css?v={$rand}" />
+    <link rel="stylesheet" href="__CSS__/advice_return.css?v={$rand}" />
+    <script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="__JS__/fastclick.js"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<!--提示框-->
+<div class="warpperts">
+    <div class="promptbox"></div>
+</div>
+<!--申请退货的头部-->
+<div class="header">
+    <a href="/view/member"><span class="back"><img src="__IMAGE__/register_01.png" style="width: 0.8rem;height: 0.8rem;"></span></a>
+    <p style="font-size: 0.8rem;color: white;">意见反馈</p>
+    <!--<span class="off_btn"><img src="__IMAGE__/xinx.png" style="width: 0.8rem;height: 0.8rem;"></span>-->
+</div>
+<!--退货原因-->
+<div class="return_reason">
+    <p class="tit" >反馈类型</p>
+    <img class="lolo" src="__IMAGE__/go.png">
+    <select class="choose">  
+        <option value="" disabled selected hidden>请选择反馈类型</option>
+        <option value="商品相关">商品相关</option>
+        <option value="物流状况">物流状况</option>
+        <option value="客户服务">客户服务</option>
+        <option value="优惠活动">优惠活动</option>
+        <option value="产品体验">产品体验</option>
+        <option value="产品功能">产品功能</option>
+        <option value="其他">其他</option>
+    </select>
+</div>
+<!--问题描述-->
+<div class="question_des">
+    <p class="tit">问题描述</p>
+    <textarea class="que_con" placeholder="请写下您的感受，我们将认真听取您的意见，努力提供更优质的服务" style="border: 0.025rem solid #eee;border-radius: 0.2rem;font-size: 0.64rem;" onkeyup="value=value.replace(/[@#\$%\^&\*\^ ]+/g,'')"  maxlength="300" ></textarea>
+</div>
+<!--联系方式-->
+<div class="contect">
+    <input class="tel" type="text" placeholder="手机/邮箱/QQ" onkeyup="value=value.replace(/[\u4E00-\u9FA5]/g,'')" maxlength="19"/>
+</div>
+<!--上传凭证-->  
+<div class="upload">
+    <p class="tit" style="margin-bottom: 1rem">上传图片(最多6张)</p>
+    <div class="upimgsconts">
+        <form action="/upload" enctype="multipart/form-data" method="post" target="target">
+            <div class="modifyimgss">
+                <img src="" alt="" class="showimgalls">
+                <img class="img_j" src="__IMAGE__/camara.png">
+                <input type="file" id="uploadimgs" name="image" class="uploadimgs"/>
+                <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submits">
+            </div>
+        </form>
+        <iframe name="target" id="target" style="display: none;"></iframe>
+    </div>
+    <div class="upimgsconts">
+        <form action="/upload" enctype="multipart/form-data" method="post" target="targettwo">
+            <div class="modifyimgss">
+                <img src="" alt="" class="showimgalls">
+                <img class="img_j" src="__IMAGE__/camara.png">
+                <input type="file" id="uploadimgstwo" name="image" class="uploadimgs"/>
+                <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submitstwo">
+            </div>
+        </form>
+        <iframe name="targettwo" id="targettwo" style="display: none;"></iframe>
+    </div>
+    <div class="upimgsconts">
+        <form action="/upload" enctype="multipart/form-data" method="post" target="targetthree">
+            <div class="modifyimgss">
+                <img src="" alt="" class="showimgalls">
+                <img class="img_j" src="__IMAGE__/camara.png">
+                <input type="file" id="uploadimgsthree" name="image" class="uploadimgs"/>
+                <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submitsthree">
+            </div>
+        </form>
+        <iframe name="targetthree" id="targetthree" style="display: none;"></iframe>
+    </div>
+    <div class="upimgsconts">
+        <form action="/upload" enctype="multipart/form-data" method="post" target="targetfour">
+            <div class="modifyimgss">
+                <img src="" alt="" class="showimgalls">
+                <img class="img_j" src="__IMAGE__/camara.png">
+                <input type="file" id="uploadimgsfour" name="image" class="uploadimgs"/>
+                <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submitsfour">
+            </div>
+        </form>
+        <iframe name="targetfour" id="targetfour" style="display: none;"></iframe>
+    </div>
+    <div class="upimgsconts">
+        <form action="/upload" enctype="multipart/form-data" method="post" target="targetfive">
+            <div class="modifyimgss">
+                <img src="" alt="" class="showimgalls">
+                <img class="img_j" src="__IMAGE__/camara.png">
+                <input type="file" id="uploadimgsfive" name="image" class="uploadimgs"/>
+                <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submitsfive">
+            </div>
+        </form>
+        <iframe name="targetfive" id="targetfive" style="display: none;"></iframe>
+    </div>
+    <div class="upimgsconts">
+        <form action="/upload" enctype="multipart/form-data" method="post" target="targetsix">
+            <div class="modifyimgss">
+                <img src="" alt="" class="showimgalls">
+                <img class="img_j" src="__IMAGE__/camara.png">
+                <input type="file" id="uploadimgssix" name="image" class="uploadimgs"/>
+                <input type="submit" value="提交" style="display: none;left: 80%;" class="submits" id="submitssix">
+            </div>
+        </form>
+        <iframe name="targetsix" id="targetsix" style="display: none;"></iframe>
+    </div>
+</div>
+<div class="btn" style="width: 100%;float: left;">
+    <button id="btn_tijiao">提交</button>
+</div>
+<!--提示框-->
+<div class="promptbox"></div>  
+<script type="text/javascript" src="__JS__/advice_return.js?v={$rand}"></script>
+</body>
+</html>

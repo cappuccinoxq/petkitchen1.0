@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>上门信息</title>
+	<link rel="stylesheet" href="__CSS__/infor_before.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/reset.css" />
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+	<script  type="text/javascript"  src="__JS__/iscroll_probe.js"></script>
+	<script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<div class="promptbox"></div>
+<!--加载页-->
+<div class="container_border">
+	<div class="load">
+		<img src="__IMAGE__/load.png" class="img"/>
+		<span>加载中...</span>
+	</div>
+</div>
+<!--上门信息头部-->
+<div class="header">
+	<a href="/view/descri_vip"><span><img src="__IMAGE__/register_01.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;"></span></a>
+	<p style="font-size: 0.8rem;color: white;">上门信息</p>
+	<a href="/index"><b><img src="__IMAGE__/select_order_02.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;"></b></a>
+</div>
+<!--上门信息内容-->
+<div class="infor_before">
+	<div class="infor_before_l">
+		<p>
+			<span style="display: inline-block;width: 3rem;">联 系 人</span>
+			<input name="name" type="text" maxlength="6" placeholder="联系人" onkeyup="this.value=this.value.replace(/^ +| +$/g,'')" onfocus="this.placeholder=''" onblur="this.placeholder='联系人'" id="person_name"  />
+		</p>
+		<p>
+			<span style="display: inline-block;width: 3rem;">联系电话</span>
+			<input name="telephone" type="tel" maxlength="11" placeholder="联系电话" onkeyup="value=value.replace(/[^\d]/g,'')" onfocus="this.placeholder=''" onblur="this.placeholder='联系电话'" id="contact_tel" />
+		</p>
+		<p class="area_x">
+			<span style="display: inline-block;width: 3rem;">所在地区</span>
+			<span id="demo2">选择所在地区</span>
+			<img src="__IMAGE__/infor_before_01.png">
+			<input readonly id="value2" type="hidden" />
+		</p>
+		<p>
+			<span style="display: inline-block;width: 3rem;">详细地址</span>
+			<input name="address" type="text" id="address" maxlength="50"  value="" placeholder="请输入详细地址" onkeyup="this.value=this.value.replace(/^ +| +$/g,'')" onfocus="this.placeholder=''" onblur="this.placeholder='请输入详细地址'" />
+		</p>
+		<!--//宠物类型-->
+		<input name="type_id" type="hidden" id="pet_ipt" value="" />
+		<input name="height_id" type="hidden" id="pet_ipta" value="" />
+	</div>
+</div>
+<div class="clr"></div>
+<!--上门信息宠物类型-->
+<div class="infor_before_pet">
+	<div class="infor_before_type" id="xuanze">
+		<p class="pet_type"><br><br>宠物类型<br><br></p>
+		<ul id="pet_type_a" class="pet_mg">
+			<li value="1" id="mao">
+				<p class="not_choose_cat"><img src="__IMAGE__/infor_before_02_1.png?v={$rand}" style="margin-top: 0.5rem;width: 2.8rem;"></p>
+				<p class="choose_cat"><img src="__IMAGE__/infor_before_02_2.png?v={$rand}"></p>
+				<p class="pet_type_c">猫猫</p>
+			</li>
+			<li value="2" id="gou">
+				<p class="not_choose_dog"><img src="__IMAGE__/infor_before_03_1.png?v={$rand}"></p>
+				<p class="choose_dog"><img src="__IMAGE__/infor_before_03_2.png?v={$rand}"></p>
+				<p class="pet_type_g">狗狗</p>
+			</li>
+		</ul>
+	</div>
+	<!--宠物体型-->
+	<div class="infor_before_type" id="infor_before_pt">
+		<p class="pet_type" id="pet_type" style="display: none;"><br><br>宠物体型<br><br></p>
+		<ul id="infor_before_gou" style="display: none;" class="infor_before_g">
+			<li value="1">
+				<p><img src="__IMAGE__/infor_before_04.png?v={$rand}" style="height: 3rem;margin-top: 1rem;"></p>
+				<p class="txt_choose">小型</p>
+			</li>
+			<li value="2">
+				<p><img src="__IMAGE__/infor_before_05.png?v={$rand}" style="height: 3.5rem;margin-top: 0.5rem;"></p>
+				<p class="txt_choose" style="margin-top: 0rem;">中型</p>
+			</li>
+			<li value="3">
+				<p><img src="__IMAGE__/infor_before_06.png?v={$rand}"></p>
+				<p class="txt_choose">大型</p>
+			</li>
+		</ul>
+		<ul id="infor_before_mao"  class="infor_before_g">
+			<li value="1" style="margin: 0rem 0.5rem 0rem 4.5rem;">
+				<p><img id="lll" src="__IMAGE__/infor_before_07.png?v={$rand}"></p>
+				<p class="txt_choose">小型</p>
+			</li>
+			<li value="2">
+				<p class="not_choose"><img src="__IMAGE__/infor_before_08.png?v={$rand}"></p>
+				<p class="txt_choose">中型</p>
+			</li>
+		</ul>
+	</div>
+	<!--确认下单按钮-->
+	<div class="login-btn">
+		<button class="submit" type="button" id="but_que">确认下单</button>
+	</div>
+</div>
+<!--所在区域-->
+<div class="added_map">
+</div>
+<div class="added_white">
+	<p style="position: relative;">所在地区<img src="__IMAGE__/select_order_02.png" alt="" class="suozaidiqu"></p>
+	<div class="added_choosefistrt  city">
+	</div>
+	<div class="added_choosenth city" style="display: none;"></div>
+	<div class="added_choosethree  city" style="display: none;"></div>
+	<div class="added_choose">
+		<span class="added_teshu">请选择</span>
+	</div>
+	<div class="province_warper">
+		<div class="province_scroll">
+			<ul class="province_class" id="province_class">
+			</ul>
+		</div>
+	</div>
+	<div class="municipal_warper">
+		<div class="municipal_scroll">
+			<ul class="municipal_class" id="municipal_class">
+			</ul>
+		</div>
+	</div>  
+	<div class="county_warper">
+		<div class="county_scroll">
+			<ul class="county_class" id="county_class">
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="__JS__/infor_before.js?v={$rand}"></script>
+</body>
+</html>

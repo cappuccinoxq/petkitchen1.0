@@ -1,0 +1,412 @@
+body {
+	background: #f5f5f5;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*订单详情页（订单完成） 头部开始*/
+.header {
+	width: 100%;
+	height: 2.3rem;
+	border-bottom: 0.025rem solid #EEEEEE;
+	background: #9dac6f;
+	float: left;
+}
+
+.header span {
+	display: inline-block;
+	margin-top: 0.70rem;
+	margin-left: 0.5rem;
+}
+
+.header span img {
+	width: 0.32rem;
+	height: 0.57rem;
+}
+
+.header p {
+	width: 13.33rem;
+	height: 1.5rem;
+	text-align: center;
+	display: inline-block;
+	font-size: 0.75rem;
+	color: white;
+	margin-top: 0.60rem;
+}
+
+.header b {
+	display: inline-block;
+	margin-top: 0.70rem;
+	margin-right: 0.5rem;
+}
+
+.header b img {
+	width: 0.55rem;
+	height: 0.425rem;
+}
+/*订单详情页（订单完成） 头部结束*/
+
+/*订单详情页（订单完成） 内容开始*/
+.order_finish_banner{
+	width:100%;
+	float:left;
+	background: #f9f9f9;
+}
+.order_finish_banner_yi{
+	width:100%;
+	float:left;
+	margin-top:0.5rem;
+	margin-bottom: 0.5rem;
+	background: #ffffff;
+}
+.order_finish_banner p{
+	font-size: 0.6rem;
+	color:#333333;
+	line-height: 0.8rem;
+}
+.order_finish_banner p img{
+	width:15rem;
+	height:8.67rem;
+	margin-top:0.5rem;
+}
+.order_finish_banner p:nth-child(2){
+	margin-top:0.3rem;
+}
+.order_finish_banner p:nth-child(3){
+	font-size:0.55rem;
+	color:#666666;
+}
+.xp-content02{
+	width: 100%;
+    float: left;
+	background: white;
+}
+.bianji-dizhi{
+	width:15rem;
+	float:left;
+	margin-top:0.25rem;
+	background: #ffffff;
+	margin-left: 0.5rem;
+}
+.tt09 span{
+	font-size:0.65rem ;
+	color:#333333;
+}
+.tt09 span:nth-child(2){
+	float:right;
+	margin-top: 0.3rem;
+}
+.your-adress02{
+	font-size:0.5rem ;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 0.8rem;
+	color:#666666;
+}
+.xp-content02 img{
+	float:left;
+	width:0.35rem;
+	height:0.57rem;
+	margin-top:1.1rem;
+}
+
+.order_finish_t{
+	width:100%;
+	float:left;
+	background: #ffffff;
+	border-top: 0.025rem solid #eeeeee;
+}
+.order_finish_t p{
+	font-size:0.55rem ;
+	line-height: 1.5rem;
+	color:#999999;
+}
+.order_finish_payment{
+	width:100%;
+	background: white;
+	float:left;
+}
+.order_finish_ding{
+	width: 100%;
+    float: left;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	background: #FFFFFF;
+}
+.order_finish_ding p{
+	width: 15rem;
+	float: left;
+	font-size:0.64rem;
+	line-height: 2rem;
+	color:#666666;
+	padding-left: 0.5rem;
+	border-bottom: 0.025rem solid #eee;
+}
+.order_finish_ding p span{
+	float:left;
+}
+.order_finish_ding p:nth-child(1){
+	padding-right:0.5rem;
+	line-height: 1.8rem;
+    border-bottom: 0.025rem solid #eeeeee;
+	font-size: 0.65rem;
+	color:#333333;
+}
+.order_finish_ding p img{
+	width:0.75rem;
+	height:0.72rem;
+	margin-top: 0.4rem;
+	float:left;
+}
+.order_finish_ding p:nth-child(8){
+	line-height: 2rem;
+	border-top: 0.025rem solid #eeeeee;
+	padding-right: 0.5rem;
+	font-size: 0.6rem;
+	color:#333333;
+}
+
+
+/*swiper框架CSS样式开始*/
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+
+/*seiper框架css样式结束*/
+
+.nav {
+	width: 16rem;
+	background: #f9f9f9;
+}
+
+.nav .nav_tw {
+	width: 16rem;
+	height: 1.8rem;
+	background: #fff;
+	float: left;
+	font-size: 0.75rem;
+	color: #000;
+}
+
+.nav .nav_twt {
+	width: 8rem;
+	height: 1.8rem;
+	margin-left: 0.5rem;
+	line-height: 1.8rem;
+	font-size: 0.65rem;
+	float: left;
+}
+
+.swiper-pagination {
+	position: relative !important;
+	width: 7rem !important;
+	height: 1.4rem !important;
+	float: right !important;
+	text-align: right !important;
+	padding-top: 1.2rem;
+	margin-right: 0.5rem;
+}
+
+.swiper-pagination-fraction {
+	bottom: 18px;
+	left: 0;
+	width: 100%;
+}
+
+
+/*.nav .nav_tw p{
+	float: left;
+	font-size: 0.75rem;
+	color: #000000;
+}*/
+
+.nav .nav_tw #nav_right {
+	float: right;
+	position: none;
+}
+
+.nav .nav_tw .nav_right span {
+	font-size: 0.9rem;
+}
+
+.nav ul {
+	background: #fff;
+	float: left;
+	width: 100%;
+}
+
+.nav ul li img {
+	width:12rem;
+	max-height:100%;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+
+/*頁面調轉的圖片css*/
+
+.outBox,
+.innerBox {
+	width: 100%;
+	height: 100%;
+}
+
+.outBox {
+	overflow: hidden;
+}
+
+.innerBox img {
+	width: 100%;
+	animation: changeBiger 2s linear forwards;
+	animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+	transform: scale(1.08);
+}
+
+@keyframes changeBiger {
+	0% {
+		transform: scale(0.8);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.innerBox {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+/*頁面調轉css結束*/
+
+.order_delivery-btn{
+	margin-left:5.55rem;
+	margin-right:5.55rem;
+    margin-bottom: 0.5rem;
+}
+.submit{
+	width:8rem;
+	height:2.13rem;
+	background: #9dac6f;
+	text-align: center;
+    color:#fff;
+    outline:none;
+    border: 0;
+    font-size:0.6rem;
+    border-radius:1rem;
+    cursor: pointer;
+	margin: 0 auto;
+	display: block;
+}
+
+/*订单详情页（订单完成） 内容结束*/
+.header p{
+	width: 100%!important;
+	text-align: center!important;
+	line-height: 1.1rem!important;
+}
+.header a:first-child{
+	position: absolute!important;
+	top: 0!important;
+	left: 0.5rem!important;
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0.6rem;
+}
+.header a:last-child{
+	position: absolute!important;
+	top: 0!important;
+	right: 0.5rem!important;
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0.6rem;
+}
+.header  b{
+	margin: 0!important;
+}
+.header b img{
+	width: 1rem!important;
+	height: 1rem!important;
+}
+.Orders_details{
+	background: white;
+}
+.flavors{
+	padding: 0.1rem 0.42rem;
+	float: left;
+	color: #999;
+	font-size: 0.62rem;
+	border: 0.025rem solid #9dac6f;
+	border-radius: 1rem;
+	margin-top: 0.35rem;
+	margin-left: 0.3rem;
+}
+.order_delivery_yi {
+	list-style: none;
+	width: 100%;
+	height: 19rem;
+	background: #ffffff;
+	float: left;
+	padding-bottom: 0.5rem;
+	/*margin: 0.5rem 0rem 0.5rem 0rem ;*/
+	display: flex;
+	justify-content:center;
+	font-size: 0.60rem;
+	text-align: center;
+	line-height: 1.2rem;
+	color: #999999;
+}
+.order_delivery_zhu {
+	position: relative;
+	width: 4.22rem;
+	margin:0 0.5rem;
+	margin-top: 1.5rem;
+	border: 0.025rem solid #eeeeee;
+}
+.order_delivery_zhu p {
+	height: 14.6rem;
+	font-size: 0.55rem;
+	color: #999999;
+	line-height: 1.3rem;
+	text-align: center;
+}
+.order_delivery_zhu p:nth-child(1) {
+	margin-top: 1.2rem;
+}
+.order_delivery_tu {
+	width: 4.5rem;
+	height: 0.82rem;
+	border: 0.025rem solid #eeeeee;
+	border_top:1px solid transparent;
+	padding-top: 0.8rem;
+	line-height: 0rem;
+	margin-left: 0.4rem;
+}
+.modele_boxs{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: white;
+	z-index: 99999;
+}

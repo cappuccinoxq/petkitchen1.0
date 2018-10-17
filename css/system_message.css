@@ -1,0 +1,123 @@
+body,html{
+    background: #f3f4f5;
+}
+.header{
+    width: 100%;
+    height: 2.3rem;
+    background: url("/static/images/tit_bg.png");
+    background-size: 100% 100%;
+}
+.header p{
+    width: 100%!important;
+    text-align: center!important;
+    line-height: 2.3rem!important;
+    font-size: 0.8rem;
+    color: #fff;
+}
+.header a:first-child{
+    position: absolute!important;
+    top: 0!important;
+    left: 0.5rem!important;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.6rem;
+}
+.header a:last-child{
+    position: absolute!important;
+    top: 0!important;
+    right: 0.5rem!important;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.6rem;
+}
+.header  b{
+    margin: 0!important;
+}
+.header b img{
+    width: 0.8rem!important;
+    height: 0.8rem!important;
+}
+#submit_btn{
+    color: #fff;
+    font-size: 0.75rem;
+}
+/*消息内容*/
+.information_one .time{
+    line-height: 1.6rem;
+    font-size: 0.59rem;
+    text-align: center;
+    color: #999999;
+    padding-top: 0.5rem;
+}
+.information_one .txt{
+    width: 14rem;
+    height: 6.2rem;
+    margin:auto;
+    background: white;
+}
+.information_one .txt_t{
+    width: 100%;
+    height: 1.6rem;
+    border-bottom: 0.05rem solid #efefef;
+    float: left;
+}
+.information_one .txt .txt_t_t{
+    display: block;
+    line-height: 1.6rem;
+    font-size: 0.7rem;
+    padding-left: 0.5rem;
+    color: #333333;
+    float: left;
+
+}
+.information_one .txt .txt_t_img{
+      float: right;
+    padding-right: 0.5rem;
+}
+.information_one .txt .txt_t_img img{
+    width: 0.5rem;
+    height: 0.5rem;
+    border: none;
+}
+.clr{
+    clear: both;
+}
+.information_one .txt_m{
+    width: 13rem;
+    height: 2rem;
+    float: left;
+    color: #999999;
+    font-size: 0.59rem;
+    padding: 0.5rem;
+    line-height: 0.8rem;
+    border-bottom: 1px solid #f1f2f4;
+    white-space:normal;
+    word-break:break-all;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.information_one .txt_p{
+    width: 100%;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    background: white;
+    float: left;
+}
+.information_one .txt_p span{
+    width: 6rem;
+    display: block;
+    font-size: 0.59rem;
+    float: left;
+    line-height: 0.8rem;
+    padding: 0.3rem 0rem 0.5rem 0.5rem;
+    color: #999999;
+}
+.information_one .txt_p img{
+    width: 0.5rem;
+    display: block;
+    color: #999999;
+    float: right;
+    margin-top: 0.4rem;   
+    margin-right: 0.5rem;
+}

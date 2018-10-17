@@ -1,0 +1,270 @@
+body {
+    background: #f9f9f9;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+a{text-decoration: none;}
+/*收货地址 头部开始*/
+.header {
+    width: 100%;
+    height: 2.3rem;
+    background: #ffffff;
+    background-image: url(/static/images/tit_bg.png);
+    background-size: 100% 100%;
+    border-bottom: 0.025rem solid #EEEEEE;
+}
+.header  span {
+    display: inline-block;
+    margin-top: 0.70rem;
+    margin-left: 0.5rem;
+}
+
+.header .back img {
+    width:1rem;
+    height:1rem;
+}
+.header .off_btn img {
+    width:1rem;
+    height:1rem;
+}
+.header  p{
+    width: 12rem;
+    height: 1.6rem;
+    text-align: center;
+    display: inline-block;
+    color: #333333;
+    padding-left: 0.5rem;
+}
+
+.header z{
+    font-size: 0.6rem;
+    color: #333333;
+    margin-top: 0.60rem !important;
+}
+.line{
+    width: 100%;
+    height: 0.2rem;
+    background-image: url(/static/images/line.png);
+    background-size: 100% 100%;
+}
+.clr{
+    clear: both;
+}
+/*商品信息*/
+.shop_info{
+    width: 100%;
+    height: 4.8rem;
+    background: white;
+    border-bottom: 2px solid #efefef;
+}
+.shop_info_left{
+    width: 6rem;
+    height: 4.8rem;
+    float: left;
+}
+.shop_info_left img{
+    height: 4rem;
+    width: auto;
+    margin: 0.4rem 0rem 0.4rem 1.97rem;
+}
+.shop_info_right{
+    height: 4rem;
+    width: 9rem;
+    float: left;
+    padding-left: 0.8rem;
+}
+.shop_info_right .txt{
+    display: block;
+    padding: 0.2rem 0rem 0rem 0rem;
+}
+.shop_info_right .txt:first-child{
+   margin-top: 0.4rem;
+}
+.shop_info_right .txt span{
+    color: #333333;
+    font-size: 0.69rem;
+}
+/*物流进度*/
+.address{
+    width: 100%;
+    height: 4rem;
+    background: white;
+}
+.address_top{
+    width: 100%;
+    float: left;
+    padding-top: 0.5rem;
+}
+.address_top span{
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    color: #999999;
+    font-size: 0.58rem;
+    float: left;
+    padding-top: 0.4rem;
+    text-align: center;
+    margin-right: 0.6rem;
+}
+.address_top .sp_fir{
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    color: #999999;
+    font-size: 0.58rem;
+    float: left;
+    padding-top: 0.4rem;
+    text-align: center;
+    margin-left: 1.94rem;
+
+}
+.address_top .choose{
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    color: #999999;
+    font-size: 0.58rem;
+    float: left;
+    padding-top: 0.4rem;
+    background:  url(/static/images/choose_x.png);
+    background-size: 100% 100%;
+    color: white;
+}
+.address_mid{
+    width: 100%;
+    float: left;
+}
+.address_mid .point{
+    display: block;
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #CCCCCC;
+    border-radius: 0.5rem;
+}
+.address_mid .point:first-child{
+    display: block;
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #CCCCCC;
+    border-radius: 0.5rem;
+    margin-left: 2.8rem;
+}
+.address_mid .choose_p{
+    display: block;
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #fc5b1f;
+    border-radius: 0.5rem;
+}
+.address_mid .lin{
+    display: block;
+    float: left;
+    width: 2.7rem;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 0.25rem;
+}
+.address_bot span{
+    color: #333333;
+    font-size: 0.58rem;
+}
+.address_bot .start{
+    padding-left: 1.97rem;
+    padding-right: 7.9rem;
+}
+.wuliu_detail{
+    width: 100%;
+    height: 20rem;
+    margin-top: 0.5rem;
+    background: white;
+}
+.wuliu_detail .tit{
+    width:100%;
+    line-height: 1.6rem;
+    background: white;
+    border-bottom:1px solid #EFEFEF;
+    padding-left: 0.8rem;
+    font-size: 0.64rem;
+    color: #666666;
+}
+.wuliu_con_left{
+    float: left;
+    margin-top: 0.5rem;
+}
+.wuliu_con_left .point{
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #CCCCCC;
+    border-radius: 0.5rem;
+}
+.wuliu_con_left .choose_p{
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #fc5b1f;
+    border-radius: 0.5rem;
+}
+.wuliu_con_left .lin{
+    display: block;
+    width: 1px;
+    height: 2.8rem;
+    background: #CCCCCC;
+    margin-left: 0.25rem;
+}
+.wuliu_con_mid{
+    float: left;
+}
+.wuliu_con_mid p{
+    margin: 0.5rem 0.5rem 2.3rem 0.8rem;
+}
+.wuliu_con_mid p:first-child{
+    margin-top: 0.5rem;
+}
+.wuliu_con_mid p span{
+    display: block;
+    margin-top: 0rem;
+}
+.wuliu_con_mid p .mon{
+    color: #666666;
+    font-size: 0.53rem;
+}
+.wuliu_con_mid p .hour{
+    color: #999999;
+    font-size: 0.48rem;
+}
+.wuliu_con_right{
+    width: 12rem;
+    float: left;
+    background: white;
+}
+.wuliu_con_right p{
+    margin: 0.5rem 0.5rem 1.2rem 0.8rem;
+    height: 2rem;
+}
+wuliu_con_right p span{
+    display: block;
+    line-height: 0.8rem;
+}
+.wuliu_con_right p .txt_top{
+    display: block;
+    color: #333333;
+    font-size: 0.64rem;
+    line-height: 0.8rem;
+}
+.wuliu_con_right p .txt_choose{
+    display: block;
+    color: #ff0000 !important;
+    font-size: 0.64rem;
+    line-height: 0.8rem;
+}
+.wuliu_con_right p .txt_bot{
+    display: block;
+    color: #999999;
+    font-size: 0.53rem;
+    line-height: 0.8rem;
+}

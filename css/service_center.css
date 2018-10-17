@@ -1,0 +1,103 @@
+body,html{
+    background: #f3f4f5;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+.header{
+    background: url("/static/images/tit_bg.png");
+    background-size: 100% 100%;
+}
+.header p{
+    width: 100%!important;
+    text-align: center!important;
+    line-height: 2.3rem!important;
+    font-size: 0.8rem;
+    color: #fff;
+}
+.header a:first-child{
+    position: absolute!important;
+    top: 0!important;
+    left: 0.5rem!important;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.6rem;
+    text-decoration: none;
+    color: #333333;
+}
+.header a:last-child{
+    position: absolute!important;
+    top: 0!important;
+    right: 0.5rem!important;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.6rem;
+}
+.header  b{
+    margin: 0!important;
+}
+.header b img{
+    width: 0.8rem!important;
+    height: 0.8rem!important;  
+}
+#submit_btn{
+    color: #fff;
+    font-size: 0.75rem;
+}
+/*内容*/
+.content_top{
+    width: 100%;
+    height: 4.26rem;
+    background: white;
+}
+.content_top .img{
+    width: 1.5rem;
+    margin: auto;
+}
+.content_top .img img{
+    width: 1.5rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.content_top .txt{
+    width: 100%;
+   text-align: center;
+    font-size: 0.64rem;
+    color: #333333;
+}
+.que{
+    width: 100%;
+    line-height: 1.86rem;
+    color: #333333;
+    font-size: 0.64rem;
+    padding-left: 0.5rem;
+}
+.content_bot p{
+    width: 100%;
+    height: 1.86rem;
+    border: 1px solid #f1f2f4;
+    background: white;
+}
+.content_bot .sp_fir{
+    float: left;
+}
+.content_bot .sp_fir img{
+    width: 0.6rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+}
+.content_bot .sp_fir{
+    color: #333333;
+    font-size: 0.64rem;
+}
+.content_bot .sp_sec{
+    float: right;
+}
+.content_bot .sp_sec img{
+    width: 0.5rem;
+   padding-right: 0.5rem;
+    padding-top: 0.5rem;
+}

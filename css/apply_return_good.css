@@ -1,0 +1,217 @@
+body {
+    background: #f9f9f9;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+a{text-decoration: none;}
+/*收货地址 头部开始*/
+.header {
+    width: 100%;
+    height: 2.3rem;
+    background: #ffffff;
+    background-image: url(/static/images/tit_bg.png);
+    background-size: 100% 100%;
+    border-bottom: 0.025rem solid #EEEEEE;
+}
+.header  span {
+    display: inline-block;
+    margin-top: 0.70rem;
+    margin-left: 0.5rem;
+}
+
+.header .back img {
+    width:1rem;
+    height:1rem;
+}
+.header .off_btn img {
+    width:1rem;
+    height:1rem;
+}
+.header  p{
+    width: 12rem;
+    height: 1.6rem;
+    text-align: center;
+    display: inline-block;
+    color: #333333;
+    padding-left: 0.5rem;
+}
+
+.header z{
+    font-size: 0.6rem;
+    color: #333333;
+    margin-top: 0.70rem;
+}
+.line{
+    width: 100%;
+    height: 0.2rem;
+    background-image: url(/static/images/line.png);
+    background-size: 100% 100%;
+}
+.clr{
+    clear: both;
+}
+/*问题描述*/
+.return_reason{
+    position: relative;
+}
+.lolo{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 2.35rem;
+    right: 1rem;
+}
+.tit{
+    color: #666666;
+    font-size: 0.64rem;
+    line-height: 1.5rem;
+    padding-left: 0.5rem;
+}
+.choose{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    width:15rem;
+    margin-left: 0.5rem;
+    height: 2.1rem;
+    border: 0.05rem solid transparent;
+    color: #666666;
+    background: white;
+    font-size: 0.64rem;
+}
+.choose option{
+    width:15.4rem;
+    border:0.05rem solid white;
+    color: #999999;
+    background: white;
+}  
+/*问题描述*/
+.question_des textarea{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    outline: none;
+    resize:none;
+    width:14rem;
+    height: 6.24rem;
+    background: white;  
+    margin-left: 0.5rem;
+    overflow: auto;
+    border: 0.1rem solid #f9f9f9;
+    padding: 0.5rem;
+    color: #666666;
+    font-size: 0.64rem;
+}
+/*上传照片*/
+.modifyimgss{
+    width: 4.26rem;
+    height: 3.73rem;
+    float: left;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    display: -o-box;
+    -o-box-align: center;
+    -o-box-pack: center;
+    display: -ms-box;
+    -ms-box-align: center;
+    -ms-box-pack: center;
+}
+.img_j{
+    width: 4.26rem;
+    height: 3.73rem;
+    margin-left: 0.5rem;
+    margin-right: 0.3rem;
+}
+.contect{
+    float: left;
+    margin-top: 2rem;
+}
+.contect .con{
+    width:15rem;
+    height: 1.86rem;
+    background: white;
+    color: #666666;
+    font-size: 0.58rem;
+    margin-left: 0.5rem;
+    border-bottom: 0.05rem solid #f9f9f9;
+    line-height: 1.86rem;
+}
+.contect .con label{
+    display: inline-block;
+    float: left;
+    width: 3rem;
+    height: 1.86rem;
+    color: #666666;
+    font-size: 0.58rem;
+    border-bottom: 1px solid #f9f9f9;
+    line-height: 1.86rem;
+    padding-left: 0.5rem;
+}
+.contect .con input{
+    display: inline-block;
+    float: left;
+    width: 9rem;
+    height: 1.86rem;
+    color: #666666;
+    font-size: 0.58rem;
+    line-height: 1.86rem;
+    padding-left: 0.5rem;
+    background: rgba(0,0,0,0);
+}
+.btn button{
+    width: 10.6rem;
+    height: 2.13rem;
+    background: #9DAD6C;
+    color: white;
+    margin-left: 2.3rem;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+/*.promptbox{*/
+    /*display: none;*/
+    /*position: fixed;*/
+    /*width: 12rem;*/
+    /*height: 2.5rem;*/
+    /*top: 50%;*/
+    /*left: 30%;*/
+    /*margin-left: -50px;*/
+    /*margin-top: -25px;*/
+    /*text-align: center;*/
+    /*line-height: 50px;*/
+    /*color: #ffffff;*/
+    /*border-radius: 15px;*/
+    /*font-size: 0.8rem;*/
+    /*background: #7d7d7d;*/
+    /*z-index: 999;*/
+/*}*/
+.uploadimgs{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    float: left;
+    top: 1rem;
+    left: 0.5rem;
+    opacity: 0;
+    z-index: 99;
+}
+.showimgalls{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.upimgsconts{
+    width: 4.26rem;
+    height: 3.73rem;
+    margin-left: 0.5rem;
+    margin-right: 0.3rem;
+    float: left;
+    position: relative;
+}

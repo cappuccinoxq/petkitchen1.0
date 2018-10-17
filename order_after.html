@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>订单详情(上门后)</title>
+    <link rel="stylesheet" href="__CSS__/order_after.css?v={$rand}" />
+    <link rel="stylesheet" href="__CSS__/pop_zhi.css" />
+    <link rel="stylesheet" href="__CSS__/reset.css" />
+    <script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="__JS__/fastclick.js"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<div class="promptbox"></div>
+<!--加载页-->
+<div class="container_border">
+    <div class="load">
+        <img src="__IMAGE__/load.png" class="img"/>
+        <span>加载中...</span>
+    </div>
+</div>
+<div class="header">
+    <span class="back_btn"><img src="__IMAGE__/register_01.png?v={$rand}"></span>
+    <p>填写订单</p>
+    <a href="/index" style="float: right;margin-right: 0.5rem;"><b style="margin-top: 0.6rem"><img src="__IMAGE__/right_off.png?v={$rand}" style="width: 0.9rem;height: 0.8rem;"></b></a>
+</div>
+<div class="order_choose">
+
+</div>
+<div class="order_peifang" style="height: 100%;">
+    <p><span class="txt">厨房的专属配方</span><span class="time"></span></p>
+</div>
+<!--地址选择-->
+<div class="xp-content02" id="select_address">
+    <div class="bianji-dizhi" id="bianji-dizhiss">
+    </div>
+    <div class="dizhi_null">
+        <div class="null_add"><img class="null_img" src="__IMAGE__/express.png"/></div>
+        <div class="tishi_text">请选择配送地址</div>
+        <div class="jiantou"><img src="__IMAGE__/infor_before_01.png"/></div>
+    </div>
+</div>
+<div class="order_coupon">
+    <span class="txt">优惠券</span><span class="num"></span><img src="__IMAGE__/go.png?v={$rand}">
+</div>
+<div class="order_after_payment" id="order_after_payment" style="height: 100%;">
+    <p>
+        <span class="txt">专属定制配方：</span>
+        <span class="money" id="exclusive"></span>
+    </p>
+    <p>
+        <span class="txt">鲜食产品：</span>
+        <span class="money" id="freshfood"></span>
+    </p>
+    <p>
+        <span class="txt">优惠券：</span>
+        <span class="money" id="coupon"></span>
+    </p>
+    <p>
+        <span class="txt">应付金额：</span>
+        <span class="total" id="Totalprice"></span>
+        <span id="btn" class="order_after_zhi" style="line-height: 2.34rem;">提交订单</span>
+    </p>
+</div>
+<!--二次弹框-->
+<div class="bgPop"></div>
+<div class="pop_zhi_z">
+    <div class="pop_zhi" id=pop_zhi>
+        <ul>
+            <li class="show"><img src="__IMAGE__/pop_zhi_02.png"><span>微信支付</span></li>
+        </ul>
+    </div>
+    <div class="pop_zhi_he">
+        <p>合计：￥<span class="total"></span></p>
+    </div>
+    <div class="pop_zhi_btn">
+        <button class="submit" id="pay" type="submit">确认支付</button>
+        <button class="submit_qu" type="submit">取消支付</button>
+    </div>
+</div>
+<div class="couponconts">
+    <!--空优惠券提示-->
+    <div class="null_bg" style="top: 2.2rem;">
+        <img src="__IMAGE__/null_logo.png">
+        <p class="null_text">您当前还没有优惠券哦~快去领取吧~</p>
+    </div>
+    <!--优惠券的头部-->
+    <!--<div class="header" style="padding: 0;height: 2.2rem;">-->
+        <!--<a style="position: absolute;top: 0.6rem;left: 0.5rem;" class="guanbiannius"><b style="margin: 0;"><img src="__IMAGE__/select_order_02.png"></b></a>-->
+    <!--</div>-->
+    <div class="cup_list">
+        <!--选中-->
+        <ul class="cup_list_n">
+            <div class="donotuses">
+                <span>不使用优惠券</span>
+                <img src="/static/images/choose_no.png" alt="">
+            </div>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="__JS__/order_after.js?v={$rand}"></script>
+</body>
+</html>

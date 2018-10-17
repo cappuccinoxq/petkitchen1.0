@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>消息中心</title>
+    <link rel="stylesheet" href="__CSS__/information.css?v={$rand}" />
+    <link rel="stylesheet" href="__CSS__/reset.css" />
+    <script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="__JS__/fastclick.js"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<div class="promptbox"></div>
+<!--加载页-->
+<div class="container_border">
+    <div class="load">
+        <img src="__IMAGE__/load.png" class="img"/>
+        <span>加载中...</span>
+    </div>
+</div>
+<!--头部-->
+<div class="header">
+    <a href="/view/member"><span><img src="__IMAGE__/register_01.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;"></span></a>
+    <p style="font-size: 0.8rem;color: white;">消息中心</p>
+</div>
+<div class="clr"></div>
+<div class="infor_content">
+    <div class="infor_content_list">
+        <p class="img_p"><img src="__IMAGE__/service.png?v={$rand}"></p>
+        <p class="text_p">
+            <span class="text_p_t" style="color: #999999">在线客服</span>
+            <span class="text_p_b">查看与客服的沟通记录</span>
+        </p>
+        <p class="img_g"><img class="img_gg" style="width: 0.6rem" src="__IMAGE__/go.png?v={$rand}"></p>
+    </div>
+    <div class="infor_content_list">
+        <p class="img_p"><img src="__IMAGE__/ac_infor.png?v={$rand}"></p>
+        <p class="text_p">
+            <span class="text_p_t" style="color: #999999">活动消息</span>
+            <span class="text_p_b">你的地球日优惠福利到啦</span>
+        </p>
+        <p class="img_g"><img class="img_gg" src="__IMAGE__/go.png?v={$rand}"></p>
+    </div>
+    <!--<a href="/view/service_message">-->
+    <div class="infor_content_list">
+        <p class="img_p"><img src="__IMAGE__/infor.png?v={$rand}"></p>
+        <p class="text_p">
+            <span class="text_p_t" style="color: #999999">服务消息</span>
+            <span class="text_p_b">您有一张优惠券到账啦</span>
+        </p>
+        <p class="img_g"><img class="img_gg" src="__IMAGE__/go.png?v={$rand}"></p>
+    </div>
+    <!--</a>-->
+    <a href="/view/system_message">
+    <div class="infor_content_list">
+        <p class="img_p"><img src="__IMAGE__/infor_x.png?v={$rand}"></p>
+        <p class="text_p">
+            <span class="text_p_t">系统消息</span>
+            <span class="text_p_b">秒杀专区暂时下线公告</span>
+        </p>
+        <p class="img_g"><span class="num">2</span><img class="img_gg" src="__IMAGE__/go.png?v={$rand}"></p>
+    </div>
+    </a>
+</div>
+</body>
+</html>

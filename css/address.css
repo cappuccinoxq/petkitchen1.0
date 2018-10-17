@@ -1,0 +1,306 @@
+body {
+	background: #f9f9f9;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	position: relative;
+}
+
+a{text-decoration: none;}
+/*收货地址 头部开始*/
+.member_header{
+	width: 100%;
+	height: 2.3rem;
+	float: left;
+	background-image: url(/static/images/tit_bg.png);
+	position: relative;
+}
+.red{
+	width: 0.5rem !important;
+	height: 0.5rem !important;
+	position: absolute;
+	top: -0.1rem;
+	left: 1rem;
+}
+.member_header img {
+	width: 0.5rem;
+	height: 0.5rem;
+	float: right;
+	margin-top:0.8rem;  
+	margin-right:0.5rem;
+}
+.member_header p{
+	width: 12rem;
+	float: left;
+	text-align: center;
+	margin-top:0.6rem;
+}
+.member_logo p{
+	padding-bottom:0.5rem;
+	font-size: 0.75rem;
+	text-align: center;
+	color:#333333;
+}
+.member_logo p img{
+	width:4.85rem;
+	height:4.775rem;
+	margin-top: 0.1rem;
+}
+
+.header z{
+	font-size: 0.6rem;
+	color: #333333;
+	margin-top: 0.70rem;
+}
+.line{
+	width: 100%;
+	height: 0.2rem;
+	background-image: url(/static/images/line.png);
+	background-size: 100% 100%;
+}
+.clr{
+	clear: both;
+}
+/*收货地址 头部结束*/
+/*收货地址 内容开始*/
+
+.xp-content02{
+	margin-top:0.5rem;
+}
+.bianji-dizhi_moren{
+	margin-top:0.25rem;
+	background: #ffffff;
+}
+.bianji-dizhi{
+	margin-top:0.25rem;
+	background: #ffffff;
+}
+.bianji-dizhi_fei{
+	margin-top:0.25rem;
+}
+.clickshouhupod{
+	margin-top: 0.2rem;
+	/*border: 1px solid gray;*/
+	background: white;
+}
+.tt09{
+	padding-left:0.55rem;
+	padding-right:0.55rem;
+}
+.tt09 span{
+	font-size:0.65rem ;
+	color:#333333;
+}
+.tt09 span:nth-child(2){
+	margin-top: 0.3rem;
+}
+.your-adress02{
+	width: 15rem;
+	padding-left:0.55rem;
+	padding-right:0.55rem;
+	font-size:0.5rem ;
+	line-height:1.75rem;
+	color:#666666;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.bianji-shanchu{
+	height:1.65rem;
+	border-top:0.025rem solid #eeeeee;
+	background: #FFFFFF;
+}
+.bjsc-lf span{
+	float: left;
+}
+.bjsc-lf > span:last-child{
+	line-height:1.8rem;
+}
+.zdy-icon-radio{
+	display:block;
+	height:1.65rem;
+	padding-left: 1.6rem;
+	line-height:1.65rem;
+	float: left;
+	font-size: 0.6rem;
+	background:url(/static/images/register_04.png) no-repeat 0.55rem 0.5rem;
+	background-size: 0.825rem 0.825rem;
+}
+.zdy-icon-radio_moren{
+	display:block;
+	height:1.65rem;
+	padding-left: 1.6rem;
+	line-height:1.65rem;
+	float: left;
+	font-size: 0.6rem;
+	background:url(/static/images/register_04.png) no-repeat 0.55rem 0.5rem;
+	background-size: 0.825rem 0.825rem;
+}
+.bjsc-rt{
+	float: right;
+}
+.bjsc-rt p {
+	width: 3.05rem;
+	height: 0.925rem;
+	float: right;
+	line-height: 0.925rem;
+	font-size: 0.6rem;
+	text-align: center;
+	color: #999999;
+	margin-top: 0.35rem;
+	margin-right: 0.55rem;
+	border: 0.025rem solid #999999;
+	border-radius: 0.2rem;
+}
+
+.zdy-icon-radio_moren.active{
+	background: url(/static/images/address_01.png) no-repeat 0.55rem 0.5rem;
+	background-size: 0.825rem 0.825rem;
+	color: #333333;
+	font-size: 0.6rem;
+}
+
+/*收货地址 内容结束*/
+.login-btn{
+	padding-left:2.37rem;
+	padding-right:2.37rem;
+	margin-top:2.3rem;
+}
+.login-btn .submit{
+	width:11.25rem;
+	height:2.13rem;
+	background: #9DAD6C;
+	text-align: center;
+	color:#fff;
+	outline:none;
+	border: 0;
+	font-size:0.64rem;
+	border-radius:1rem;
+	cursor: pointer;
+}
+.login-btn a{
+	color:#fff;
+}
+
+.bjsc-rt p a{
+	color: #999999;
+}
+.addre_name{
+	margin-right: 0.5rem;
+}
+.mr{
+	width: 1rem;
+	height: auto;
+}
+#demo3{
+	 width: 3.05rem;
+	 height: 0.925rem;
+	 display: block;
+	 line-height: 0.925rem;
+	 font-size: 0.6rem;
+	 text-align: center;
+	 color: #999999;
+	 margin-top: 0.35rem;
+	 margin-right: 0.55rem;
+	 float: left;
+
+ }
+#demo3 img{
+	width: 0.5rem;
+	height: auto;
+	padding-right: 0.2rem;
+}
+#demo4{
+	width: 3.05rem;
+	height: 0.925rem;
+	display: block;
+	line-height: 0.925rem;
+	font-size: 0.6rem;
+	text-align: center;
+	color: #999999;
+	margin-top: 0.35rem;
+	margin-right: 0.55rem;
+	float: left;
+
+}
+#demo4 img{
+	width: 0.6rem;
+	height: auto;
+	padding-right: 0.2rem;
+}
+.null_bg{
+	background: #F5F5F5;
+	height: 30rem;
+	display: none;
+}
+.null_bg img{
+	width: 6rem !important;
+	height: 4.5rem !important;
+}
+.null_text{
+	color: #BBBBBB;
+	text-align: center;
+	font-size: 0.625rem;
+}
+.null_bg button{
+	width:11.25rem;
+	height:2.13rem;
+	background: #9DAD6C;
+	text-align: center;
+	color:#fff;
+	outline:none;
+	border: 0;
+	font-size:0.64rem;
+	border-radius:1rem;
+	cursor: pointer;
+	margin-top: 13rem;
+	margin-left: 2.37rem;  
+}
+.greybg02{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	z-index: 999;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.dele_btn{
+	width: 12rem;
+	height: 5.5rem;
+	background: white;
+	border-radius: 0.5rem;
+	margin: auto;
+	margin-top: 55%;
+}
+.dele_btn_top{
+	width: 100%;
+	height: 3.5rem;
+	text-align: center;
+	line-height: 3.5rem;
+	font-size: 0.8rem;
+	color: #696969;
+}
+.dele_btn_bot{
+	width: 100%;
+	height: 2rem;
+	font-size: 0.69rem;
+	border-top: 1px solid gainsboro;
+}
+.dele_btn_bot input{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	width: 48.5%;
+	height: 97%;
+	background: white;
+}
+.dele_btn_bot input:nth-child(1){
+	border-right: 1px solid gainsboro;
+	border-bottom-left-radius: 0.5rem;
+	color: #ff0000;
+	font-size: 0.74rem;
+}
+.dele_btn_bot input:nth-child(2){
+	border-bottom-right-radius: 0.5rem;
+	font-size: 0.74rem;
+}

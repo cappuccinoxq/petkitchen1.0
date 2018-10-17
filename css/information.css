@@ -1,0 +1,103 @@
+body{
+    background: #F3F4F6;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+/*头部开始*/
+.header {
+    width: 100%;
+    height: 2.3rem;
+    border-bottom: 0.025rem solid #EEEEEE;
+    background-image: url(/static/images/tit_bg.png);
+    background-size: 100% 100%;
+
+}
+
+.header span {
+    display: inline-block;
+    margin-top: 0.70rem;
+    margin-left: 0.5rem;
+}
+
+.header span img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.header p {
+    width: 12.5rem;
+    height: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    color: #333333;
+    margin-top: 0.60rem;
+}
+
+.header b {
+    display: inline-block;
+    margin-top: 0.70rem;
+}
+
+.header b img {
+    width: 1rem;
+    height: 1rem;
+}
+.clr{
+    clear: both;
+}
+/*内容*/
+.infor_content_list{
+    width: 100%;
+    height: 3.17rem;
+    background: white;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+.infor_content_list .img_p{
+    float: left;
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+}
+.infor_content_list .img_p img{
+    width: 1.17rem;
+    width: 1.17rem;
+}
+.infor_content_list .text_p{
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.66rem;
+}
+.infor_content_list .text_p .text_p_t{
+    display: block;
+    color: #333333;
+    font-size: 0.69rem;
+    margin-bottom:0.66rem;
+}
+.infor_content_list .text_p .text_p_b{
+    display: block;
+    color: #999999;
+    font-size: 0.58rem;
+}
+.infor_content_list .img_g{
+    float: right;
+    margin-right: 0.8rem;
+    margin-top: 1rem;
+}
+.infor_content_list .img_g .img_gg{
+    width: 0.56rem;
+    height: 0.74rem;
+    float: left;
+}
+.infor_content_list .img_g .num{
+    display: block;
+    float: left;
+    width: 0.64rem;
+    height: 0.64rem;
+    background: red;
+    border-radius: 0.64rem;
+    color: white;
+    font-size: 0.48rem;
+    text-align: center;
+    line-height: 0.64rem;    
+}

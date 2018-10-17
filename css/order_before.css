@@ -1,0 +1,269 @@
+body {
+	background: #f9f9f9;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/*上门详情  头部开始*/
+
+.header {
+	width: 100%;
+	height: 2.3rem;
+	background: #ffffff;
+	border-bottom: 0.025rem solid #EEEEEE;
+	background-image: url(/static/images/tit_bg.png);
+	background-size: 100% 100%;
+}
+
+.header span {
+	display: inline-block;
+	margin-top: 0.70rem;
+	margin-left: 0.5rem;
+}
+
+.header span img {
+	width: 0.8rem;
+	height: 0.8rem;
+}
+
+.header p {
+	width: 12.5rem;
+	height: 1.6rem;
+	text-align: center;
+	display: inline-block;
+	font-size: 0.8rem;
+	color: #fff;
+}
+
+.header b {
+	display: inline-block;
+	margin-top: 0.60rem !important;
+}
+
+.header b img {
+	width: 0.8rem;
+	height: 0.8rem;
+}
+
+
+/*上门详情  头部结束*/
+
+
+/*上门详情  倒计时开始*/
+
+.alert-box {
+	display: none;
+	margin: 10px auto 0;
+	padding-top: 18px;
+	padding-bottom: 87px;
+	background: #ffffff;
+	color: #FFF;
+	text-align: center;
+}
+
+.alert-box p {
+	margin: 0;
+}
+
+.alert-sec-circle {
+	stroke-dashoffset: 0;
+	stroke-dasharray: 735;
+	transition: stroke-dashoffset 1s linear;
+}
+
+.alert-sec-text {
+	margin-top: -100px;
+	color: #000;
+	font-size: 26px;
+}
+
+.alert-sec-unit {
+	font-size: 15px
+}
+
+.alert-head {
+	color: #242424;
+	font-size: 28px
+}
+
+.alert-concent {
+	margin: 25px 0 14px;
+	color: #7B7B7B;
+	font-size: 18px
+}
+
+.alert-concent p {
+	line-height: 27px
+}
+
+.alert-btn {
+	display: block;
+	border-radius: 10px;
+	background-color: #4AB0F7;
+	height: 55px;
+	line-height: 55px;
+	width: 286px;
+	color: #FFF;
+	font-size: 20px;
+	text-decoration: none;
+	letter-spacing: 2px
+}
+
+.alert-btn:hover {
+	background-color: #6BC2FF
+}
+
+.alert-footer {
+	margin: 0 auto;
+	height: 42px;
+	width: 120px
+}
+
+.alert-footer-icon {
+	float: left
+}
+
+.alert-footer-text {
+	float: left;
+	border-left: 2px solid #EEE;
+	padding: 3px 0 0 5px;
+	height: 40px;
+	color: #0B85CC;
+	font-size: 12px;
+	text-align: left
+}
+
+.alert-footer-text p {
+	color: #7A7A7A;
+	font-size: 22px;
+	line-height: 18px;
+}
+
+/*上门详情  倒计时结束*/
+
+/*上门详情  信息开始*/
+
+.order_before_message {
+	width: 100%;
+	margin-top: 0.5rem;
+	background: #ffffff;
+}
+
+.order_before_message p {
+	width: 15rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	font-size: 0.55rem;
+	line-height: 1.8rem;
+	color: #666666;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+
+}
+.order_before_message p span {
+	margin-left: 1.3rem;
+	font-size: 0.55rem;
+	color: #666666;
+}
+
+.order_before_message p:nth-child(3) {
+	border-top: 0.025rem solid #eeeeee;
+	font-size: 0.55rem;
+	color: #999999;
+}
+
+
+/*上门详情  信息结束*/
+
+
+/*上门详情  宠物信息开始*/
+
+.order_before_type {
+	width: 100%;
+	float: left;
+	margin-top: 0.5rem;
+	background: #ffffff;
+}
+
+.order_before_type p {
+	font-size: 0.75rem;
+	color: #333333;
+	margin: 0.5rem 0rem  0rem 0.5rem;
+	line-height: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.order_before_type ul {
+	width: 100%;
+	float: left;
+	margin: 0.8rem 0rem 0.4rem 0rem;
+}
+
+.order_before_type ul li {
+	width:3rem;
+	font-size: 0.65rem;
+	color: #666666;
+	float: left;
+	padding-left: 0.5rem;
+	line-height: 2.5rem;
+}
+
+.order_before_type ul li p img {
+	width: 2.67rem;
+}
+
+.order_before_type ul li p {
+	width: 3.2rem;
+	font-size: 0.6rem;
+	color: #666666;
+	line-height: 1rem;
+	text-align: center;
+}
+
+.prompt_text{
+	text-align: center;
+	font-size: 0.75rem;
+	color: #333333;
+	padding: 2rem;
+	line-height: 1.2rem;
+	background: white;
+}
+#btn{
+	width: 8rem;
+	height: 2rem;
+	border-radius: 1rem;
+	border: 1px solid transparent;
+	color: white ;
+	margin: 1rem 0rem 1rem 4rem;
+	outline: none;
+	background: #c9c9c9;
+}
+
+.prompt_text img{
+	display: block;
+	width: 6rem;
+	margin: auto;
+}
+/*上门详情  宠物信息结束*/
+.kuang{
+	width: 3.2rem;
+	height: 3.2rem;
+	border: 0.025rem solid #9DAD6C;
+	border-radius: 3.2rem;
+	background: #9DAD6C;
+}
+.kuang img{
+	margin-top: 0.5rem;
+}
+.kuang_d{
+	width: 3.2rem;
+	height: 3.2rem;
+	border: 0.025rem solid #9DAD6C;
+	border-radius: 3.2rem;
+	background: #9DAD6C;
+}
+.kuang_d img{
+	margin-top: 0.2rem;
+}

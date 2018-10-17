@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>个人信息</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="壹爱厨房">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="__CSS__/reset.css?v={$rand}" />
+    <link rel="stylesheet" href="__CSS__/personalinformation.css?v={$rand}" />
+    <link rel="stylesheet" href="__CSS__/mobiscroll.css?v={$rand}" />
+    <script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="__JS__/fastclick.js"></script>
+    <script  type="text/javascript"  src="__JS__/iscroll_probe.js"></script>
+    <script type="text/javascript" src="__JS__/mobiscroll.js"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<!--提示框-->
+<div class="promptbox"></div>
+<!--添加新地址的头部-->
+<div class="header" style="padding: 0;height: 2.2rem;">
+    <a href=/view/my_person><b><img src="__IMAGE__/register_01.png" style="margin-top: 0.2rem;"></b></a>
+    <p style="margin: 0;line-height: 2.3rem;font-size: 0.8rem;color: white;">个人信息</p>
+    <a style="width: 3rem;font-size: 0.8rem;" id="saveinformation"><span id="submit_btn" class="baocun" style="margin-top: 0.1rem;float: right;font-size: 0.8rem;color: white;">保存</span></a>
+</div>
+<!--个人信息-->
+<div id="add_informatian">
+    <form action="/upload" enctype="multipart/form-data" method="post" id="forms" target="target">
+    <div class="headportrait" style="height: 6.45rem;">   
+        <div class="modifyimg">
+            <p>点击修改头像</p>
+            <input type="file" id="uploadImg" name="image"/>
+            <input type="submit" value="提交" style="display: none;left: 80%;" class="submits">
+        </div>
+    </div>
+    </form>
+    <iframe name="target" id="target" style="display: none;"></iframe>
+    <ul class="essential_information"> 
+        <li class="user_ids">
+            <span style="margin-right: 1rem">用户ID</span>
+        </li>
+        <li class="usernameconts">
+            <span>昵称</span>
+        </li>
+        <li class="sex_content">
+            <span>性别</span>
+            <div class="Sex_Icon sex_mans" value="1"></div>
+            <div class="Sex_selection">男</div>
+            <div class="Sex_Icon sex_nvs" value="0"></div>
+            <div class="Sex_selection">女</div>
+        </li>
+    </ul>
+</div>
+
+<!--所在区域-->
+<div class="added_map">
+</div>
+<div class="added_white" style="padding: 0;">
+    <p style="position: relative;">所在地区<img src="__IMAGE__/guanbichahaoe.png" alt="" class="suozaidiqu"></p>
+    <div style="float: left;padding:0 0.66rem;width: 100%;">
+        <div class="added_choosefistrt  city">
+        </div>
+        <div class="added_choosenth city" style="display: none;"></div>
+        <div class="added_choosethree  city" style="display: none;"></div>
+        <div class="added_choose">
+            <span class="added_teshu">请选择</span>
+        </div>
+        <div class="province_warper">
+            <div class="province_scroll">
+                <ul class="province_class" id="province_class">
+                </ul>
+            </div>
+        </div>
+        <div class="municipal_warper">
+            <div class="municipal_scroll">
+                <ul class="municipal_class" id="municipal_class">
+                </ul>
+            </div>
+        </div>
+        <div class="county_warper">
+            <div class="county_scroll">
+                <ul class="county_class" id="county_class">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--加载页-->
+<div class="container_border">
+    <div class="load">
+        <img src="__IMAGE__/load.png" class="img"/>
+        <span>加载中...</span>
+    </div>
+</div>
+<script type="text/javascript" src="__JS__/personalinformation.js?v={$rand}"></script>
+</body>
+</html>

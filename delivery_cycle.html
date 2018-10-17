@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>配送周期</title>
+	<link rel="stylesheet" href="__CSS__/delivery_cycle.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/reset.css" />
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+</head>
+<body>
+	<div class="header">
+		<a href="javascript:history.back(-1)"><b><img src="__IMAGE__/register_01.png?v={$rand}"></b></a>
+		<p>配送周期</p>
+		<a href="index"><b><img src="__IMAGE__/select_order_02.png?v={$rand}"></b></a>
+	</div>
+	<div class="delivery_cycle_nv">
+		<p><img src="__IMAGE__/delivery_cycle_01.png?v={$rand}"></p>
+		<p>产品下单后，需要2-3个工作日进行制作生产。起送 日期从下单后三个工作日开始计算，如果需要修改配送 时间，请联系客服电话<a>010-57114377</a>
+		</p>
+	</div>
+	<!--配送时间-->
+	<div class="delivery_cycle_zt" id="delivery_cycle_zt">
+		<div class="delivery_cycle_zp">
+			<ul class="deliveycyclesds">
+				<li>
+					<p style="border-bottom: 0">配送时间</p>
+					<p style="border-bottom: 0">配送口味</p>
+					<p style="border-bottom: 0">配送状态</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="look_order_address">
+		<div class="look_order_address_pai">
+			<ul id="receiving_address">
+
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="__JS__/common.js"></script>
+	<script type="text/javascript" src="__JS__/delivery_cycle.js?v={$rand}"></script>
+</body>
+
+</html>

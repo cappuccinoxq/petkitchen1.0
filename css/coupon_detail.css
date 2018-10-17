@@ -1,0 +1,92 @@
+body,html{
+    background: #f3f4f5;
+}
+.header{
+    background: url("/static/images/tit_bg.png");
+    background-size: 100% 100%;
+}
+.header p{
+    width: 100%!important;
+    text-align: center!important;
+    line-height: 2.3rem!important;
+    font-size: 0.8rem;
+    color: #fff;
+}
+.header a:first-child{
+    position: absolute!important;
+    top: 0!important;
+    left: 0.5rem!important;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.6rem;
+}
+.header a:last-child{
+    position: absolute!important;
+    top: 0!important;
+    right: 0.5rem!important;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.6rem;
+}
+.header  b{
+    margin: 0!important;
+}
+#submit_btn{
+    color: #fff;
+    font-size: 0.75rem;
+}
+/*内容*/
+.content1{
+    width: 15rem;
+    height: 22rem;
+     background: url("/static/images/coupon1.png");
+     background-size: 100% 100%;
+    margin:auto ;
+    margin-top: 0.5rem;
+    position: relative;
+}
+.content_top{
+    width: 100%;
+    height: 6rem;
+}
+.content_top .money{
+    width: 100%;
+    font-size: 3.2rem;
+    color: white;
+    text-align: center;
+    padding-top: 0.3rem;
+}
+.content_top .txt{
+    width: 100%;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+}
+.content_bot{
+    padding-top: 1rem;
+}
+.content_bot p{
+    width: 100%;
+    font-size: 0.64rem;
+   color: #333333;
+    line-height: 1.2rem;
+    padding-left: 0.5rem;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2.5rem;
+    width: auto!important;
+}
+.btn{
+    width: 10rem;
+    height: 1.6rem;
+    background: #9DAD6C;
+    color: #fff;
+    font-size: 0.65rem;
+    margin-left: 2.6rem;
+    border-radius: 0.5rem;
+    margin-top: 5rem;   
+}

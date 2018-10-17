@@ -1,0 +1,296 @@
+body {
+	background: #f9f9f9;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+	text-decoration: none;
+}
+
+button:focus {
+	outline: none;
+}
+input::-webkit-input-placeholder{
+	color: #666666;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+	color: #666666;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+	color: #666666;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+	color: #666666;
+}
+
+/*添加新地址 头部开始*/
+
+.header {
+	width: 100%;
+	float: left;
+	padding-bottom: 0.7rem;
+	background: #ffffff;
+	border-bottom: 0.025rem solid #EEEEEE;
+}
+
+.header span {
+	display: inline-block;
+	float: left;
+	margin-top: 0.70rem;
+	margin-left: 0.5rem;
+}
+
+.header span img {
+	width: 0.32rem;
+	height: 0.57rem;
+}
+
+.header p {
+	height: 1.6rem;
+	float: left;
+	line-height: 2.6rem;
+	margin-left: 5rem;
+	display: inline-block;
+	font-size: 0.75rem;
+	color: #333333;
+}
+
+
+/*.header .baocun{
+	border: none;
+    font-size: 0.6rem;
+    background: #ffffff;
+    color: #333333;
+    margin-top: 0.70rem;
+    margin-right: 0.1rem;
+}*/
+
+
+/*添加新地址 头部结束*/
+
+
+/*添加新地址 内容开始*/
+
+.member_gl {
+	width: 100%;
+	background: #ffffff;
+	margin-top: 0.5rem;
+	float: left;
+}
+
+.member_gl p {
+	border-bottom: 0.025rem solid #EEEEEE;
+	padding-left: 0.5rem;
+	font-size: 0.65rem;
+	color: #333333;
+	line-height: 1.9rem;
+}
+
+.member_gl p input {
+	width: 10rem;
+	outline: none;
+	border: none;
+	font-size: 0.55rem;
+	color: #666666;
+	margin-left: 0.5rem;
+	line-height: 0.9rem;
+}
+.member_gl p #demo2{
+	width: 10rem;
+	outline: none;
+	border:none;
+	font-size:0.60rem;
+	color:#666666;
+	margin-left:0.5rem;
+	line-height: 0.9rem;
+}
+.member_gl .img {
+	width: 0.35rem;
+	height: 0.57rem;
+	float: right;
+	margin-top: 0.6rem;
+	margin-right: 0.8rem;
+}
+
+.add_address_Btn {
+	width: 100%;
+	margin-top: 0.5rem;
+	background: #ffffff;
+	float: left;
+}
+
+.add_address_Btn span {
+	float: left;
+	padding-left: 0.5rem;
+	color: #333333;
+	font-size: 0.65rem;
+	line-height: 2rem;
+}
+
+.choose-label {
+	right: 0.4rem;
+	top: 0.45rem;
+	box-shadow: #ccc 0px 0px 0px 1px;
+	width: 45px;
+	height: 25px;
+	float: right;
+	display: inline-block;
+	border-radius: 20px;
+	position: relative;
+	background-color: #bdbdbd;
+	overflow: hidden;
+}
+
+.choose-label:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	border-radius: 20px;
+	background-color: #fff;
+	z-index: 20;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.chooseBtn:checked+label.choose-label:before {
+	left: 20px;
+}
+
+.chooseBtn:checked+label.choose-label {
+	background-color: #088c59;
+}
+
+.chooseBtn {
+	display: none;
+}
+
+#register_y {
+	width: 100%;
+	font-size: 0.45rem;
+	margin-top: 0.3rem;
+	line-height: 0.6rem;
+	float: left;
+	color: #999999;
+	display: none;
+}
+
+#register_y img {
+	width: 0.57rem;
+	float: left;
+	margin-left: 3.8rem;
+	height: 0.6rem;
+}
+
+#register_y1 {
+	width: 100%;
+	font-size: 0.45rem;
+	margin-top: 0.3rem;
+	line-height: 0.6rem;
+	float: left;
+	color: #999999;
+	display: none;
+}
+
+#register_y1 img {
+	width: 0.57rem;
+	float: left;
+	margin-left: 3.8rem;
+	height: 0.6rem;
+}
+
+#register_y2 {
+	width: 100%;
+	font-size: 0.45rem;
+	margin-top: 0.3rem;
+	line-height: 0.6rem;
+	float: left;
+	color: #999999;
+	display: none;
+}
+
+#register_y2 img {
+	width: 0.57rem;
+	float: left;
+	margin-left: 3.8rem;
+	height: 0.6rem;
+}
+
+body,html{
+	width: 100%;
+	height: 100%;
+}
+button {
+	float: right;
+	border: none;
+	font-size: 0.6rem;
+	background: #ffffff;
+	color: #333333;
+	margin-top: 0.9rem;
+	margin-right: 0.4rem;
+}
+.Default_icon{
+	width: 2rem;
+	height: 2rem;
+	float: right;
+	margin: 0rem 0.5rem 0 0;
+}
+.Default_iconimg{
+	width: 2rem!important;
+	height: 2rem!important;
+	margin: 0!important;
+}
+.warpperts{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+.promptbox{
+	width: 10rem;
+	height: 3rem;
+	background: rgba(125,125,125,0.8);
+	border-radius: .5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -1.5rem 0 0 -5rem;
+	color: white;
+	text-align: center;
+	line-height: 3rem;
+	font-size: .8rem;
+}
+.header p{
+	width: 100%!important;
+	text-align: center!important;
+	line-height: 2rem!important;
+}
+.header a:first-child{
+	position: absolute!important;
+	top: 0!important;
+	left: 0.5rem!important;
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0.6rem;
+}
+.header a:last-child{
+	position: absolute!important;
+	top: 0!important;
+	right: 0.5rem!important;
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0.6rem;
+}
+.header  b{
+	margin: 0!important;
+}
+.header b img{
+	width: 1rem!important;
+	height: 1rem!important;
+}
+/*添加新地址 内容结束*/

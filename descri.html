@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>宠物信息</title>
+	<link rel="stylesheet" href="__CSS__/descri.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/reset.css?v={$rand}" />
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+	<script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<div class="header">
+	<a href="/index"><b><img src="__IMAGE__/register_01.png?v={$rand}"></b></a>
+	<p style="color: white;font-size: 0.8rem;">填写订单</p>
+	<a href="/index"><b><img src="__IMAGE__/select_order_02.png?v={$rand}"></b></a>
+</div>
+<div class="nav_z_m">
+	<div class="nav">
+		<ul>
+			<li class="newzhus addzhuziings xinzhu" style="margin: 0;">新主子</li>
+			<div id="New_master" class="newzhus">
+
+			</div>
+		</ul>
+	</div>
+	<div class="nav_m" id="newcontents">
+		<div class="nav_zt nav_contentfirsts" style="display:block;">
+			<div class="mg_xuan">
+				<div class="title_mg yincangs">
+					<ul id="petspecies" class="petspeciesa">
+						<li class="type_p typemg" value="">
+							<img src="__IMAGE__/cars.png" alt="">
+						</li>
+						<li class="type_p" value="" style="margin-left: 3.9rem">
+							<img src="__IMAGE__/dogs.png" alt="">
+						</li>
+					</ul>
+				</div>
+				<div id="Pet_information" style="display: block">
+					<div class="mg_xuan_z"  style="display: block;" id="petcatinformation">
+						<div class="allget title_nav" id="title_nav">
+							<div class="title_First">
+								<ul>
+									<!--名称-->
+									<li class="master_names">我的名称 <span class="english_names"> MY NAME</span></li>
+									<li class="Inputboxalls">
+										<input type="text" id="iput"  class="Master_name commonname" onchange="value=value.replace(/[^\a-\z\A-\Z\u4E00-\u9FA5]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\a-\z\A-\Z\u4E00-\u9FA5]/g,''))" maxlength="10"/>
+									</li>
+									<!--性别-->
+									<li class="master_names">我是 <span class="english_names"> MY SEX</span></li>
+									<div class="sexcontents">
+										<li class="sexselectionss">
+											<img src="__IMAGE__/carnans.png" alt="" style="width: 3.5rem;">
+											<div class="sexselebuttons change_color" data-id="1">小王子</div>
+										</li>
+										<li class="sexselectionss">
+											<img src="__IMAGE__/cars.png" alt="">
+											<div class="sexselebuttons" data-id="2">小公主</div>
+										</li>
+									</div>
+									<!--宠物种类-->
+									<li class="master_names">我是一只 <span class="english_names"> MY BREED</span></li>
+									<ul class="Pettype_Collection petinformations Add_properties">
+									</ul>
+									<li class="Inputboxalls Lookatmores" style="text-align: center;line-height: 1.97rem;color: #999;font-size: 0.64rem">查看更多</li>
+									<li class="Inputboxalls Takeupconts" style="text-align: center;line-height: 1.97rem;color: #999;font-size: 0.64rem;display: none;">收起</li>
+									<!--生日-->
+									<li class="master_names">我的年龄 <span class="english_names"> MY BIRTHDAY</span></li>
+									<li class="Inputboxalls" style="position: relative;">
+										<input type="tel" class="birthday"  value="" style="width: 80%;" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2"/>
+										<span class="inputallings kilogramnumber Birthday_date" value="1" style="width: 2rem;">岁</span>
+										<img src="__IMAGE__/xialajiantou.png" alt="" style="margin-top: 0.75rem;width: 1rem;height: 0.5rem;position: absolute;right: 0.6rem;z-index: -1;">
+										<div class="Dropdown_boxs" style="width: 14%;height: 2.4rem;bottom: -2.46rem;left: 80%;">
+											<div value='1' class="cyclic_datas">岁</div>
+											<div value='2' class="cyclic_datas">月</div>
+										</div>
+									</li>
+									<!--体重-->
+									<li class="master_names">我的体重 <span class="english_names"> MY WEIGHT</span></li>
+									<li class="Inputboxalls">
+										<input type="tel" style="width:75%;" class="pet_weight commonweight" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2"/>
+										<span class="kilogramnumber">公斤（KG）</span>
+									</li>
+									<!--体型-->
+									<li class="master_names">我的体型 <span class="english_names"> MY SHAPE</span></li>
+									<ul class="ui-choose pet_shape Pettype_Collection" id="uc_01">
+										<li value="1" class="weight">太瘦了</li>
+										<li value="2" class="weight">刚刚好</li>
+										<li value="3" class="weight">丰满的</li>
+										<li value="4" class="weight" style="margin: 0;">肥胖的</li>
+									</ul>
+									<!--我期望的体重-->
+									<li class="master_names">我期望的体重 <span class="english_names"> MY DESIRABLE BOOY WEIGHT</span></li>
+									<li class="Inputboxalls">
+										<input type="tel" style="width:75%;" class="expected_weight commonexpect" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2"/>
+										<span class="kilogramnumber">公斤（KG）</span>
+									</li>
+									<!--我每天运动次数-->
+									<li class="master_names">我每天运动次数 <span class="english_names"> MY MOVEMENT TIMES</span></li>
+									<li class="Inputboxalls">
+										<input type="tel" style="width:88%;" id="select5" class="Movement_times commontimes" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2"/>
+										<span class="kilogramnumber">次数</span>
+									</li>
+									<!--我每天运动次数-->
+									<li class="master_names">我每次的运动量 <span class="english_names"> MY EACH EXERCISE VOLUME</span></li>
+									<li class="Inputboxalls">
+										<input type="tel" style="width: 88%;" id="select6" class="rangeof_motion commonrange" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2"/>
+										<span class="kilogramnumber">公里</span>
+									</li>
+									<!--我的饮食习惯-->
+									<li class="master_names">我的饮食习惯 <span class="english_names"> MY EATING HABITS</span></li>
+									<ul class="yinshi_uc eating_habits Pettype_Collection" id="yinshi_uc">
+										<li value="1">非常挑剔</li>
+										<li value="2">比较挑剔</li>
+										<li value="3">从不挑食</li>
+									</ul>
+									<!--我目前吃的品牌-->
+									<li class="master_names">我目前吃的品牌 <span class="english_names"> MY FOOD BRAND</span></li>
+									<li class="Inputboxalls" style="position: relative;">
+										<span class="inputallings mySelect daily_brand" id="select7" style="float: left;width: 92%;height: 100%;line-height: 1.97rem;"></span>
+										<img src="__IMAGE__/xialajiantou.png" alt="" style="margin-top: 0.75rem;width: 1rem;height: 0.5rem;">
+										<div class="Dropdown_boxs brandEating">
+
+										</div>
+									</li>
+									<!--我最喜欢的肉肉-->
+									<li class="master_names">我最喜欢的肉肉 <span class="english_names"> MY FLAVOR</span></li>
+									<ul class="favorite_taste">
+										<li value="" class="favoritetastes">
+											<img src="__IMAGE__/nius.png" alt="">
+											<div class="taste_kou">牛肉</div>
+										</li>
+										<li value="" class="favoritetastes" style="margin: 0 2.4rem">
+											<img src="__IMAGE__/jis.png" alt="" style="width: 1.8rem">
+											<div class="taste_kou">鸡肉</div>
+										</li>
+										<li value="" class="favoritetastes">
+											<img src="__IMAGE__/zhus.png" alt="">
+											<div class="taste_kou">猪肉</div>
+										</li>
+									</ul>
+									<!--我最讨厌的肉肉-->
+									<li class="master_names">我最讨厌的肉肉 <span class="english_names"> MY ALLERGEN</span></li>
+									<ul class="Taboo_food">
+										<li value="" class="favoritetastes">
+											<img src="__IMAGE__/nius.png" alt="">
+											<div class="taste_kou">牛肉</div>
+										</li>
+										<li value="" class="favoritetastes" style="margin: 0 2.4rem">
+											<img src="__IMAGE__/jis.png" alt="" style="width: 1.8rem">
+											<div class="taste_kou">鸡肉</div>
+										</li>
+										<li value="" class="favoritetastes">
+											<img src="__IMAGE__/zhus.png" alt="">
+											<div class="taste_kou">猪肉</div>
+										</li>
+									</ul>
+									<p class="prompt" style="display: none;"></p>
+									<!--我的绝育情况-->
+									<li class="master_names">我的绝育情况 <span class="english_names"> MY STERILIZATION</span></li>
+									<div class="sterilization">
+										<li class="sterilizationss" value="0">未绝育</li>
+										<li class="sterilizationss" value="1">已绝育</li>
+									</div>
+									<!--我的身体情况-->
+									<li class="master_names">我的身体情况 <span class="english_names"> MY HEALTHY</span></li>
+									<div class="kouwei_d diseasechangs">
+										<ul class="diseasess">
+											<li value="" class="disease_ids">便便不成型</li>
+											<li value="" class="disease_ids">免疫力差</li>
+											<li value="" class="disease_ids">脱发/毛发暗淡</li>
+											<li value="" class="disease_ids">口臭/异味</li>
+											<li value="" class="disease_ids">牙龈不健康</li>
+											<li value="" class="disease_ids">泪腺炎</li>
+										</ul>
+									</div>
+								</ul>
+								<button class="peifang peifangactive" id="Pet_cat" style="background: #9dac6f;color: white;">生成专属订制配方</button>
+							</div>
+						</div>
+					</div>
+					<div class="mg_xuan_z" id="Petdoginformation">
+						<div class="allget title_nav">
+							<div class="title_First">
+								<ul>
+									<!--名称-->
+									<li class="master_names">我的名称 <span class="english_names"> MY NAME</span></li>
+									<li class="Inputboxalls">
+										<input type="text" class="Master_name commonname" onchange="value=value.replace(/[^\a-\z\A-\Z\u4E00-\u9FA5]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\a-\z\A-\Z\u4E00-\u9FA5]/g,''))" maxlength="10"/>
+									</li>
+									<!--性别-->
+									<li class="master_names">我是 <span class="english_names"> MY SEX</span></li>
+									<div class="sexcontents">
+										<li class="sexselectionss">
+											<img src="__IMAGE__/dogs.png" alt="">
+											<div class="sexselebuttons change_color" data-id="1">小王子</div>
+										</li>
+										<li class="sexselectionss">
+											<img src="__IMAGE__/dogsnv.png" alt="">
+											<div class="sexselebuttons" data-id="2">小公主</div>
+										</li>
+									</div>
+									<!--宠物种类-->
+									<li class="master_names">我是一只 <span class="english_names"> MY BREED</span></li>
+									<ul class="Pettype_Collection petinformations Add_properties">
+									</ul>
+									<li class="Inputboxalls Lookatmores" style="text-align: center;line-height: 1.97rem;color: #999;font-size: 0.64rem">查看更多</li>
+									<li class="Inputboxalls Takeupconts" style="text-align: center;line-height: 1.97rem;color: #999;font-size: 0.64rem;display: none;">收起</li>
+									<!--生日-->
+									<li class="master_names">我的年龄 <span class="english_names"> MY BIRTHDAY</span></li>
+									<li class="Inputboxalls" style="position: relative;">
+										<input type="tel" class="birthday"  value="" style="width: 80%;" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2"/>
+										<span class="inputallings kilogramnumber Birthday_date" value="1" style="width: 2rem;">岁</span>
+										<img src="__IMAGE__/xialajiantou.png" alt="" style="margin-top: 0.75rem;width: 1rem;height: 0.5rem;position: absolute;right: 0.6rem;z-index: -1;">
+										<div class="Dropdown_boxs" style="width: 14%;height: 2.4rem;bottom: -2.46rem;left: 80%;">
+											<div value='1' class="cyclic_datas">岁</div>
+											<div value='2' class="cyclic_datas">月</div>
+										</div>
+									</li>
+									<!--体重-->
+									<li class="master_names">我的体重 <span class="english_names"> MY WEIGHT</span></li>
+									<li class="Inputboxalls">
+										<input type="tel" style="width:75%;" class="pet_weight commonweight" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2"/>
+										<span class="kilogramnumber">公斤（KG）</span>
+									</li>
+									<!--体型-->
+									<li class="master_names"><span>我的体型</span> <span class="english_names"> MY SHAPE</span></li>
+									<ul class="ui-choose pet_shape Pettype_Collection">
+										<li value="1" class="weight">太瘦了</li>
+										<li value="2" class="weight">刚刚好</li>
+										<li value="3" class="weight">丰满的</li>
+										<li value="4" class="weight" style="margin: 0;">肥胖的</li>
+									</ul>
+									<!--我期望的体重-->
+									<li class="master_names">我期望的体重 <span class="english_names"> MY DESIRABLE BOOY WEIGHT</span></li>
+									<li class="Inputboxalls">
+										<input type="tel" style="width:75%;" class="expected_weight commonexpect" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2"/>
+										<span class="kilogramnumber">公斤（KG）</span>
+									</li>
+									<!--我每天运动次数-->
+									<li class="master_names">我每天运动次数 <span class="english_names"> MY MOVEMENT TIMES</span></li>
+									<li class="Inputboxalls">
+										<input type="tel" style="width:88%;" class="Movement_times commontimes" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2"/>
+										<span class="kilogramnumber">次数</span>
+									</li>
+									<!--我每天运动次数-->
+									<li class="master_names">我每次的运动量 <span class="english_names"> MY EACH EXERCISE VOLUME</span></li>
+									<li class="Inputboxalls">
+										<input type="tel" style="width: 88%;" class="rangeof_motion commonrange" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2"/>
+										<span class="kilogramnumber">公里</span>
+									</li>
+									<!--我的饮食习惯-->
+									<li class="master_names">我的饮食习惯 <span class="english_names"> MY EATING HABITS</span></li>
+									<ul class="yinshi_uc eating_habits Pettype_Collection">
+										<li value="1">非常挑剔</li>
+										<li value="2">比较挑剔</li>
+										<li value="3">从不挑食</li>
+									</ul>
+									<!--我目前吃的品牌-->
+									<li class="master_names">我目前吃的品牌 <span class="english_names"> MY FOOD BRAND</span></li>
+									<li class="Inputboxalls" style="position: relative;">
+										<span class="inputallings mySelect daily_brand" style="float: left;width: 92%;height: 100%;line-height: 1.97rem;"></span>
+										<img src="__IMAGE__/xialajiantou.png" alt="" style="margin-top: 0.75rem;width: 1rem;height: 0.5rem;">
+										<div class="Dropdown_boxs brandEating">
+										</div>
+									</li>
+									<!--我最喜欢的肉肉-->
+									<li class="master_names">我最喜欢的肉肉 <span class="english_names"> MY FLAVOR</span></li>
+									<ul class="favorite_taste">
+										<li value="" class="favoritetastes">
+											<img src="__IMAGE__/nius.png" alt="">
+											<div class="taste_kou">牛肉</div>
+										</li>
+										<li value="" class="favoritetastes" style="margin: 0 2.4rem">
+											<img src="__IMAGE__/jis.png" alt="" style="width: 1.8rem">
+											<div class="taste_kou">鸡肉</div>
+										</li>
+										<li value="" class="favoritetastes">
+											<img src="__IMAGE__/zhus.png" alt="">
+											<div class="taste_kou">猪肉</div>
+										</li>
+									</ul>
+									<!--我最讨厌的肉肉-->
+									<li class="master_names">我最讨厌的肉肉 <span class="english_names"> MY ALLERGEN</span></li>
+									<ul class="Taboo_food">
+										<li value="" class="favoritetastes">
+											<img src="__IMAGE__/nius.png" alt="">
+											<div class="taste_kou">牛肉</div>
+										</li>
+										<li value="" class="favoritetastes" style="margin: 0 2.4rem">
+											<img src="__IMAGE__/jis.png" alt="" style="width: 1.8rem">
+											<div class="taste_kou">鸡肉</div>
+										</li>
+										<li value="" class="favoritetastes">
+											<img src="__IMAGE__/zhus.png" alt="">
+											<div class="taste_kou">猪肉</div>
+										</li>
+									</ul>
+									<p class="prompt" style="display: none;"></p>
+									<!--我的绝育情况-->
+									<li class="master_names">我的绝育情况 <span class="english_names"> MY STERILIZATION</span></li>
+									<div class="sterilization">
+										<li class="sterilizationss" value="0">
+											未绝育
+										</li>
+										<li class="sterilizationss" value="1">
+											已绝育
+										</li>
+									</div>
+									<!--我的身体情况-->
+									<li class="master_names">我的身体情况 <span class="english_names"> MY HEALTHY</span></li>
+									<div class="kouwei_d diseasechangs">
+										<ul class="diseasess">
+											<li value="" class="disease_ids">便便不成型</li>
+											<li value="" class="disease_ids">免疫力差</li>
+											<li value="" class="disease_ids">脱发/毛发暗淡</li>
+											<li value="" class="disease_ids">口臭/异味</li>
+											<li value="" class="disease_ids">牙龈不健康</li>
+											<li value="" class="disease_ids">泪腺炎</li>
+										</ul>
+									</div>
+								</ul>
+							<button class="peifang peifangactive" id="Pet_dog" style="background: #9dac6f;color: white;">生成专属订制配方</button>
+						</div>
+					</div>
+				</div>
+			    </div>
+				<div class="nav_zt nav_contentsd" id="apprers" style="display: none">
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!--弹框提示信息-->
+<div class="promptbox"></div>
+<!--加载页-->
+<div class="container_border">
+	<div class="load">
+		<img src="__IMAGE__/load.png" class="img"/>
+		<span>加载中...</span>
+	</div>
+</div>
+<script type="text/javascript" src="__JS__/data.js?v={$rand}"></script>
+<script type="text/javascript" src="__JS__/modify_pet.js?v={$rand}"></script>
+<script type="text/javascript" src="__JS__/Informationvalue.js?v={$rand}"></script>
+<script type="text/javascript" src="__JS__/generating_pet.js?v={$rand}"></script>
+<script type="text/javascript" src="__JS__/descri.js?v={$rand}"></script>
+</body>
+</html>

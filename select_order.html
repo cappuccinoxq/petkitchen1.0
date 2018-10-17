@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>订单查询</title>
+	<link rel="stylesheet" href="__CSS__/reset.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/select_order.css?v={$rand}"/>
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+	<script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<!--订单查询的头部-->
+<div class="header">
+	<a href="member"><b><img src="__IMAGE__/register_01.png?v={$rand}"></b></a>
+	<p style="color: white;">订单查询</p>
+</div>
+<ul class="order_navs" id="order_navs">
+	<li data-status="" class="changescolors">全部</li>
+	<li data-status="1" class="changescolors">待付款</li>
+	<li data-status="2" class="changescolors">待收货</li>
+	<li data-status="5" class="changescolors">已完成</li>
+	<li data-status="0" class="changescolors">已取消</li>
+    <div class="door_list changescolors">上门</div>
+</ul>
+<div class="oder_wapperss" id="oder_wapperss">
+</div>
+<div class="null_bg">
+	<img src="__IMAGE__/null_logo.png">
+	<p class="null_text">您当前还没订单哦~快为小主定份营养餐吧~</p>
+	<a href="/view/descri_vip"><button class="vipdingzhi">专属定制</button></a>
+	<a href="/view/descri"><button class="xianhsis">鲜食定制</button></a>
+</div>
+<!--加载页-->
+<div class="container_border">
+	<div class="load">
+		<img src="__IMAGE__/load.png" class="img"/>
+		<span>加载中...</span>
+	</div>
+</div>
+<script type="text/javascript" src="__JS__/select_order.js?v={$rand}"></script>
+</body>
+</html>

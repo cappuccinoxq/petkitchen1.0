@@ -1,0 +1,357 @@
+body {
+    background: #f9f9f9;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+a{text-decoration: none;}
+/*收货地址 头部开始*/
+.header {
+    width: 100%;
+    height: 2.3rem;
+    background: #ffffff;
+    background-image: url(/static/images/tit_bg.png);
+    background-size: 100% 100%;
+    border-bottom: 0.025rem solid #EEEEEE;
+}
+.header  span {
+    display: inline-block;
+    margin-top: 0.70rem;
+    margin-left: 0.5rem;
+}
+
+.header .back img {
+    width:1rem;
+    height:1rem;
+}
+.header .off_btn img {
+    width:1rem;
+    height:1rem;
+}
+.header  p{
+    width: 12rem;
+    height: 1.6rem;
+    text-align: center;
+    display: inline-block;
+    color: #333333;
+}
+
+.header z{
+    font-size: 0.6rem;
+    color: #333333;
+    margin-top: 0.60rem !important;
+}
+.line{
+    width: 100%;
+    height: 0.2rem;
+    background-image: url(/static/images/line.png);
+    background-size: 100% 100%;
+}
+.clr{
+    clear: both;
+}
+/*内容*/
+.order_num{
+    width: 100%;
+    height: 4.26rem;
+    background: white;
+}
+.order_num p{
+    color: #333333;
+    font-size: 0.69rem;
+    margin-left: 0.8rem;
+    padding-top: 1rem;
+}
+.shenhe .tit{
+    width: 100%;
+    height: 1.86rem;
+    background: white;
+    font-size: 0.64rem;
+    line-height: 1.86rem;
+    margin-top: 0.5rem;
+    border-bottom: 1px solid #f9f9f9;
+}
+.shenhe .tit .ti{
+    color: #333333;
+    float: left;
+    padding-left: 0.8rem;
+}
+.shenhe .tit .con{
+    width: 10.5rem;
+    float: left;
+    color: #666666;
+}
+.shenhe .tit img{
+    width: 0.6rem;
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+/*申请记录*/
+.address{
+    width: 100%;
+    height: 5.06rem;
+    background: white;
+}
+.address_top{
+    width: 100%;
+    float: left;
+    padding-top: 0.5rem;
+}
+.address_top span{
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    color: #999999;
+    font-size: 0.58rem;
+    float: left;
+    padding-top: 0.4rem;
+    text-align: center;
+    margin-right: 0.6rem;
+}
+.address_top .sp_fir{
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    color: #999999;
+    font-size: 0.58rem;
+    float: left;
+    padding-top: 0.4rem;
+    text-align: center;
+    margin-left: 1.94rem;
+
+}
+.address_top .choose{
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    font-size: 0.58rem;
+    float: right;
+    /*margin-right:1.1rem;*/
+    padding-top: 0.4rem;
+    color: white;
+}
+.choose_y{
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    font-size: 0.58rem;
+    float: right;
+    margin-right:1.1rem;
+    padding-top: 0.4rem;
+    background:  url(/static/images/choose_x.png);
+    background-size: 100% 100%;
+    color: white;
+}
+.address_mid{
+    width: 100%;
+    float: left;
+}
+.address_mid .point{
+    display: block;
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: rgba(0,0,0,0);
+    border-radius: 0.5rem;
+}
+.address_mid .point:first-child{
+    display: block;
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #CCCCCC;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+}
+.address_mid .choose_p{
+    display: block !important;
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #fc5b1f !important;
+    border-radius: 0.5rem;
+}
+.address_mid .lin{
+    display: block;
+    float: left;
+    width: 2.5rem;
+    height: 1px;
+    background: rgba(0,0,0,0);
+    margin-top: 0.25rem;
+}
+.address_bot p{
+    width: 2.5rem;
+    text-align: center;
+    color: #999999;
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.address_bot .txt{
+    display: block;
+   font-size: 0.48rem;
+    color: rgba(0,0,0,0);
+}
+.address_bot .time{
+    display: block;
+    font-size: 0.42rem;
+    padding-top: 0.2rem;
+    color: rgba(0,0,0,0);
+}
+/*拒绝退款*/
+.address_j{
+    width: 100%;
+    height: 5.06rem;
+    background: white;
+    display: none;
+}
+.addressj_top{
+    width: 100%;
+    float: left;
+    padding-top: 0.5rem;
+}
+.addressj_top span{
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    color: #999999;
+    font-size: 0.58rem;
+    float: left;
+    padding-top: 0.4rem;
+    text-align: center;
+    margin-right: 0.6rem;
+}
+.addressj_top .sp_fir{
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    color: #999999;
+    font-size: 0.58rem;
+    float: left;
+    padding-top: 0.4rem;
+    text-align: center;
+    margin-left: 1.94rem;
+
+}
+.addressj_top .choose{
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    font-size: 0.58rem;
+    float: right;
+    /*margin-right:1.1rem;*/
+    padding-top: 0.4rem;
+    color: white;
+}
+.addressj_top .choose_y{
+    display: block;
+    width: 2.5rem;
+    height: 1rem;
+    font-size: 0.58rem;
+    float: right;
+    margin-right:1rem;
+    padding-top: 0.4rem;
+    background:  url(/static/images/choose_x.png);
+    background-size: 100% 100%;
+    color: white;
+}
+.addressj_mid{
+    width: 100%;
+    float: left;
+}
+.addressj_mid .point{
+    display: block;
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #CCCCCC;
+    border-radius: 0.5rem;
+}
+.addressj_mid .point:first-child{
+    display: block;
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #CCCCCC;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+}
+.addressj_mid .choose_p{
+    display: block !important;
+    float: left;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #fc5b1f !important;
+    border-radius: 0.5rem;
+}
+.addressj_mid .lin{
+    display: block;
+    float: left;
+    width: 5.5rem;
+    height: 1px;
+    background: #CCCCCC;
+    margin-top: 0.25rem;
+}
+.addressj_bot p{
+    width: 2.5rem;
+    text-align: center;
+    color: #999999;
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.addressj_bot .txt{
+    display: block;
+    font-size: 0.48rem;
+}
+.addressj_bot .time{
+    display: block;
+    font-size: 0.42rem;
+    padding-top: 0.2rem;
+}
+.question_des .tit{
+    width: 100%;
+    height: 1.86rem;
+    line-height: 1.86rem;
+    background: white;
+    border-bottom: 1px solid #f9f9f9;
+    padding-left: 0.5rem;
+    font-size: 0.69rem;
+    margin-top: 0.5rem;
+}
+.question_des .con{
+    height: 2.8rem;
+    line-height: 0.8rem;
+    background: white;
+    padding: 0.5rem;
+    font-size: 0.53rem;
+    color: #666666;
+}
+.liuyan .tit{
+    width: 100%;
+    height: 1.86rem;
+    line-height: 1.86rem;
+    background: white;
+    border-bottom: 1px solid #f9f9f9;
+    padding-left: 0.5rem;
+    font-size: 0.69rem;
+    margin-top: 0.5rem;
+}
+.liuyan .con{
+    height: 4.53rem;
+    line-height: 0.8rem;
+    background: white;
+    padding: 0.5rem;
+    font-size: 0.53rem;
+    color: #666666;
+    border-bottom: 1px solid #f9f9f9;
+}
+.liuyan .addre{
+    height: 3.46rem;
+    line-height: 0.8rem;
+    background: white;
+    padding: 0.5rem;
+    font-size: 0.53rem;
+    color: #666666;
+}

@@ -1,0 +1,247 @@
+body {
+	background: #ffffff;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*上门信息    头部开始*/
+.header {
+	width: 100%;
+	float:left;
+	border-bottom: 0.025rem solid #EEEEEE;
+}
+
+.header span {
+	display: inline-block;
+	margin-top: 0.70rem;
+	margin-left: 0.5rem;
+}
+
+.header span img {
+	width: 1rem;
+	height: 1rem;
+}
+
+.header p {
+	width: 12rem;
+	height: 1.6rem;
+	text-align: center;
+	display: inline-block;
+	font-size: 0.75rem;
+	color: #333333;
+	margin-top: 0.60rem;
+}
+
+.header  b {
+	display: inline-block;
+	margin-top: 0.70rem;
+	margin-right: 0.5rem;
+}
+
+.header  b img {
+	width: 1rem;
+	height: 1rem;
+}
+/*上门信息    头部结束*/
+
+/*上门信息    内容开始*/
+
+.infor_before{
+	width: 100%;
+	float:left;
+	background: #f9f9f9;
+	border-top: 0.025rem solid #EEEEEE;
+}
+.infor_before_l{
+	background: #FFFFFF;
+	margin-top:0.5rem;
+	margin-bottom: 0.5rem;
+}
+.infor_before_l p {
+	border-bottom: 0.025rem solid #EEEEEE;
+	padding-left: 0.5rem;
+	font-size: 0.65rem;
+	color: #333333;
+	line-height: 1.9rem;
+}
+.infor_before_l p input{
+	width:10rem;
+	border:none;
+	outline: none;
+	margin-left:0.8rem;
+	font-size: 0.5rem;
+	line-height: 0.5rem;
+}
+.infor_before_l p img{
+    width:0.35rem;
+	height:0.57rem;
+	float: right;
+	margin-top: 0.7rem;
+	margin-right: 0.5rem;
+}
+
+#register_y {
+	width:100%;
+    font-size: 0.45rem;
+    margin-top: 0.3rem;
+    line-height: 0.6rem;
+    float: left;
+    color: #999999;
+    display: none;
+}
+#register_y img{
+	width: 0.57rem;
+    float: left;
+    margin-left:3.8rem;
+    height: 0.6rem;
+}
+#register_y1 {
+	width:100%;
+    font-size: 0.45rem;
+    margin-top: 0.3rem;
+    line-height: 0.6rem;
+    float: left;
+    color: #999999;
+    display: none;
+}
+#register_y1 img{
+	width: 0.57rem;
+    float: left;
+    margin-left: 3.8rem;
+    height: 0.6rem;
+}
+
+
+/*上门信息    内容结束*/
+
+/*上门信息    宠物类型开始*/
+
+.infor_before_pet{
+	width:100%;
+    height: 100%;
+	float:left;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+.infor_before_type{
+	width:100%;
+	float: left;
+}
+.infor_before_type ul li p:nth-child(1) img{
+	width:2.15rem;
+	height:2.15rem;
+}
+.infor_before_type ul li p:nth-child(2) img{
+	width:2.3rem;
+	height:2.05rem;
+}
+.infor_before_type .pet_type{
+	 line-height: 2.5rem;
+     font-size:0.65rem ;
+     color:#333333;
+     text-align: center;
+}
+#infor_before_pt .pet_type{
+	 line-height: 2.5rem;
+     font-size:0.65rem ;
+     color:#333333;
+     text-align: center;
+     margin-top: 0.8rem;
+}
+.infor_before_type ul{
+	float:left;
+}
+.infor_before_type ul li{
+	float:left;
+	margin-left:3rem;
+}
+.infor_before_type ul li:nth-child(1){
+	margin-left:4.85rem;
+}
+#xuanze ul li:nth-child(1){
+	width:1.8rem;
+	height:1.8rem;
+	background: url(../../Images/mobile/infor_before_02_1.png) center no-repeat;
+    background-size: 1.8rem 1.8rem;
+}
+#xuanze ul li:nth-child(2){
+	width:1.8rem;
+	height:1.8rem;
+	background: url(../../Images/mobile/infor_before_03_1.png) center no-repeat;
+    background-size: 1.8rem 1.8rem;
+}
+#xuanze ul li:nth-child(1).selected {
+	width:1.8rem;
+	height:1.8rem;
+	background: url(../../Images/mobile/infor_before_02_2.png) center no-repeat;
+	background-size: 1.8rem 1.8rem;
+}
+#infor_before_pt ul li.selected {
+	color:#fec13d;
+}
+#xuanze ul li:nth-child(2).selecteda {
+	width:1.9rem;
+	height:1.8rem;
+	background: url(../../Images/mobile/infor_before_03_2.png) center no-repeat;
+	 background-size: 1.9rem 1.8rem;
+}
+#xuanze ul li p{
+	line-height: 1rem;
+	font-size:0.65rem ;
+	color:#666666;
+	margin-top: 1.8rem;
+	text-align: center;
+}
+#infor_before_pt ul li p{
+	line-height: 1rem;
+	font-size:0.65rem ;
+	color:#666666;
+	text-align: center;
+}
+#infor_before_pt{
+	margin-top: 0.5rem;
+}
+#infor_before_pt ul{
+	float:left;
+}
+#infor_before_pt ul li{
+	float:left;
+	font-size: 0.65rem;
+    color: #666666;
+    text-align: center;
+	margin-left:2.3rem;
+}
+#infor_before_pt ul li p img{
+	width:2.67rem;
+	height:2.65rem;
+}
+#infor_before_pt ul li:nth-child(1){
+	margin-left:1.8rem;
+}
+#infor_before_mao{
+	top: 20.3rem;
+	display: none;
+}
+#infor_before_mao ul{
+	float:left;
+}
+#infor_before_mao ul li{
+	float:left;
+	margin-left:2.3rem;
+}
+#infor_before_mao ul li p img{
+	width:2.67rem;
+	height:2.65rem;
+}
+#infor_before_mao ul li:nth-child(1){
+	margin-left:1.8rem;
+}
+.login-btn{
+	float:left;
+	margin-left:5.4rem;
+	margin-right:5.4rem;
+	margin-top:3rem;
+	margin-bottom: 1rem;
+}
+.order_pays_payment p{
+	width: 100%;
+}
+
+/*上门信息    宠物类型结束*/

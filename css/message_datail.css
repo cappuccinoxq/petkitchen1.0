@@ -1,0 +1,39 @@
+
+.tit{
+    width: 100%;
+    background: white;
+    text-align: center;
+    color: #333333;
+    font-size: 0.69rem;
+    float: left;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+}
+.time{
+    width: 100%;
+    background: white;
+    text-align: center;
+    color: #999999;
+    font-size: 0.64rem;
+    float: left;
+    border-bottom: 0.05rem solid #EFEFEF;
+    padding-bottom: 0.5rem;
+}
+.content{
+    width: 15rem;
+    height: 15rem;
+    padding: 0.5rem;
+    background: white;
+    color: #666666;
+    font-size: 0.53rem;
+    float: left;
+    margin: auto;
+    padding-top: 1rem;
+    line-height: 0.8rem;
+    white-space:normal;
+    word-break:break-all;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /*-webkit-line-clamp: 3;*/
+    overflow: hidden;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>重置密码</title>
+	<link rel="stylesheet" href="__CSS__/forget_pass.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/reset.css?v={$rand}" />
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+	<script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<!--重置密码的头部-->
+<div class="header" style="height: 2rem;">
+	<a href="login"><b><img src="__IMAGE__/register_01.png?v={$rand}" style="margin: 0;"></b></a>
+	<p style="height: 2rem;line-height: 2rem;margin: 0;">重置密码</p>
+</div>
+<!--上传头像的效果-->
+<div class="content">
+<div class="col-sm-9 big-photo">
+	<div class="login-title" id="preview">
+		<img id="imghead" src="__IMAGE__/about_us1.png?v={$rand}">
+	</div>
+</div>
+<!--提示框-->
+	<div class="promptbox"></div>
+<!--重置密码的内容-->
+<div class="login-bar">
+	<ul>
+		<li>
+			<!--<p>手机号</p>-->
+			<img src="__IMAGE__/user.png" class="user_img">  
+			<input type="tel" placeholder="输入手机号码" name="mobile" class="text" id="ipt" maxlength="11" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+			<img src="__IMAGE__/login_07.png" class="login-bar_t" id="clear" style="display: none;">
+		</li>
+		<li>
+			<img src="__IMAGE__/yzm.png" class="user_img">
+			<input class="yzm" type="text" placeholder="短信验证码" id="yzm" maxlength="6" onKeyUp="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+			<input type="button" class="huoqu" id="send" value="发送验证码">
+		</li>
+		<li style="margin-top: 1rem;">
+			<img src="__IMAGE__/psw.png" class="user_img">
+			<input onkeyup="this.value=this.value.replace(/[^\w\.\/]/ig,'')" onafterpaste="this.value=this.value.replace(/[^\w\.\/]/ig,'')" placeholder="设置登录密码" type="password" name="password" class="psd" id="ipu" oninput="if(value.length>20) value=value.slice(0,20)"/>
+			<img src="__IMAGE__/login_11.png" id="eye" class="login-bar_tu" style="display: none;">
+		</li>
+	</ul>
+</div>
+<!--确认按钮-->
+<div class="login-btn">
+	<button class="submit" id="submit_btn" type="button">确认</button>
+</div>
+</div>
+<script type="text/javascript" src="__JS__/forget_pass.js?v={$rand}"></script>
+</body>
+</html>

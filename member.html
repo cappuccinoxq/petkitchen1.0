@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>我的页面</title>
+	<link rel="stylesheet" href="__CSS__/member.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/reset.css" />
+	<link rel="stylesheet" href="__CSS__/pop_zhi.css" />
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+	<script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+	<div class="member_header">     
+		<a href="/view/system_message"><b><img class="info" src="__IMAGE__/info.png?v={$rand}" style="float: left;margin-left: 0.5rem;width: 0.8rem;height: 0.8rem;"></b></a>
+		<p class="tit" style="color: white;font-size: 0.8rem;line-height: 1.25rem;">个人中心</p>
+		<a href="/index"><b><img src="__IMAGE__/select_order_02.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;"></b></a>
+		<img class="red" src="__IMAGE__/white.png?v={$rand}">
+	</div>
+	<div class="clr"></div>
+	<a href="/view/my_person">
+		<div class="member_logo">
+			<div class="user_info">
+			</div>
+			<p  style="float: right;margin-right: 0.8rem"><img class="go_black" src="__IMAGE__/go_black.png?v={$rand}" style="width: 0.6rem;"></p>
+		</div>
+	</a>
+	<div class="clr"></div>
+	<div class="member_nv">
+		<div class="member_nv_s">
+			<a href="/view/select_order">
+				<p><img src="__IMAGE__/order.png?v={$rand}" ></p>
+				<p>我的订单</p>
+			</a>
+		</div>
+		<div class="member_nv_s">
+			<a href="/view/select_order">
+				<p><img src="__IMAGE__/wait_pail.png?v={$rand}" ></p>
+				<p>待付款</p>
+			</a>
+		</div>
+		<div class="member_nv_s">
+			<a href="/view/select_order">
+				<p><img src="__IMAGE__/wait_delivery.png?v={$rand}" ></p>
+				<p>待收货</p>  
+			</a>
+		</div>
+		<div class="member_nv_s">
+			<a href="/view/after_sale">
+				<p><img src="__IMAGE__/sh_service.png?v={$rand}" ></p>
+				<p>售后服务</p>
+			</a>
+		</div>
+	</div>
+	<div class="member_gl">
+		<a href="/view/address"><p><img class="logo_s" src="__IMAGE__/address.png?v={$rand}"><span>地址管理</span><img class="logo_g" src="__IMAGE__/go.png?v={$rand}"></p></a>
+		<a href="/view/my_coupon"><p><img class="logo_s" src="__IMAGE__/coupon.png?v={$rand}"><span>我的优惠券</span><img class="logo_g" src="__IMAGE__/go.png?v={$rand}"></p></a>
+		<!--<a href="/view/service_center"><p><img class="logo_s" src="__IMAGE__/service.png?v={$rand}"><span>服务中心</span><img class="logo_g" src="__IMAGE__/go.png?v={$rand}"></p></a>-->
+		<!--<p><img class="logo_s" src="__IMAGE__/invoice.png?v={$rand}"><span style="color: #999;">发票与报销</span><img class="logo_g" src="__IMAGE__/go.png?v={$rand}"></p>-->
+		<a href="/view/advice_return"><p><img class="logo_s" src="__IMAGE__/advice.png?v={$rand}"><span>意见反馈</span><img class="logo_g" src="__IMAGE__/go.png?v={$rand}"></p></a>
+		<a href="/view/about_us"><p><img class="logo_s" src="__IMAGE__/about-us.png?v={$rand}"><span>关于我们</span><img class="logo_g" src="__IMAGE__/go.png?v={$rand}"></p></a>
+		<div style="width: 100%;height: 2rem;float: left;margin: 1rem 0"><div id="tuichu" style="width: 12rem;height: 100%;margin: 0 auto;text-align: center;line-height: 2rem;color: #333;background: #9dac6f;font-size: 0.64rem;border-radius: 1rem;">退出登录</div></div>
+	</div>
+	<!--提示框-->
+	<div class="warpperts">
+		<div class="promptbox"></div>
+	</div>
+	<!--二次弹框-->
+	<div class="bgPop"></div>
+	<div class="pop_zhi_z">
+		<div class="pop_zhi" id='pop_zhi'>
+			<ul>
+				<li class="show" style="width: 100%;text-align: center;font-size:0.64rem;color: #666666;padding-top: 1.5rem ">您确定要退出当前账号吗？</li>
+			</ul>
+		</div>
+		<div class="pop_zhi_btn">
+			<button class="submit" id="tuichu1" type="submit" style="margin-top: 0.5rem;">确认退出</button>
+			<button class="submit_qu" type="submit" style="margin-bottom: 1rem;">取消退出</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="__JS__/member.js?v={$rand}"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>登录</title>
+	<link rel="stylesheet" href="__CSS__/login.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/reset.css" />
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+	<script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<!--登录头部-->
+<div class="logo">
+	<div class="login-title" style="margin-top: 1rem">
+		<div class="cross">
+			<a href="/index" style="float: right;background: rgba(0,0,0,0.6);width: 1.2rem;height: 1.2rem;border-radius: 50%;margin-right: 0.5rem;"><img src="__IMAGE__/select_order_02.png" style="margin: 0.2rem 0.2rem;"></a>
+		</div>
+		<img src="__IMAGE__/about_us.png?v={$rand}" class="logo_index">
+	</div>
+	<!--登录内容-->
+	<div class="login-bar">
+		<ul>
+			<li>
+				<img src="__IMAGE__/user.png" class="user_img">
+				<input name="mobile" placeholder="请输入您的手机号码" type="tel" class="text" id="mobile" maxlength="11" onKeyUp="this.value=this.value.replace(/\D/g,'');" onafterpaste="this.value=this.value.replace(/\D/g,'')"/>
+				<img src="__IMAGE__/login_07.png" class="login-bar_t" id="clear" style="display: none;">
+			</li>
+			<li>
+				<img src="__IMAGE__/psw.png" class="user_img">
+				<input name="password" onkeyup="this.value=this.value.replace(/[^\w\.\/]/ig,'')" onafterpaste="this.value=this.value.replace(/[^\w\.\/]/ig,'')" placeholder="请输入您的密码" type="password" class="psd" id="password1" maxlength="20"/>
+				<img src="__IMAGE__/login_11.png" id="eye" class="login-bar_tu" style="display: none;">
+			</li>
+		</ul>
+	</div>
+	<div class="login-zc" style="margin-top:0.8rem">
+		<a href="forget_pass" class="login-w" style="float: right;">忘记密码</a>
+	</div>
+	<!--登录的按钮-->
+	<div class="login-btn" style="margin-top: 0">
+		<button class="submit" id="submit_btn" type="button" style="margin-top: 1rem;">登录</button>
+	</div>
+	<div class="login-btn" style="margin-top: 0">
+		<a href="register" class="submit" id="submit_re">注册</a>
+	</div>
+	<!--第三方登录-->
+	<div class="login-qw">
+		<img src="__IMAGE__/login_12.png" style="margin-top: 1rem;">
+		<img src="__IMAGE__/login_13.png" style="margin-top: 1rem;" id="wxlogins">
+	</div>
+	<!--提示框-->
+	<div class="promptbox"></div>
+</div>
+<script type="text/javascript" src="__JS__/login.js?v={$rand}"></script>
+</body>
+</html>

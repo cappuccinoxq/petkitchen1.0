@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>记录详情</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="壹爱厨房">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="__CSS__/reset.css" />
+    <link rel="stylesheet" href="__CSS__/record_detail.css?v={$rand}" />
+    <script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="__JS__/fastclick.js"></script>
+    <script  type="text/javascript"  src="__JS__/iscroll_probe.js"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<!--提示框-->
+<div class="warpperts">
+    <div class="promptbox"></div>
+</div>
+<!--订单跟踪的头部-->
+<div class="header">
+    <span class="back"><a href="/view/after_sale.html"><img src="__IMAGE__/register_01.png" style="width: 0.8rem;height: 0.8rem;"></a></span>
+    <p style="font-size: 0.8rem;color: white;">记录详情</p>
+</div>
+
+<div class="order_num">
+    <p><span>服务单号：</span><span class="order_no"></span></p>
+    <p><span>申请时间：</span><span class="order_time"></span></p>
+</div>
+<div class="shenhe">
+    <p class="tit"><span class="ti">审核进度：</span><span class="con" id="shenhe_pro"></span><img src="__IMAGE__/go.png" style="width: 0.8rem;height: 0.8rem;"></p>
+</div>
+<div class="address">
+    <div class="address_top">
+        <span class="choose">已完成</span>
+        <span class="choose">已完成</span>
+        <span class="choose">已完成</span>
+        <span class="choose">已完成</span>
+        <span class="choose">已完成</span>
+    </div>
+    <div class="address_mid">
+        <span class="point"></span><span class="lin"/></span>
+        <span class="point"></span><span class="lin"/></span>
+        <span class="point"></span><span class="lin"/></span>
+        <span class="point"></span ><span class="lin"/></span>
+        <span class="point"></span>
+    </div>
+    <div class="address_bot">
+        <p>
+            <span class="txt">提交申请</span>
+            <span class="time">2017-05-10</span>
+        </p>
+        <p>
+            <span class="txt">通过审核</span>
+            <span class="time">2017-05-10</span>
+        </p>
+        <p>
+            <span class="txt">售后收货</span>
+            <span class="time">2017-05-10</span>
+        </p>
+        <p>
+            <span class="txt">进行退款</span>
+            <span class="time">2017-05-10</span>
+        </p>
+        <p>
+            <span class="txt">处理完成</span>
+            <span class="time">2017-05-10</span>
+        </p>
+    </div>
+</div>
+<!--拒绝退款-->
+<div class="address_j">
+    <div class="addressj_top">
+        <span class="choose choose_y">已完成</span>
+    </div>
+    <div class="addressj_mid">
+        <span class="point"></span><span class="lin"/></span>
+        <span class="point"></span><span class="lin"/></span>
+        <span class="point choose_p"></span>
+    </div>
+    <div class="addressj_bot">
+        <p style="margin-right: 3rem">
+            <span class="txt">提交申请</span>
+        </p>
+        <p style="margin-right: 3rem">
+            <span class="txt">申请审核</span>
+        </p>
+        <p>
+            <span class="txt">拒绝退款</span>
+            <span class="time">2017-05-10</span>
+        </p>
+    </div>
+</div>
+<div class="question_des">
+    <p class="tit">问题描述</p>
+    <p class="con" id="desc">拿来看也没看就洗了，发现有些不对劲，吊牌都没有，洗的时候还有泡沫，细看领口有一处缝补的痕迹，虽然是特价买的但是还是感觉很不爽</p>
+</div>
+<div class="liuyan">
+    <p class="tit">审核留言</p>
+    <p class="con">亲爱的客户，很抱歉您的商品出现这样的问题。请准备好商品全套（商品、附件、发票原件、包装）按以下地址寄往壹爱厨房售后部，不支持到付及平邮。如收到商品后情况属实，我们会尽快为您办理。感谢您对的支持。（注：电子发票及换货发票无需退回）。提示：为避免数据遗失或泄露，请您提前做好数据备份，优品汇将不承担相应责任</p>
+    <p class="addre">• 收货地址：北京市朝阳区万红路8号蓝涛中心<br>
+        • 联系姓名：壹爱厨房<br>
+        • 邮政编码：100080</p>
+</div>
+<script type="text/javascript" src="__JS__/record_detail.js?v={$rand}"></script>
+</body>
+</html>

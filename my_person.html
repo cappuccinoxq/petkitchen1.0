@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>个人中心</title>
+    <link rel="stylesheet" href="__CSS__/my_person.css?v={$rand}" />
+    <link rel="stylesheet" href="__CSS__/reset.css" />
+    <script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="__JS__/fastclick.js"></script>
+    <script type="text/javascript" src="__JS__/common.js"></script>
+</head>
+<body>
+<div class="promptbox"></div>
+<!--加载页-->
+<div class="container_border">
+    <div class="load">
+        <img src="__IMAGE__/load.png" class="img"/>
+        <span>加载中...</span>
+    </div>
+</div>
+<!--个人中心头部-->
+<div class="member_header">
+    <a href="/view/member"><b><img src="__IMAGE__/register_01.png?v={$rand}" style="float: left;margin-left: 0.5rem;width: 0.8rem;height: 0.8rem;"></b></a>
+    <p class="tit" style="color: white;font-size: 0.8rem;line-height: 1.25rem;">个人中心</p>
+    <a href="/index"><b><img src="__IMAGE__/select_order_02.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;"></b></a>
+</div>
+<!--<div class="header" style="padding: 0;height: 2.2rem;">-->
+    <!--<a href='/view/member'><b><img src="__IMAGE__/register_01.png"></b></a>-->
+    <!--<p style="margin: 0;line-height: 2.3rem;font-size: 0.8rem;color: white;">个人中心</p>-->
+    <!--<a href="/index" style="width: 3rem;font-size: 0.8rem;" id="saveinformation"><b><img src="__IMAGE__/select_order_02.png?v={$rand}" style="width: 0.8rem;height: 0.8rem;float: right;"></b></a>-->
+<!--</div>-->
+<div class="content_img">
+
+</div>
+<div class="clr"></div>
+<div class="content_list">
+    <a href="personalinformation.html"><span>个人信息</span><img class="logo_g" src="__IMAGE__/go.png?v={$rand}"></a>
+    <a class="change_psw"><span>修改密码</span><img class="logo_g" src="__IMAGE__/go.png?v={$rand}"></a>
+    <a class="change_phone_p"><span class="change_phone">修改手机</span><span class="change_phone_l"></span><img class="logo_g_l" src="__IMAGE__/go.png?v={$rand}"></a>
+</div>
+<script type="text/javascript" src="__JS__/my_person.js?v={$rand}"></script>
+</body>
+</html>

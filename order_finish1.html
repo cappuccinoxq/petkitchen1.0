@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>订单详情页</title>
+	<link rel="stylesheet" href="__CSS__/order_finish.css?v={$rand}" />
+	<link rel="stylesheet" href="__CSS__/reset.css?v={$rand}" />
+	<script type="text/javascript" src="__JS__/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="__JS__/fastclick.js"></script>
+</head>
+<body>
+<div class="header">
+	<a href="select_order"><b><img src="__IMAGE__/register_01.png?v={$rand}"></b></a>
+	<p>订单详情</p>
+	<a href="member"><b><img src="__IMAGE__/index_tu4.png?v={$rand}"></b></a>
+</div>
+<div class="Orders_details" id="Orders_details"></div>
+<script type="text/javascript" src="__JS__/common.js"></script>
+<script type="text/javascript">
+	var order_no = GetQueryString('order_no');
+</script>
+<script type="text/javascript" src="__JS__/order_finish.js"></script>
+</body>
+</html>

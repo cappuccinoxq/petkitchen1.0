@@ -1,0 +1,303 @@
+html,body {
+	background: #f5f5f5;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+/*订单查询  头部开始*/
+.header {
+	width: 100%;
+	height: 2.3rem;
+	background: #9dac6f;
+	border-bottom: 0.025rem solid #eeeeee;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.header  span {
+	display: inline-block;
+	margin-top: 0.70rem;
+	margin-left: 0.5rem;
+}
+
+.header span img {
+	width:0.32rem;
+	height:0.57rem;
+}
+
+.header  p {
+	width: 13.33rem;
+	height: 1.6rem;
+	text-align: center;
+	display: inline-block;
+	font-size: 0.75rem;
+	color: #333333;
+	margin-top: 0.6rem;
+}
+
+.header  b {
+	display: inline-block;
+	margin-top: 0.60rem !important;
+	margin-right: 0.5rem;
+}
+
+.header  b img {
+	width: 0.5rem;
+	height: 0.5rem;
+}
+/*订单查询  头部结束*/
+.select_order_nv{
+	width: 100%;
+	margin-top: .35rem;
+	float: left;
+	background: white;
+}
+.order_titlte{
+	width: 100%;
+	height: 1.45rem;
+	border-bottom: .026rem solid #eee;
+	float: left;
+}
+.order_titlte span:first-child{
+	font-size: .53rem;
+	color: #666;
+	float: left;
+	line-height: 1.45rem;
+	margin-left: .42rem;
+}
+.order_titlte span:nth-child(2){
+	 font-size: .53rem;
+	 color: #999;
+	 float: left;
+	 line-height: 1.45rem;
+     margin-left: .25rem;
+ }
+.order_titlte span:last-child{
+	font-size: .53rem;
+	color: #999;
+	float: right;
+	line-height: 1.45rem;
+	margin-right: .42rem;
+}
+.order_content{
+	width: 100%;
+	height: 4.9rem;
+	float: left;
+	border-bottom: .026rem solid #eee;
+}
+.order_content img{
+	width: 4rem;
+	height: 4rem;
+	float: left;
+	margin: .42rem .58rem 0 .42rem;
+}
+.order_chufang{
+	color: #333;
+	font-size: .69rem;
+	margin-top: .95rem;
+}
+.order_kouweis{
+	font-size: .58rem;
+	color: #666;
+	margin-top: .3rem;
+}
+.ediblecycle{
+	font-size: .53rem;
+	color: #999;
+	margin-top: .5rem;
+	float: left;
+	width: 68%;
+}
+.amountofmoney{
+	font-size: .8rem;
+	color: #fec13d;
+	float: right;
+	margin-right: .42rem;
+}
+.ediblecycle span:first-child{
+	margin-top: .25rem;
+	float: left;
+}
+.ediblecycle span:nth-child(2){
+	margin-top: .25rem;
+	float: left;
+	width: 8rem;
+	height: 1.1rem;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.Order_date{
+	width: 100%;
+	height: 1.46rem;
+	float: left;
+	line-height: 1.46rem;
+}
+.Order_date span:first-child{
+	font-size: .53rem;
+	color: #666;
+	float: left;
+	margin-left: .42rem;
+}
+.Order_date span:nth-child(2){
+	font-size: .53rem;
+	color: #999;
+	float: left;
+	margin-left: .2rem;
+}
+.Order_date span:nth-child(3),.Order_date span:nth-child(4){
+	font-size: .53rem;
+	color: white;
+	float: right;
+	margin:.26rem .42rem 0 0;
+	width: 3.25rem;
+	height: 1.06rem;
+	background: #9dac6f;
+	border-radius: 1rem;
+	text-align: center;
+	line-height: 1.06rem;
+}
+.Order_date span:nth-child(4){
+	background: white;
+	color: #666;
+	border: 0.025rem solid #9dac6f;
+}
+
+button{
+	border: 1px solid transparent;
+}
+.null_bg{
+	background: #F5F5F5;
+	display: none;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.null_bg img{
+	width: 6rem;
+	height: 4.6rem;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin: -2.3rem 0 0 -3rem;
+}
+.null_text{
+	color: #BBBBBB;
+	font-size: 0.625rem;
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+}
+.header b{
+	margin-right: 0;
+	margin-top: 0.85rem;
+}
+.header b img{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.vipdingzhi{
+	width: 5rem;
+	height: 2.13rem;
+	background: #9dac6f;
+	color: white;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	border-radius: 1rem;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	margin: -1rem 0 0 -2.5rem;
+	font-size: 0.64rem;
+}
+.xianhsis{
+	width: 5rem;
+	height: 2.13rem;
+	background: #9dac6f;
+	color: white;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	border-radius: 1rem;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin: -1rem 0 0 -2.5rem;
+	font-size: 0.64rem;
+}
+.header p{
+	width: 100%!important;
+	text-align: center!important;
+	line-height: 1.1rem!important;
+}
+.header a:first-child{
+	position: absolute!important;
+	top: 0!important;
+	left: 0.5rem!important;
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0.6rem;
+}
+.header a:last-child{
+	position: absolute!important;
+	top: 0!important;
+	right: 0.5rem!important;
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0.6rem;
+}
+.header  b{
+	margin: 0!important;
+}
+.header b img{
+	width: 0.8rem!important;
+	height: 0.8rem!important;  
+}
+.order_navs{
+	width: 100%;
+	height: 2.02rem;
+	float: left;
+	background: white;
+	position: fixed;
+	top: 2.2rem;
+	left: 0;
+	border-bottom: 0.025rem solid #eee;
+	z-index: 99;
+}
+.order_navs li{
+	width: 2.02rem;
+	height: 2.02rem;
+	text-align: center;
+	line-height: 2.02rem;
+	float: left;
+	color: #999;
+	font-size: 0.64rem;
+	margin-left: 0.42rem;
+	margin-right: 0.2rem;
+}
+.door_list{
+	width: 2.02rem;
+	height: 2.02rem;
+	text-align: center;
+	line-height: 2.02rem;
+	float: left;
+	color: #999;
+	font-size: 0.64rem;
+	margin-left: 0.42rem;
+}
+.order_change{
+	color: #333;
+	border-bottom: 0.025rem solid #9dac6f;
+}
+.oder_wapperss{
+	width: 100%;
+	float: left;
+	position: absolute;
+	top: 4.22rem;
+}

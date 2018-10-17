@@ -1,0 +1,687 @@
+body,html{
+    background: #f3f4f5;
+}
+.header{
+    width: 100%;
+    height: 2.3rem;
+    background: url("/static/images/tit_bg.png");
+    background-size: 100% 100%;
+}
+.header p{
+    width: 100%!important;
+    text-align: center!important;
+    line-height: 2.3rem!important;
+    color: #fff;
+}
+.header a:first-child{
+    position: absolute!important;
+    top: 0!important;
+    left: 0.5rem!important;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.6rem;
+}
+.header a:last-child{
+    position: absolute!important;
+    top: 0!important;
+    right: 0.5rem!important;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.6rem;
+}
+.header  b{
+    margin: 0!important;
+}
+.header b img{
+    width: 0.8rem!important;
+    height: 0.8rem!important;
+}
+/*交易完成*/
+.trade_finish{
+    width: 100%;
+    height: 6.1rem;
+    background: white;
+    border-bottom: 0.025rem solid #eee;
+    margin-bottom: 0.5rem;
+}
+.trade_finish p:first-child{
+    width: 100%;
+    height: 4.3rem;
+    font-size: 0.8rem;
+    border-bottom: 2px solid #eee;
+}
+.trade_finish p:first-child img{
+    margin: 1.6rem 0.4rem 0rem 35% ;
+}
+.trade_finish p:last-child{
+    width: 100%;
+    height: 4.3rem;
+    font-size: 0.7rem;
+}
+.trade_finish p:last-child img{
+    height: 0.7rem;
+    width: auto;
+    margin: 0.5rem 0.4rem 0rem 8% ;
+}
+/*交易关闭*/
+.trade_off{
+    width: 100%;
+    height: 4.3rem;
+    background: white;
+    border-bottom: 0.025rem solid #eee;
+    margin-bottom: 0.5rem;
+}
+.trade_off p{
+    width: 100%;
+    height: 4.3rem;
+    font-size: 0.7rem;
+    border-bottom: 2px solid #eee;
+    line-height: 4.3rem;
+}
+.trade_off p img{
+    width: 1.12rem;
+    height: 1.12rem;
+    margin: 1.56rem 0.4rem 0rem 5.5rem;
+    float: left;
+}
+/*申请售后*/
+.shshouhousssss{
+    width: 100%;
+    height: 4.3rem;
+    background: white;
+    border-bottom: 0.025rem solid #eee;
+    margin-bottom: 0.5rem;
+}
+.shshouhousssss p{
+    width: 100%;
+    height: 4.3rem;
+    font-size: 0.7rem;
+    border-bottom: 2px solid #eee;
+    line-height: 4.3rem;
+}
+.shshouhousssss p img{
+    width: 1.12rem;
+    height: 1.12rem;
+    margin: 1.56rem 0.4rem 0rem 5.5rem;
+    float: left;
+}
+/*VIP生成配方*/
+.trade_offvip{
+    width: 100%;
+    height: 4.3rem;
+    background: white;
+    border-bottom: 0.025rem solid #eee;
+    margin-bottom: 0.5rem;
+}
+.trade_offvip p{
+    width: 100%;
+    height: 4.3rem;
+    font-size: 0.7rem;
+    border-bottom: 0.05rem solid #eee;
+    line-height: 4.3rem;
+}
+.trade_offvip p img{
+    width: 1.12rem;
+    height: 1.12rem;
+    margin: 1.56rem 0.4rem 0rem 0.8rem;
+    float: left;
+}
+/*等待付款*/
+.wait_pay{
+    width: 100%;
+    height: 4.3rem;
+    background: white;
+    float: left;
+    border-bottom: 0.025rem solid #eee;
+    margin-bottom: 0.5rem;
+}
+.wait_pay p:first-child{
+    height: 4.3rem;
+    font-size: 0.7rem;
+    line-height: 4.3rem;
+    float: left;
+}
+.wait_pay p:first-child img{
+    width: 1.12rem;
+    height: 1.12rem;
+    margin: 1.56rem 0.4rem 0rem 0.8rem;   
+    float: left;
+}
+.wait_pay p:last-child{
+    width: 40%;
+    height: 4.3rem;
+    font-size: 0.7rem;
+    margin-top: 1.8rem;
+}
+/*等待发货*/
+.wait_fahuo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-bottom:0.025rem solid #eee;
+    margin-bottom: 0.5rem;
+}
+.wait_fahuo_top{
+    width: 100%;
+    height: 4.3rem;
+    background: white;
+    float: left;
+    border-bottom:0.025rem solid #eee;
+}
+.wait_fahuo_top p:first-child{
+    height: 4.3rem;
+    font-size: 0.7rem;
+    line-height: 4.3rem;
+    float: left;
+}
+.wait_fahuo_top p:first-child img{
+    width: 1.12rem;
+    height: 1.12rem;
+    margin: 1.56rem 0.4rem 0rem 0.8rem;
+    float: left;
+}
+.kuaidis{
+    height: 4.3rem;
+    font-size: 0.7rem;
+    line-height: 4.3rem;
+    float: right;
+    margin-right: 0.8rem;
+    color: #999;
+}
+.wait_fahuo_bot{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+.wait_fahuo_bot p{
+    max-width: 9.5rem;
+    height: 1.7rem;
+    font-size: 0.7rem;
+    margin-left: 0.8rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.wait_fahuo_bot p:last-child{
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.6rem;
+}
+.wait_fahuo_bot p img{
+    height: 0.7rem;
+    width: auto;
+    margin: 0.5rem 0.8rem 0rem 8% ;
+}
+.check_geng_top{
+    width: 100%;
+    font-size: 0.6rem;
+    text-align: center;
+    background: white;
+    border-bottom:0.025rem solid #eee;
+    height: 1rem;
+    line-height: 1rem;
+    color: #999;
+    float: left;
+}
+.check_geng p:first-child img{
+    height: 0.7rem;
+    width: auto;
+    margin: 0.5rem 0.4rem 0rem 8% ;
+}
+.check_geng_top img{
+    padding-left: 0.5rem;
+}
+.check_geng{
+    width: 100%;
+    position: absolute;
+    top: 9rem;
+    left: 0;
+    z-index: 999;
+    background: red;
+}
+.check_geng_bot{
+    width: 100%;
+    font-size: 0.6rem;
+    text-align: center;
+    /*padding: 0rem 0rem 0.3rem 0rem;*/
+    background: white;
+    border-bottom:0.025rem solid #eee;
+    height: 1rem;line-height: 1rem;
+    color: #999;
+    float: left;
+}
+.check_geng_bot img{
+    padding-left: 0.5rem;
+}
+.check_geng p{
+    width: 100%;
+    height: 1.7rem;
+    font-size: 0.7rem;
+}
+.check_geng p{
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.6rem;
+    border-bottom:0.025rem solid #eee;
+}
+.check_geng p:last-child{
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.6rem;
+    border-bottom:0.025rem solid #eee;
+}
+.check_geng p:last-child{
+    width: 100%;
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 0.3rem 0rem 0.3rem 0rem;
+    background: white;
+    border-bottom:0.025rem solid #eee;
+}
+.check_geng p:last-child img{
+    padding-left: 0.5rem;
+}
+.check_geng #time{
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.6rem;
+    padding-left: 15%;
+}
+/*个人信息*/
+.content_per{
+    width: 100%;
+    height: 3.2rem;
+    background: white;
+    float: left;
+}
+.content_per p:first-child{
+    font-size: 0.7rem;
+    margin: 0.5rem 0rem 1rem 0.8rem;  
+    padding-top: 0.5rem;
+
+}
+.content_per p:first-child span{
+    padding-right: 0.5rem;
+}
+.content_per p:last-child{
+    font-size: 0.64rem;
+    margin: 0.5rem 0rem 0.5rem 0.8rem;
+}
+/*商品信息*/
+.shop_info{
+     width: 100%;
+     height: 6.67rem;
+     background: white;
+    margin-top: 0.5rem;
+    float: left;
+ }
+.shop_info p:first-child{
+    width: 100%;
+    line-height: 1.7rem;
+    font-size: 0.7rem;
+    border-bottom:0.025rem solid #eee;
+    padding-left: 0.8rem;
+    color: #666;
+}
+.shop_info_s{
+    width: 100%;
+    display: flex;
+    float: left;
+    margin-top: 0.5rem;
+}
+.shop_info_s .img_shop{
+    width: 4rem;
+    height: 4rem;
+    float: left;
+    margin-left: 0.8rem;
+}
+.shop_info_s .img_shop img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.shop_info_s .shop_xinxi{
+    width: 65%;
+}
+.shop_info_s .shop_xinxi .lll{
+    color: #333333;
+    font-size: 0.65rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.shop_info_s .shop_xinxi p:first-child{
+    color: #333333;
+    font-size: 0.7rem;
+}
+/*订单信息*/
+.order_info{
+    width: 100%;
+    height: 10.7rem;    
+    background: white;
+    margin-top: 0.5rem;
+    float: left;
+}
+.order_info p:first-child{
+    width: 100%;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+    border-bottom:0.025rem solid #eee;
+    padding-left: 0.8rem;
+    color: #666;
+}
+.order_info p{
+    width: 15rem;
+    line-height: 1.5rem;
+    font-size: 0.65rem;
+    border-bottom:0.025rem solid #eee;
+    padding-left: 0.8rem;
+    color: #666;
+}
+.order_info p span{
+    font-size: 0.6rem;
+    color: #999;
+    float: right;
+    margin-right: 0.5rem;
+}
+/*订单编号*/
+.order{
+    width: 100%;
+    height: 7.7rem;
+    background: white;
+    margin-top: 0.5rem;
+    display: flex;
+    float: left;
+}
+.order_left{
+    width: 80%;
+}
+.order_left p{
+    width: 100%;
+    line-height: 1.5rem;
+    font-size: 0.65rem;
+    border-bottom:0.025rem solid #eee;
+    padding-left: 0.8rem;
+    color: #666;
+}
+.order_left p span{
+    font-size: 0.6rem;
+    color: #999;
+}
+.order_right{
+    width: 15%;
+}
+.order_right button{
+    width: 2.4rem;
+    height: 1.1rem;
+    border: 1px solid gray;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    background: rgba(0,0,0,0);
+    margin-top: 1rem;
+    font-size: 0.6rem;
+}
+/*交易完成*/
+.trade_finish_btn{
+    width: 100%;
+    height: 2.1rem;
+    background: white;
+    margin-top: 0.5rem;
+}
+.trade_finish_btn button{
+    width: 4rem;
+    height: 1.4rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    background: rgba(0,0,0,0);
+    font-size: 0.64rem;
+    margin-left: 0.5rem;
+    margin-top: 0.4rem;
+    border: 1px solid gray;
+}
+.trade_finish_btn button:first-child{
+    width: 4rem;
+    height: 1.4rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    background: rgba(0,0,0,0);
+    font-size: 0.64rem;
+    margin-left: 2.4rem;
+    margin-top: 0.4rem;
+    border: 1px solid gray;
+}
+.trade_finish_btn p{
+    float: left;
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+    margin-right: 1.7rem;
+}
+/*等待付款*/
+.wait_pay_btn{
+    width: 100%;
+    height: 2.1rem;
+    background: white;
+    margin-top: 0.5rem;
+    float: left;
+}
+.wait_pay_btn button{
+    padding: 0.2rem 0.3rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 1rem;
+    background: rgb(157, 172, 111);
+    font-size: 0.64rem;
+    margin-right: 0.5rem;
+    margin-top: 0.4rem;
+    border: 0.025rem solid #9dac6f;
+    color: #FFFFFF;
+    float: right;
+}
+.aga_pay{
+    margin-right: 0.8rem;
+}
+.wait_pay_btn p{
+    float: left;
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+    margin-right: 1.7rem;
+}
+/*交易关闭*/
+.trade_off_btn{
+    width: 100%;
+    height: 2.1rem;
+    background: white;
+    margin-top: 0.5rem;
+}
+.trade_off_btn button{
+    width: 4rem;
+    height: 1.4rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 1rem;
+    background: rgba(0,0,0,0);
+    font-size: 0.64rem;
+    margin-left: 0.5rem;
+    margin-top: 0.4rem;
+    border: 1px solid gray;
+}
+.trade_off_btn button:first-child{
+    width: 4rem;
+    height: 1.4rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 1rem;
+    background: rgba(0,0,0,0);
+    font-size: 0.64rem;
+    margin-left: 2.4rem;
+    margin-top: 0.4rem;
+    border: 1px solid gray;
+}
+.trade_off_btn p{
+    float: left;
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+    margin-right: 1.7rem;
+}
+
+/*等待发货*/
+.wait_fahuo_btn{
+    width: 100%;
+    height: 2.1rem;
+    background: white;
+    margin-top: 0.5rem;
+}
+.wait_fahuo_btn button{
+    width: 4rem;
+    height: 1.4rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 1rem;
+    background: rgba(0,0,0,0);
+    font-size: 0.64rem;
+    margin-left: 0.5rem;
+    margin-top: 0.4rem;
+    border: 1px solid gray;
+}
+.wait_fahuo_btn button:first-child{
+    width: 4rem;
+    height: 1.4rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 1rem;
+    background: rgba(0,0,0,0);
+    font-size: 0.64rem;
+    margin-left: 7rem;
+    margin-top: 0.4rem;
+    border: 1px solid gray;
+}
+.wait_fahuo_btn p{
+    float: left;
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+    margin-right: 1.7rem;
+}
+.greybg02{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,.5);
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.dele_btn{
+    width: 12rem;
+    height: 5.5rem;
+    background: white;
+    border-radius: 0.5rem;
+    margin: auto;
+    margin-top: 60%;
+}
+.dele_btn_top{
+    width: 100%;
+    height: 3.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+    font-size: 0.7rem;
+    color: #696969;
+}
+.dele_btn_bot{
+    width: 100%;
+    height: 2rem;
+    border-top: 1px solid gainsboro;
+}
+.dele_btn_bot input{
+    width: 48.5%;
+    height: 97%;
+    background: white;
+}
+.dele_btn_bot input:nth-child(1){
+    border-right: 1px solid gainsboro;
+    border-bottom-left-radius: 0.5rem;
+    color: #ff0000;
+}
+.dele_btn_bot input:nth-child(2){
+    border-bottom-right-radius: 0.5rem;
+}
+
+.change_height{
+    max-height: 2.8rem;
+    overflow: hidden;
+}
+#Small_orders{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.copycontents{
+    float: right;
+    margin-right: 2rem;
+}
+
+.maskcontsall{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    background: white;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.timersdd{
+    width: 100%;
+    margin: 0 !important;
+    border-top: 0.05rem solid #EFEFEF;
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.look_logistics{
+    padding: 0.3rem 0.4rem;
+    float: right;
+    background: #9dac6f;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.55rem;
+    position: absolute;
+    top: 0.8rem;
+    right: 2rem;
+    text-align: center;
+}
+.cancellationorder{
+    width: 100%;
+    height: 13rem;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    float: left;
+}
+.content_top{
+    width: 100%;
+    height: 1.8rem;
+    border-bottom: 0.05rem solid #c1c1c1;
+    float: left;
+}
+.content_top p{
+    width: 100%;
+    float: left;
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 0.74rem;
+    color: #333;
+}
+.cancellconts{
+    width: 90%;
+    height: 8.8rem;
+    float: left;
+    padding: 0 5%;
+}

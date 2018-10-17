@@ -1,0 +1,260 @@
+body {
+    background: #f9f9f9;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*VIP订制  头部开始*/
+.header {
+    width: 100%;
+    height: 2.3rem;
+    background: #ffffff;
+    border-bottom: 0.025rem solid #EEEEEE;
+    background-image: url(/static/images/tit_bg.png);
+    background-size: 100% 100%;
+}
+
+.header  span {
+    display: inline-block;
+    margin-top: 0.70rem;
+    margin-left: 0.5rem;
+}
+
+.header span img {
+    width:1rem;
+    height:1rem;
+}
+
+.header  p {
+    width: 12.5rem;
+    height:1.5rem;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+}
+.header  b {
+    display: inline-block;
+    margin-top: 0.60rem !important;
+}
+.header  b img {
+    width: 1rem;
+    height: 1rem;
+}
+
+/*VIP订制  头部结束*/
+
+
+/*swiper框架CSS样式开始*/
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+/*seiper框架css样式结束*/
+
+/*VIP订制  内容 图文介绍开始*/
+
+.nav{
+    width:16rem;
+    background: #f9f9f9;
+}
+.nav .nav_tw{
+    width:16rem;
+    height:1.8rem;
+    background: #fff;
+    float:left;
+    margin-top:0.5rem;
+    font-size:0.75rem;
+    color:#000;
+}
+.nav .nav_twt{
+    width:8rem;
+    height:1.8rem;
+    margin-left:0.5rem;
+    line-height:1.8rem;
+    float:left;
+}
+.swiper-pagination{
+    position:relative !important;
+    width:7rem !important;
+    height:1.4rem !important;
+    float:right !important;
+    text-align:right !important;
+    padding-top:1.2rem;
+    margin-right:0.5rem;
+}
+.swiper-pagination-fraction {
+    bottom: 18px;
+    left: 0;
+    width: 100%;
+}
+
+/*.nav .nav_tw p{
+	float: left;
+	font-size: 0.75rem;
+	color: #000000;
+}*/
+.nav .nav_tw #nav_right{
+    float: right;
+    position: none;
+}
+.nav .nav_tw .nav_right span{
+    font-size: 0.9rem;
+}
+.nav ul{
+    background: #fff;
+    float:left;
+}
+.nav ul li{
+    float:left;
+    line-height: 1.8rem;
+}
+.nav ul li img{
+    width:14.45rem;
+    height:7.3rem;
+}
+
+
+/*頁面調轉的圖片css*/
+.outBox,
+.innerBox {
+    width: 100%;
+    height: 100%;
+}
+
+.outBox {
+    overflow: hidden;
+}
+
+.innerBox img{
+    width: 100%;
+    animation: changeBiger 2s linear forwards;
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    transform: scale(1.08);
+}
+
+@keyframes changeBiger {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.innerBox {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*頁面調轉css結束*/
+
+/*VIP订制  内容 图文介绍结束*/
+#nav{
+    margin-top: 0.5rem;
+    float: left;
+}
+.content{
+    width: 100%;
+    height: 3.73rem;
+    background: white;
+    float: left;
+}
+.name{
+    width: 100%;
+    font-size: 0.64rem;
+    color: #333333;
+    float: left;
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
+}
+.txt{
+    width: 100%;
+    float: left;
+    border-bottom: 0.05rem solid #EFEFEF;
+    padding-bottom: 0.5rem;
+}
+.txt .money{
+    float: left;
+    font-size: 0.7rem;
+    color: #fc5b1f;
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
+}
+.txt .taste{
+    float: right;
+    width: 2.18rem  ;
+    height: 0.85rem;
+    border-radius: 0.25rem;
+    color: #fc5b1f;
+    font-size: 0.58rem;
+    margin-right: 0.8rem;
+    border: 1px solid #fc5b1f;
+    text-align: center;
+    line-height: 0.85rem;
+    margin-top: 0.2rem;
+}
+.wuliu{
+    font-size: 0.64rem;
+    color: #666666;
+    float: left;
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
+}
+.taste_img{
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+    border-top: 0.5rem solid #f9f9f9;
+}
+#code{
+    width: 14rem;
+    height: 20rem;
+    overflow-y: hidden;
+    top: 50%;
+    margin: -10rem 0 0 -7rem;
+    left: 50%;
+    border-radius: 0.5rem;
+    box-shadow: 3px 4px 20px #2f1806;
+    position: fixed;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling : touch;
+}
+.close1{
+    position: fixed;
+    left: 13.5rem;
+    right: 0;
+}
+#closebt img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.modele_warpper{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    z-index: 999;
+}
+.code-img img{
+    border-radius: 0.5rem;
+}
+#ewmsrc{
+    width: 100%;
+}
+/*VIP订制  内容 价格说明结束*/  
